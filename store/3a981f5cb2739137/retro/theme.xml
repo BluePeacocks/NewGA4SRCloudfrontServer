@@ -2662,10 +2662,10 @@
   <prop id="river.swf" name="River" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="6874" money="0" sharing="0"/>
   <sound id="roadSide.swf" name="Rock at the road side" downloadtype="progressive" subtype="bgmusic" duration="39800" enable="N" is_premium="N" aid="1178" money="0" sharing="0"/>
   <sound id="rockMain.swf" name="Rock &amp; Roll" downloadtype="progressive" subtype="bgmusic" duration="185000" enable="N" is_premium="N" aid="1179" money="0" sharing="0"/>
-  <sound id="soft.swf" name="Soft" downloadtype="progressive" subtype="bgmusic" duration="34000" enable="N" is_premium="N" aid="1180" money="0" sharing="0"/>
+  <sound id="soft.swf" name="Soft" downloadtype="progressive" subtype="bgmusic" duration="34000" enable="Y" is_premium="N" aid="1180" money="0" sharing="0"/>
   <sound id="tension builds up.swf" name="Build up tension" downloadtype="progressive" subtype="bgmusic" duration="59000" enable="N" is_premium="N" aid="1181" money="0" sharing="0"/>
-  <sound id="laugh_4.swf" name="Laugh" downloadtype="embed" subtype="soundeffect" duration="4700" enable="N" is_premium="N" aid="1182" money="0" sharing="0"/>
-  <sound id="shot.swf" name="Gun Shot" downloadtype="embed" subtype="soundeffect" duration="500" enable="N" is_premium="N" aid="1183" money="0" sharing="0"/>
+  <sound id="laugh_4.swf" name="Laugh" downloadtype="embed" subtype="soundeffect" duration="4700" enable="Y" is_premium="N" aid="1182" money="0" sharing="0"/>
+  <sound id="shot.swf" name="Gun Shot" downloadtype="embed" subtype="soundeffect" duration="500" enable="Y" is_premium="N" aid="1183" money="0" sharing="0"/>
   <sound id="bushism_internets.swf" name="Bushism, the Internet" downloadtype="embed" subtype="soundeffect" duration="9000" enable="Y" is_premium="N" aid="1184" money="0" sharing="0"/>
   <sound id="The_First_Noel.swf" name="The First Noel" downloadtype="progressive" subtype="bgmusic" duration="59400" enable="N" is_premium="N" aid="1185" money="0" sharing="0"/>
   <sound id="Action.swf" name="Action" downloadtype="progressive" subtype="bgmusic" duration="14500" enable="N" is_premium="N" aid="1186" money="0" sharing="0"/>
