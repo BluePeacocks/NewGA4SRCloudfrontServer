@@ -1,5 +1,3 @@
-# teest?
+# Welcome To GoAnimate4SchoolsRemasteredAssets!
 
-test. test test test test test test test test, test test test test test test test?
-
-test test test! test test test test test test test test test!!
+Feel free to edit!
