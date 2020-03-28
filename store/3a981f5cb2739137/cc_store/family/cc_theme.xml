@@ -1,4 +1,4 @@
-<cc_theme id="family" studio_theme_id="custom" name="Family Guy" xsi:noNamespaceSchemaLocation="http://alvin.goanimate.org/schema/cc_library_theme.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<cc_theme xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="family" studio_theme_id="custom" name="Family Guy" xsi:noNamespaceSchemaLocation="http://alvin.goanimate.org/schema/cc_library_theme.xsd">
     <color r="ccSkinColor" oc="0xFFE1C4" component_type="bodyshape" enable="Y">
         <choice>0xFFEDE3</choice>
         <choice>0xFFCE95</choice>
