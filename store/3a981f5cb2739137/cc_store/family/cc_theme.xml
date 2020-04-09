@@ -992,6 +992,18 @@
             <selection type="skeleton" state_id="talk"/>
             <selection type="upper_body" state_id="talk"/>
         </action>
+        <action id="talk2" name="Sit - Talk" loop="Y" totalframe="100" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="sit"/>
+            <selection type="skeleton" state_id="talk"/>
+            <selection type="upper_body" state_id="talk"/>
+        </action>
+        <action id="talk3" name="Walk - Talk" loop="Y" totalframe="100" enable="Y" category="traveling" is_motion="Y">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="walk"/>
+            <selection type="skeleton" state_id="talk"/>
+            <selection type="upper_body" state_id="talk"/>
+        </action>
         <action id="drive" name="Drive" loop="Y" totalframe="1" enable="Y" category="traveling" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="sit"/>
@@ -3175,6 +3187,18 @@
             <selection type="skeleton" state_id="talk"/>
             <selection type="upper_body" state_id="talk"/>
         </action>
+        <action id="talk2" name="Sit - Talk" loop="Y" totalframe="100" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="sit"/>
+            <selection type="skeleton" state_id="talk"/>
+            <selection type="upper_body" state_id="talk"/>
+        </action>
+        <action id="talk3" name="Walk - Talk" loop="Y" totalframe="100" enable="Y" category="traveling" is_motion="Y">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="walk"/>
+            <selection type="skeleton" state_id="talk"/>
+            <selection type="upper_body" state_id="talk"/>
+        </action>
         <component type="skeleton" id="eve_001" path="eve_001" name="eve_001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
             <state id="chuckle" filename="chuckle.swf"/>
             <state id="crossed_arms" filename="crossed_arms.swf"/>
@@ -5319,6 +5343,18 @@
         <action id="talk" name="Talk" loop="Y" totalframe="100" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_talk_a"/>
             <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="talk"/>
+            <selection type="upper_body" state_id="talk"/>
+        </action>
+        <action id="talk2" name="Sit - Talk" loop="Y" totalframe="100" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="sit"/>
+            <selection type="skeleton" state_id="talk"/>
+            <selection type="upper_body" state_id="talk"/>
+        </action>
+        <action id="talk3" name="Walk - Talk" loop="Y" totalframe="100" enable="Y" category="traveling" is_motion="Y">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="walk"/>
             <selection type="skeleton" state_id="talk"/>
             <selection type="upper_body" state_id="talk"/>
         </action>
