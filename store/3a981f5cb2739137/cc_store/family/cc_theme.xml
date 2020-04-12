@@ -1199,16 +1199,10 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="run"/>
         </action>
-        <action id="dance" name="Dance 1" loop="Y" totalframe="23" enable="Y" is_motion="N">
+        <action id="dance" name="Dance" loop="Y" totalframe="23" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_happy"/>
             <selection type="lower_body" state_id="dance"/>
             <selection type="skeleton" state_id="dance"/>
-            <selection type="upper_body" state_id="dance"/>
-        </action>
-        <action id="dance2" name="Dance 2" loop="Y" totalframe="23" enable="Y" is_motion="N">
-            <selection type="facial" facial_id="head_happy"/>
-            <selection type="lower_body" state_id="default"/>
-            <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="dance"/>
         </action>
         <action id="fearful" name="Fearful" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
