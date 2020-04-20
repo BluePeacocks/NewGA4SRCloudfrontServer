@@ -1395,7 +1395,7 @@
             <selection type="skeleton" state_id="talk"/>
             <selection type="upper_body" state_id="talk"/>
         </action>
-        <action id="talk5" name="Kneel down - Talk" loop="Y" totalframe="100" enable="Y" category="traveling" is_motion="Y">
+        <action id="talk5" name="Kneel down - Talk" loop="Y" totalframe="100" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_talk_a"/>
             <selection type="lower_body" state_id="kneel_down"/>
             <selection type="skeleton" state_id="talk"/>
@@ -3593,6 +3593,18 @@
         <action id="talk3" name="Walk - Talk" loop="Y" totalframe="100" enable="Y" category="traveling" is_motion="Y">
             <selection type="facial" facial_id="head_talk_a"/>
             <selection type="lower_body" state_id="walk"/>
+            <selection type="skeleton" state_id="talk"/>
+            <selection type="upper_body" state_id="talk"/>
+        </action>
+        <action id="talk4" name="Run - Talk" loop="Y" totalframe="100" enable="Y" category="traveling" is_motion="Y">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="run"/>
+            <selection type="skeleton" state_id="talk"/>
+            <selection type="upper_body" state_id="talk"/>
+        </action>
+        <action id="talk5" name="Kneel down - Talk" loop="Y" totalframe="100" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="kneel_down"/>
             <selection type="skeleton" state_id="talk"/>
             <selection type="upper_body" state_id="talk"/>
         </action>
