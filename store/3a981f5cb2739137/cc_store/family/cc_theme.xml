@@ -1293,10 +1293,16 @@
             <selection type="skeleton" state_id="chuckle"/>
             <selection type="upper_body" state_id="chuckle"/>
         </action>
-        <action id="pt_at" name="Point at" loop="Y" totalframe="30" enable="Y" is_motion="N">
+        <action id="pt_at" name="Point at 1" loop="Y" totalframe="30" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="point_at"/>
+            <selection type="upper_body" state_id="point_at"/>
+        </action>
+        <action id="pt_at2" name="Point at 2" loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="point_at"/>
         </action>
         <action id="laugh" name="Laugh" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
@@ -1304,6 +1310,24 @@
             <selection type="lower_body" state_id="laugh"/>
             <selection type="skeleton" state_id="laugh"/>
             <selection type="upper_body" state_id="laugh"/>
+        </action>
+        <action id="headbeatbox" name="Head beat box" loop="Y" totalframe="60" enable="Y" category="Random" is_motion="N">
+            <selection type="facial" facial_id="head_noticed"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="excited"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
+        <action id="hold_head" name="Hold head - Yes, this exists" loop="Y" totalframe="60" enable="Y" category="Random" is_motion="N">
+            <selection type="facial" facial_id="head_asleep"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="sad"/>
+            <selection type="upper_body" state_id="talk_on_phone"/>
+        </action>
+        <action id="throw_tantrum" name="Throw tantrum" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
+            <selection type="facial" facial_id="head_cry"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="lie_down"/>
+            <selection type="upper_body" state_id="excited"/>
         </action>
         <action id="sitlaugh" name="Sit - Laugh" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_laugh"/>
@@ -1335,10 +1359,16 @@
             <selection type="skeleton" state_id="sad"/>
             <selection type="upper_body" state_id="sad"/>
         </action>
-        <action id="talk_phone" name="Talk on phone" loop="Y" totalframe="115" enable="Y" is_motion="N">
+        <action id="talk_phone" name="Talk on phone 1" loop="Y" totalframe="115" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_talk_a"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="talk_on_phone"/>
+            <selection type="upper_body" state_id="talk_on_phone"/>
+        </action>
+        <action id="talk_phone2a" name="Talk on phone 2" loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="talk_on_phone"/>
         </action>
         <action id="talk_phone2" name="Sit - Talk on phone" loop="Y" totalframe="115" enable="Y" is_motion="N">
@@ -1352,6 +1382,36 @@
             <selection type="lower_body" state_id="walk"/>
             <selection type="skeleton" state_id="talk_on_phone"/>
             <selection type="upper_body" state_id="talk_on_phone"/>
+        </action>
+        <action id="idle" name="Idle 1" loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="talk_on_phone"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
+        <action id="idle2" name="Idle 2" loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="talk_on_phone"/>
+            <selection type="upper_body" state_id="walk"/>
+        </action>
+        <action id="xarmsmove" name="Crossed arms - Move" loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="talk_on_phone"/>
+            <selection type="upper_body" state_id="crossed_arms"/>
+        </action>
+        <action id="rocking" name="Rocking back and forth" loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="sit"/>
+            <selection type="skeleton" state_id="talk_on_phone"/>
+            <selection type="upper_body" state_id="sit"/>
+        </action>
+        <action id="hunched_over" name="Hunched over" loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="point_at"/>
+            <selection type="upper_body" state_id="sad"/>
         </action>
         <action id="punch" name="Punch" loop="Y" totalframe="20" enable="Y" category="fighting" is_motion="N">
             <selection type="facial" facial_id="head_angry"/>
@@ -3548,10 +3608,34 @@
             <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="sad"/>
         </action>
-        <action id="talk_phone" name="Talk on phone" loop="Y" totalframe="115" enable="Y" is_motion="N">
+        <action id="headbeatbox" name="Head beat box" loop="Y" totalframe="60" enable="Y" category="Random" is_motion="N">
+            <selection type="facial" facial_id="head_noticed"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="excited"/>
+            <selection type="upper_body" state_id="default"/>
+        </action>
+        <action id="hold_head" name="Hold head - Yes, this exists" loop="Y" totalframe="60" enable="Y" category="Random" is_motion="N">
+            <selection type="facial" facial_id="head_asleep"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="sad"/>
+            <selection type="upper_body" state_id="talk_on_phone"/>
+        </action>
+        <action id="throw_tantrum" name="Throw tantrum" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
+            <selection type="facial" facial_id="head_cry"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="lie_down"/>
+            <selection type="upper_body" state_id="excited"/>
+        </action>
+        <action id="talk_phone" name="Talk on phone 1" loop="Y" totalframe="115" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_talk_a"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="talk_on_phone"/>
+            <selection type="upper_body" state_id="talk_on_phone"/>
+        </action>
+        <action id="talk_phone2a" name="Talk on phone 2" loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="talk_on_phone"/>
         </action>
         <action id="talk_phone2" name="Sit - Talk on phone" loop="Y" totalframe="115" enable="Y" is_motion="N">
