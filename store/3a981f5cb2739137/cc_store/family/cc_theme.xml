@@ -1450,6 +1450,12 @@
             <selection type="skeleton" state_id="sad"/>
             <selection type="upper_body" state_id="sad"/>
         </action>
+        <action id="sad4" name="Look Down" loop="Y" totalframe="60" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="laugh"/>
+            <selection type="skeleton" state_id="sad"/>
+            <selection type="upper_body" state_id="sad"/>
+        </action>
         <action id="talk_phone" name="Talk on phone 1" loop="Y" totalframe="115" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_talk_a"/>
             <selection type="lower_body" state_id="default"/>
