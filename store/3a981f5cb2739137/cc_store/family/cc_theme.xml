@@ -950,7 +950,7 @@
         <selection type="beard" state_id="default"/>
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="thinking"/>
-        <selection type="eyebrow" state_id="thinking"/>
+        <selection type="eyebrow" state_id="sad"/>
         <selection type="facedecoration" state_id="default"/>
         <selection type="faceshape" state_id="default"/>
         <selection type="glasses" state_id="default"/>
