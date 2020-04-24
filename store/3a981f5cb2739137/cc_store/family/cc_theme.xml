@@ -3389,7 +3389,7 @@
             <state id="walk" filename="walk.swf"/>
         </component>
     </bodyshape>
-    <bodyshape id="eve" name="Eve" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="female">
+    <bodyshape id="eve" name="Eve" default_action="stand2" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="female">
         <default_char>
   <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
   <color r="ccEyeLib">0x4B0156</color>
@@ -3416,7 +3416,7 @@
   <component type="ear" component_id="007" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0" />
   <component type="eyebrow" component_id="108" theme_id="family" x="0" y="6" xscale="0.9" yscale="0.9" offset="0" rotation="0" />
   <component type="nose" component_id="014" theme_id="family" x="-2" y="0" xscale="0.9" yscale="0.9" offset="0" rotation="0" />
-  <component type="eye" component_id="206" theme_id="family" x="0" y="5" xscale="0.84" yscale="0.9" offset="0" rotation="0" />
+  <component type="eye" component_id="102" theme_id="family" x="0" y="5" xscale="0.84" yscale="0.9" offset="0" rotation="0" />
         </default_char>
         <action id="stand" name="Stand 1" loop="Y" totalframe="1" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
