@@ -3460,7 +3460,7 @@
             <state id="walk" filename="walk.swf"/>
         </component>
     </bodyshape>
-    <bodyshape id="eve" name="Eve" default_action="stand2" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="female">
+    <bodyshape id="eve" name="Eve" default_action="stand2" default_motion="walk" action_thumb="stand2" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y" tag="female">
         <default_char>
   <color r="ccSkinColor" oc="0xFFE1C4">0xFFCE95</color>
   <color r="ccEyeLib">0x4B0156</color>
