@@ -1372,10 +1372,10 @@
             <selection type="skeleton" state_id="chuckle"/>
             <selection type="upper_body" state_id="chuckle"/>
         </action>
-        <action id="chuckle2" name="Standing On Hips" loop="Y" totalframe="6" enable="Y" is_motion="N">
+        <action id="standonhips" name="Standing On Hips" loop="Y" totalframe="6" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_happy"/>
             <selection type="lower_body" state_id="default"/>
-            <selection type="skeleton" state_id="default"/>
+            <selection type="skeleton" state_id="stand"/>
             <selection type="upper_body" state_id="chuckle"/>
         </action>
         <action id="sitchuckle" name="Sit - Chuckle" loop="Y" totalframe="6" enable="Y" category="emotion" is_motion="N">
