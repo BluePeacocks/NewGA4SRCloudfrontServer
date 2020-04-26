@@ -1342,6 +1342,12 @@
             <selection type="skeleton" state_id="taunt"/>
             <selection type="upper_body" state_id="taunt"/>
         </action>
+        <action id="dislike2" name="Standing On Hips" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_happy"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="taunt"/>
+            <selection type="upper_body" state_id="taunt"/>
+        </action>
         <action id="taunt" name="Taunt" loop="Y" totalframe="60" enable="Y" category="emotion" is_motion="N">
             <selection type="facial" facial_id="head_taunt"/>
             <selection type="lower_body" state_id="laugh"/>
@@ -1528,10 +1534,16 @@
             <selection type="skeleton" state_id="fearful"/>
             <selection type="upper_body" state_id="fearful"/>
         </action>
-        <action id="talk" name="Talk" loop="Y" totalframe="100" enable="Y" is_motion="N">
+        <action id="talk" name="Talk 1" loop="Y" totalframe="100" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_talk_a"/>
             <selection type="lower_body" state_id="default"/>
             <selection type="skeleton" state_id="talk"/>
+            <selection type="upper_body" state_id="talk"/>
+        </action>
+        <action id="talk2a" name="Talk 2" loop="Y" totalframe="115" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_talk_a"/>
+            <selection type="lower_body" state_id="default"/>
+            <selection type="skeleton" state_id="talk_on_phone"/>
             <selection type="upper_body" state_id="talk"/>
         </action>
         <action id="talk2" name="Sit - Talk" loop="Y" totalframe="100" enable="Y" is_motion="N">
@@ -3684,6 +3696,12 @@
         <action id="pt_at" name="Point at" loop="Y" totalframe="30" enable="Y" is_motion="N">
             <selection type="facial" facial_id="head_neutral"/>
             <selection type="lower_body" state_id="lie_down"/>
+            <selection type="skeleton" state_id="point_at"/>
+            <selection type="upper_body" state_id="point_at"/>
+        </action>
+        <action id="pt_at2" name="On Hip" loop="Y" totalframe="1" enable="Y" is_motion="N">
+            <selection type="facial" facial_id="head_neutral"/>
+            <selection type="lower_body" state_id="laugh"/>
             <selection type="skeleton" state_id="point_at"/>
             <selection type="upper_body" state_id="point_at"/>
         </action>
