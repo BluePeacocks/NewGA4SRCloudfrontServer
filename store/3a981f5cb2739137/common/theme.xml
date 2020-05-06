@@ -18158,6 +18158,14 @@
     <tag>rock</tag>
     <tag>Smooth</tag>
   </sound>
+  <sound id="221506__Orange_.mp3" name="Orange" downloadtype="progressive" subtype="bgmusic" duration="37853" enable="Y" is_premium="N" aid="6714" money="0" sharing="0">
+    <tag>emotion</tag>
+    <tag>midi</tag>
+    <tag>nostalgic</tag>
+    <tag>positive</tag>
+    <tag>rock</tag>
+    <tag>Smooth</tag>
+  </sound>
   <sound id="midi_music_loop_rock.mp3" name="Rock" downloadtype="progressive" subtype="bgmusic" duration="37853" enable="Y" is_premium="N" aid="6714" money="0" sharing="0">
     <tag>emotion</tag>
     <tag>midi</tag>
@@ -18253,10 +18261,44 @@
     <tag>musical</tag>
     <tag>Scary</tag>
   </sound>
-  <sound id="musical_instru_thx.mp3" name="Thx" downloadtype="progressive" subtype="soundeffect" duration="8257" enable="Y" is_premium="N" aid="6731" money="0" sharing="0">
+  <sound id="BND.mp3" name="BND" downloadtype="embed" subtype="soundeffect" duration="3555" enable="Y" is_premium="N" aid="6730" money="0" sharing="0">
+    <tag>instruments</tag>
+    <tag>musical</tag>
+    <tag>Scary</tag>
+  </sound>
+  <sound id="Foreboding.mp3" name="Foreboding" downloadtype="embed" subtype="soundeffect" duration="3555" enable="Y" is_premium="N" aid="6730" money="0" sharing="0">
+    <tag>instruments</tag>
+    <tag>musical</tag>
+    <tag>Scary</tag>
+  </sound>
+  <sound id="Horror Screech.mp3" name="Horror Screech" downloadtype="embed" subtype="soundeffect" duration="3555" enable="Y" is_premium="N" aid="6730" money="0" sharing="0">
+    <tag>instruments</tag>
+    <tag>musical</tag>
+    <tag>Scary</tag>
+  </sound>
+  <sound id="musical_instru_thx.mp3" name="Thx (GoAnimate One)" downloadtype="progressive" subtype="soundeffect" duration="8257" enable="Y" is_premium="N" aid="6731" money="0" sharing="0">
     <tag>ending</tag>
     <tag>instruments</tag>
     <tag>musical</tag>
+  </sound>
+  <sound id="THX_Deep_Note_DVD.ogg" name="THX (Real One)" downloadtype="progressive" subtype="soundeffect" duration="8257" enable="Y" is_premium="N" aid="6731" money="0" sharing="0">
+    <tag>ending</tag>
+    <tag>instruments</tag>
+    <tag>musical</tag>
+  </sound>
+  <sound id="GoAnimate Studios Logo V2.wav" name="GoAnimate Studios Theme" downloadtype="progressive" subtype="soundeffect" duration="8257" enable="Y" is_premium="N" aid="6731" money="0" sharing="0">
+    <tag>starting</tag>
+    <tag>instruments</tag>
+    <tag>musical</tag>
+  </sound>
+  <sound id="Im at SOUP.mp3" name="I'm At Soup" downloadtype="progressive" subtype="soundeffect" duration="8257" enable="Y" is_premium="N" aid="6731" money="0" sharing="0">
+    <tag>funny</tag>
+    <tag>instruments</tag>
+    <tag>raging</tag>
+  </sound>
+  <sound id="JULIAN SMITH - Malk.mp3" name="Malk" downloadtype="progressive" subtype="soundeffect" duration="8257" enable="Y" is_premium="N" aid="6731" money="0" sharing="0">
+    <tag>funny</tag>
+    <tag>raging</tag>
   </sound>
   <sound id="odd_animal_s_bird1.swf" name="Bird 1" downloadtype="embed" subtype="soundeffect" duration="629" enable="Y" is_premium="N" aid="6732" money="0" sharing="0">
     <tag>animal</tag>
@@ -18673,11 +18715,18 @@
     <tag>Modern</tag>
     <tag>R and B</tag>
   </sound>
-  <sound id="joy_to_the_world.mp3" name="Joy to the World" downloadtype="progressive" subtype="bgmusic" duration="63039" enable="Y" is_premium="N" aid="14991" money="0" sharing="0">
+  <sound id="joy_to_the_world.mp3" name="Joy to the World [OLD]" downloadtype="progressive" subtype="bgmusic" duration="63039" enable="Y" is_premium="N" aid="14991" money="0" sharing="0">
     <tag>Acoustic</tag>
     <tag>Christmas</tag>
     <tag>holiday</tag>
     <tag>Holidays</tag>
+  </sound>
+  <sound id="Joy to the World.mp3" name="Joy to the World [NEW]" downloadtype="progressive" subtype="bgmusic" duration="63039" enable="Y" is_premium="N" aid="14991" money="0" sharing="0">
+    <tag>Acoustic</tag>
+    <tag>Christmas</tag>
+    <tag>holiday</tag>
+    <tag>Holidays</tag>
+    <tag>modern</tag>
   </sound>
   <sound id="o_come_all_ye_faithful__orchestral_.mp3" name="O Come all ye Faithful (orchestral)" downloadtype="progressive" subtype="bgmusic" duration="57997" enable="Y" is_premium="N" aid="14992" money="0" sharing="0">
     <tag>Christmas</tag>
@@ -18826,6 +18875,16 @@
     <tag>Inspirational</tag>
     <tag>Modern</tag>
     <tag>Wedding</tag>
+  </sound>
+  <sound id="At Rest.mp3" name="At Rest" downloadtype="progressive" subtype="bgmusic" duration="60139" enable="Y" is_premium="N" aid="15167" money="0" sharing="0">
+    <tag>ambient</tag>
+    <tag>Corporate</tag>
+    <tag>delicate</tag>
+    <tag>Elegant</tag>
+    <tag>gentle</tag>
+    <tag>Inspirational</tag>
+    <tag>Modern</tag>
+    <tag>Sad</tag>
   </sound>
   <sound id="La_Fete_Foraine.mp3" name="La Fete Foraine" downloadtype="progressive" subtype="bgmusic" duration="90363" enable="Y" is_premium="N" aid="15168" money="0" sharing="0">
     <tag>Happy</tag>
@@ -18977,6 +19036,17 @@
     <tag>joyful</tag>
     <tag>peaceful</tag>
   </sound>
+  <sound id="122928_ForMyLady.mp3" name="For My Lady" downloadtype="progressive" subtype="bgmusic" duration="15392" enable="Y" is_premium="N" aid="24300" money="0" sharing="0">
+    <tag>acoustic</tag>
+    <tag>guitar</tag>
+    <tag>joyful</tag>
+    <tag>peaceful</tag>
+  </sound>
+  <sound id="685953_Riddle-Transfer-2-Credits.mp3" name="Riddle Transfer 2 Credits" downloadtype="progressive" subtype="bgmusic" duration="15392" enable="Y" is_premium="N" aid="24300" money="0" sharing="0">
+    <tag>piano</tag>
+    <tag>joyful</tag>
+    <tag>peaceful</tag>
+  </sound>
   <sound id="Introducing_the_Band.mp3" name="Introducing the Band" downloadtype="progressive" subtype="bgmusic" duration="15392" enable="Y" is_premium="N" aid="24300" money="0" sharing="0">
     <tag>fast</tag>
     <tag>guitar</tag>
@@ -19015,6 +19085,26 @@
     <tag>electronic</tag>
     <tag>peaceful</tag>
     <tag>soft</tag>
+  </sound>
+  <sound id="Approaching Nirvana - I Dream of Ibiza Extended Mix.mp3" name="I Dream Of Ibiza" downloadtype="progressive" subtype="bgmusic" duration="140596" enable="Y" is_premium="N" aid="24305" money="0" sharing="0">
+    <tag>electronic</tag>
+    <tag>peaceful</tag>
+    <tag>soft</tag>
+  </sound>
+  <sound id="Beat_Your_Competition.mp3" name="Beat Your Competition" downloadtype="progressive" subtype="bgmusic" duration="140596" enable="Y" is_premium="N" aid="24305" money="0" sharing="0">
+    <tag>electronic</tag>
+    <tag>peaceful</tag>
+    <tag>soft</tag>
+  </sound>
+  <sound id="Beat_Your_Competition.mp3" name="Beat Your Competition" downloadtype="progressive" subtype="bgmusic" duration="140596" enable="Y" is_premium="N" aid="24305" money="0" sharing="0">
+    <tag>electronic</tag>
+    <tag>peaceful</tag>
+    <tag>soft</tag>
+  </sound>
+  <sound id="Earthy_Crust.mp3" name="Earthy Crust" downloadtype="progressive" subtype="bgmusic" duration="140596" enable="Y" is_premium="N" aid="24305" money="0" sharing="0">
+    <tag>dramatic</tag>
+    <tag>anrgy</tag>
+    <tag>intense</tag>
   </sound>
   <sound id="Morning_Star.mp3" name="Morning Star" downloadtype="progressive" subtype="bgmusic" duration="234115" enable="Y" is_premium="N" aid="24306" money="0" sharing="0">
     <tag>peaceful</tag>
@@ -19059,6 +19149,9 @@
   <sound id="writing_the_future.mp3" name="Writing the future" downloadtype="progressive" subtype="bgmusic" duration="136594" enable="Y" is_premium="N" aid="26263" money="0" sharing="0"/>
   <sound id="human_evolution.mp3" name="Human evolution" downloadtype="progressive" subtype="bgmusic" duration="177816" enable="Y" is_premium="N" aid="26264" money="0" sharing="0"/>
   <sound id="airport_ambience01_60_loop.mp3" name="Ambience - In the airport" downloadtype="progressive" subtype="soundeffect" duration="60552" enable="Y" is_premium="N" aid="27626" money="0" sharing="0"/>
+  <sound id="Ambiance SFX - City (Day).mp3" name="Ambience - City (Day)" downloadtype="progressive" subtype="soundeffect" duration="60552" enable="Y" is_premium="N" aid="27626" money="0" sharing="0"/>
+  <sound id="Ambiance SFX - Outside (Day) (1).mp3" name="Ambience - Outside (Day)" downloadtype="progressive" subtype="soundeffect" duration="60552" enable="Y" is_premium="N" aid="27626" money="0" sharing="0"/>
+  <sound id="Ambiance SFX - Outside (Night).mp3" name="Ambience - Outside (Night)" downloadtype="progressive" subtype="soundeffect" duration="60552" enable="Y" is_premium="N" aid="27626" money="0" sharing="0"/>
   <sound id="alarm_clock_vintage_ring_05.mp3" name="FX - Alarm clock ring" downloadtype="progressive" subtype="soundeffect" duration="4232" enable="Y" is_premium="N" aid="27627" money="0" sharing="0"/>
   <sound id="ambulance_siren_02.mp3" name="Ambience - Ambulance siren" downloadtype="progressive" subtype="soundeffect" duration="20245" enable="Y" is_premium="N" aid="27628" money="0" sharing="0"/>
   <sound id="apples_and_oranges_tag.mp3" name="FX - Logo - apples and oranges" downloadtype="progressive" subtype="soundeffect" duration="5251" enable="Y" is_premium="N" aid="27629" money="0" sharing="0"/>
