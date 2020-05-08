@@ -204,7 +204,7 @@
   <background id="16_9.swf" name="16-9" enable="Y" default="N" is_premium="N" aid="12437" money="0" sharing="0"/>
   <background id="74761033.swf" name="Hotel Room (Real Life)" enable="Y" default="N" is_premium="N" aid="12437" money="0" sharing="0"/>
   <compositebg id="hotel" name="Hotel Room (Great Wolf Lodge)" enable="Y" default="N" thumb="74761033.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3163">
-  <bg id="HOTELROOM" index="0">
+  <bg id="74761033.swf" index="0">
     <file>74761033.swf</file>
   </bg>
 </compositebg>
@@ -15689,6 +15689,8 @@
   <prop id="earth.swf" name="earth" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4750" money="0" sharing="0"/>
   <prop id="sitelogo.swf" name="Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4750" money="0" sharing="0"/>
   <prop id="goanimate_logo.swf" name="Go!Animate Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4750" money="0" sharing="0"/>
+  <prop id="ugc.char.1885278.1885279.swf" name="Police Car" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4750" money="0" sharing="0"/>
+  <prop id="ugc.1.swf" name="Mothership - Created By NathanTDA" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4750" money="0" sharing="0"/>
   <prop id="space_saturn.swf" name="saturn" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4751" money="0" sharing="0"/>
   <prop id="space_cheese_planet.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4752" money="0" sharing="0"/>
   <prop id="volcanic_planet_pit2.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4753" money="0" sharing="0"/>
