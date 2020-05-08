@@ -16482,6 +16482,14 @@
     <state id="lisa_surprised_look_down.swf" name="Surprised ld" enable="Y"/>
     <state id="lisa_worried.swf" name="Worried" enable="Y"/>
     <state id="lisa_loud_wink_and_psign.swf" name="Wink & Peace" enable="Y"/>
+    <state id="lisa_loud_sleeping.swf" name="Sleeping" enable="Y"/>
+    <state id="lisa_loud_swimsuit.swf" name="Bikini Normal" enable="Y"/>
+    <state id="lisa_loud_swimsuit_angry.swf" name="Bikini Angry" enable="Y"/>
+    <state id="lisa_loud_swimsuit_excited.swf" name="Bikini Excited" enable="Y"/>
+    <state id="lisa_loud_swimsuit_lookat.swf" name="Bikini Look at" enable="Y"/>
+    <state id="lisa_loud_swimsuit_sad.swf" name="Bikini Sad" enable="Y"/>
+    <state id="lisa_loud_swimsuit_surprised.swf" name="Bikini Surprised" enable="Y"/>
+    <state id="lisa_loud_shocked_swimsuit.swf" name="Bikini Shocked" enable="Y"/>
   </prop>
   <prop id="ncc_hpsalt.swf" name="Drip stand" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11290" money="0" sharing="0"/>
   <prop id="ncc_hpshelf_front.swf" name="Counter top" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11291" money="0" sharing="0"/>
