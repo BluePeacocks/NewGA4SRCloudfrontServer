@@ -203,13 +203,14 @@
   <background id="ncc_pirateship01_deck.swf" name="Ship's deck" enable="Y" default="N" is_premium="N" aid="12433" money="0" sharing="0"/>
   <background id="16_9.swf" name="16-9" enable="Y" default="N" is_premium="N" aid="12437" money="0" sharing="0"/>
   <background id="74761033.swf" name="Hotel Room (Real Life)" enable="Y" default="N" is_premium="N" aid="12437" money="0" sharing="0"/>
-  <compositebg id="court" name="Court" enable="Y" default="N" thumb="court.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3163">
-  <bg id="COURTBG10" index="0">
-    <file>common.court_bg_v1.swf</file>
-  </bg>
   <compositebg id="hotel" name="Hotel Room (Great Wolf Lodge)" enable="Y" default="N" thumb="74761033.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3163">
   <bg id="HOTELROOM" index="0">
     <file>74761033.swf</file>
+  </bg>
+</compositebg>
+  <compositebg id="court" name="Court" enable="Y" default="N" thumb="court.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3163">
+  <bg id="COURTBG10" index="0">
+    <file>common.court_bg_v1.swf</file>
   </bg>
   <prop id="COURTPROP6" index="2">
     <file>common.court_judge.swf</file>
