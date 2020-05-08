@@ -207,6 +207,10 @@
   <bg id="COURTBG10" index="0">
     <file>common.court_bg_v1.swf</file>
   </bg>
+  <compositebg id="hotel" name="Hotel Room (Great Wolf Lodge)" enable="Y" default="N" thumb="74761033.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3163">
+  <bg id="HOTELROOM" index="0">
+    <file>74761033.swf</file>
+  </bg>
   <prop id="COURTPROP6" index="2">
     <file>common.court_judge.swf</file>
     <x>565.6</x>
