@@ -16385,6 +16385,31 @@
     <state id="msp_ncc_hpcover_ncc_hprbedcover02_front.swf" name="front - no blanket" enable="Y"/>
     <state id="msp_ncc_hpcover_ncc_hprbedcover02_side.swf" name="side - no blanket" enable="Y"/>
   </prop>
+  <prop id="msp_sonic" name="Sonic" holdable="0" placeable="1" wearable="0" facing="left" thumb="standing.swf" enable="Y" is_premium="N" aid="11275" money="0" sharing="0">
+    <state id="standing.swf" name="Standing" enable="Y" default="Y"/>
+    <state id="super sonic standing.swf" name="Super Sonic Standing" enable="Y" default="Y"/>
+    <state id="talking.swf" name="Talk" enable="Y"/>
+    <state id="talking happy.swf" name="Talk Happy" enable="Y"/>
+    <state id="running but more slowly.swf" name="Running But More Slowly" enable="Y"/>
+    <state id="running.swf" name="Running" enable="Y"/>
+    <state id="running fast.swf" name="Running Fast" enable="Y"/>
+    <state id="stoping.swf" name="Running Fast" enable="Y"/>
+    <state id="sonic.leg.swf" name="Kick at" enable="Y"/>
+    <state id="sonic fist.swf" name="Punch at" enable="Y"/>
+    <state id="sonic eat.swf" name="Eats a Chilli Dog" enable="Y"/>
+    <state id="thumbs up.swf" name="Giving a Thumbs Up" enable="Y"/>
+    <state id="waitting.swf" name="Waitting" enable="Y"/>
+    <state id="changing to normal.swf" name="Changing Back To Normal" enable="Y"/>
+    <state id="changing to super sonic.style.swf" name="Changing to Super Sonic Style" enable="Y"/>
+    <state id="gülürken.swf" name="Laugh at" enable="Y"/>
+    <state id="joking.swf" name="Taunt" enable="Y"/>
+    <state id="jump.swf" name="Jump" enable="Y"/>
+    <state id="jump2.swf" name="Jump 2" enable="Y"/>
+    <state id="ready to spin.swf" name="Ready To Spin" enable="Y"/>
+    <state id="ugc.char.87303429.87304062.swf" name="Take Off 1" enable="Y"/>
+    <state id="ugc.char.87303429.87304085.swf" name="Take Off 2" enable="Y"/>
+    <state id="sonic spin.swf" name="Spinning" enable="Y"/>
+  </prop>
   <prop id="msp_ncc_hpcurtain" name="Curtain" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ncc_hpcurtain_ncc_hprcurtain_front.swf" enable="Y" is_premium="N" aid="11280" money="0" sharing="0">
     <state id="msp_ncc_hpcurtain_ncc_hprcurtain_front.swf" name="front" enable="Y" default="Y"/>
     <state id="msp_ncc_hpcurtain_ncc_hprcurtain_side.swf" name="side" enable="Y"/>
