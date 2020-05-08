@@ -16446,7 +16446,7 @@
     <state id="msp_ncc_hpcurtain_ncc_hprcurtain_front.swf" name="front" enable="Y" default="Y"/>
     <state id="msp_ncc_hpcurtain_ncc_hprcurtain_side.swf" name="side" enable="Y"/>
   </prop>
-  <prop id="msp_wolfman/wolfman" name="Wolfman" holdable="0" placeable="1" wearable="0" facing="left" thumb="ugc.char.1955670.1955671.swf" enable="Y" is_premium="N" aid="11280" money="0" sharing="0">
+  <prop id="msp_wolfman" name="Wolfman" holdable="0" placeable="1" wearable="0" facing="left" thumb="ugc.char.1955670.1955671.swf" enable="Y" is_premium="N" aid="11280" money="0" sharing="0">
     <state id="ugc.char.1955670.1955671.swf" name="1" enable="Y" default="Y"/>
     <state id="ugc.char.1955670.1955672.swf" name="2" enable="Y"/>
     <state id="ugc.char.1955670.1955673.swf" name="3" enable="Y"/>
