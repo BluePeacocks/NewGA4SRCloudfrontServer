@@ -16391,6 +16391,22 @@
     <state id="msp_ncc_hpbed_ncc_hprbed_front.swf" name="front" enable="Y" default="Y"/>
     <state id="msp_ncc_hpbed_ncc_hprbed_side.swf" name="side" enable="Y"/>
   </prop>
+  <prop id="msp_great_wolf_lodge_pack" name="GWL Pack" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ncc_hpbed_ncc_hprbed_front.swf" enable="Y" is_premium="N" aid="11272" money="0" sharing="0">
+    <state id="great_wolf_lodge.swf" name="Outside" enable="Y" default="Y"/>
+    <state id="8aea8350829eb1f2d6c2e31e6d649e17.swf" name="Wavepool" enable="Y"/>
+    <state id="great_wolf_playground.swf" name="Playground" enable="Y"/>
+    <state id="arcade.swf" name="Arcade" enable="Y"/>
+    <state id="Ball_Arcade.swf" name="Ball Arcade" enable="Y"/>
+    <state id="Screen-Shot-2020-03-26-at-6.01.52-PM.swf" name="Pool With Waterslides" enable="Y"/>
+    <state id="Tube.swf" name="Tube" enable="Y"/>
+    <state id="WaterSlide.swf" name="Waterslide 1" enable="Y"/>
+    <state id="Water_Slide.swf" name="Waterslide 2" enable="Y"/>
+    <state id="Scene.swf" name="Water Playground" enable="Y"/>
+    <state id="MagiQuest.swf" name="MagiQuest" enable="Y"/>
+    <state id="Hotel_Room.swf" name="Hotel Room" enable="Y"/>
+    <state id="Dunkindonutsgwlnewengland.swf" name="Dunkin Donuts" enable="Y"/>
+    <state id="Dinner_Great_Wolf_Lodge.swf" name="Restaurant" enable="Y"/>
+  </prop>
   <prop id="msp_ncc_hpcover" name="Bed cover" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ncc_hpcover_ncc_hprbedcover01_front.swf" enable="Y" is_premium="N" aid="11275" money="0" sharing="0">
     <state id="msp_ncc_hpcover_ncc_hprbedcover01_front.swf" name="front - blanket" enable="Y" default="Y"/>
     <state id="msp_ncc_hpcover_ncc_hprbedcover01_side.swf" name="side - blanket" enable="Y"/>
@@ -16399,7 +16415,7 @@
   </prop>
   <prop id="msp_sonic" name="Sonic" holdable="0" placeable="1" wearable="0" facing="left" thumb="standing.swf" enable="Y" is_premium="N" aid="11275" money="0" sharing="0">
     <state id="standing.swf" name="Standing" enable="Y" default="Y"/>
-    <state id="super sonic standing.swf" name="Super Sonic Standing" enable="Y" default="Y"/>
+    <state id="super sonic standing.swf" name="Super Sonic Standing" enable="Y"
     <state id="talking.swf" name="Talk" enable="Y"/>
     <state id="talking happy.swf" name="Talk Happy" enable="Y"/>
     <state id="running but more slowly.swf" name="Running But More Slowly" enable="Y"/>
@@ -16434,6 +16450,35 @@
     <state id="msp_ncc_hprheart_ncc_hprheart_beat01.swf" name="flat" enable="Y" default="Y"/>
     <state id="msp_ncc_hprheart_ncc_hprheart_beat02.swf" name="beating" enable="Y"/>
     <state id="msp_ncc_hprheart_ncc_hprheart_beat03.swf" name="static" enable="Y"/>
+  </prop>
+  <prop id="msp_lisaloud" name="Lisa Loud (Prop)" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ncc_hprheart_ncc_hprheart_beat01.swf" enable="Y" is_premium="N" aid="11286" money="0" sharing="0">
+    <state id="lisa_loud.swf" name="Normal" enable="Y" default="Y"/>
+    <state id="lisa_loud_angry.swf" name="Angry" enable="Y"/>
+    <state id="lisa_loud_angry_t.swf" name="Angry Talk" enable="Y"/>
+    <state id="lisa_loud_b.swf" name="Bored" enable="Y"/>
+    <state id="lisa_loud_b_t.swf" name="Bored Talk" enable="Y"/>
+    <state id="lisa_loud_cartoon_pose_nlac.swf" name="Pic Pose" enable="Y"/>
+    <state id="lisa_loud_excited.swf" name="Excited" enable="Y"/>
+    <state id="lisa_loud_laugh.swf" name="Laugh" enable="Y"/>
+    <state id="lisa_loud_look_up.swf" name="Look Up" enable="Y"/>
+    <state id="lisa_loud_neutralB.swf" name="Normal b 1" enable="Y"/>
+    <state id="lisa_loud_neutral_b.swf" name="Normal b 2" enable="Y"/>
+    <state id="lisa_loud_neutral_b_1.swf" name="Normal b 3" enable="Y"/>
+    <state id="lisa_loud_sad.swf" name="Sad" enable="Y"/>
+    <state id="lisa_loud_scared.swf" name="Scared" enable="Y"/>
+    <state id="lisa_loud_scheming.swf" name="Evil" enable="Y"/>
+    <state id="lisa_loud_shocked_lac.swf" name="Shocked lac" enable="Y"/>
+    <state id="lisa_loud_shocked_look_down.swf" name="Shocked ld" enable="Y"/>
+    <state id="lisa_loud_shrug.swf" name="Shrug" enable="Y"/>
+    <state id="lisa_loud_sit_NB.swf" name="Sit NB" enable="Y"/>
+    <state id="lisa_loud_thinking_tuwb.swf" name="Think tuwb" enable="Y"/>
+    <state id="lisa_loud_very_shocked.swf" name="Scream" enable="Y"/>
+    <state id="lisa_loud_waving_nlac.swf" name="Waving at" enable="Y"/>
+    <state id="lisa_noticed.swf" name="Noticed" enable="Y"/>
+    <state id="lisa_shocked.swf" name="Shocked" enable="Y"/>
+    <state id="lisa_sitting.swf" name="Sit" enable="Y"/>
+    <state id="lisa_surprised_look_down.swf" name="Surprised ld" enable="Y"/>
+    <state id="lisa_worried.swf" name="Worried" enable="Y"/>
   </prop>
   <prop id="ncc_hpsalt.swf" name="Drip stand" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11290" money="0" sharing="0"/>
   <prop id="ncc_hpshelf_front.swf" name="Counter top" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11291" money="0" sharing="0"/>
