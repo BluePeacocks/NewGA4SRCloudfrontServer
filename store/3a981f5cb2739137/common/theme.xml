@@ -16391,7 +16391,7 @@
     <state id="msp_ncc_hpbed_ncc_hprbed_front.swf" name="front" enable="Y" default="Y"/>
     <state id="msp_ncc_hpbed_ncc_hprbed_side.swf" name="side" enable="Y"/>
   </prop>
-  <prop id="msp_great_wolf_lodge_pack" name="GWL Pack" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ncc_hpbed_ncc_hprbed_front.swf" enable="Y" is_premium="N" aid="11272" money="0" sharing="0">
+  <prop id="msp_great_wolf_lodge_pack" name="GWL Pack" holdable="0" placeable="1" wearable="0" facing="left" thumb="great_wolf_lodge.swf" enable="Y" is_premium="N" aid="11272" money="0" sharing="0">
     <state id="great_wolf_lodge.swf" name="Outside" enable="Y" default="Y"/>
     <state id="8aea8350829eb1f2d6c2e31e6d649e17.swf" name="Wavepool" enable="Y"/>
     <state id="great_wolf_playground.swf" name="Playground" enable="Y"/>
@@ -16451,13 +16451,15 @@
     <state id="msp_ncc_hprheart_ncc_hprheart_beat02.swf" name="beating" enable="Y"/>
     <state id="msp_ncc_hprheart_ncc_hprheart_beat03.swf" name="static" enable="Y"/>
   </prop>
-  <prop id="msp_lisaloud" name="Lisa Loud (Prop)" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_ncc_hprheart_ncc_hprheart_beat01.swf" enable="Y" is_premium="N" aid="11286" money="0" sharing="0">
+  <prop id="msp_lisaloud" name="Lisa Loud (Prop)" holdable="0" placeable="1" wearable="0" facing="left" thumb="lisa_loud_lac.swf" enable="Y" is_premium="N" aid="11286" money="0" sharing="0">
     <state id="lisa_loud.swf" name="Normal" enable="Y" default="Y"/>
+    <state id="lisa_loud_lac.swf" name="Look at Camera" enable="Y" default="Y"/>
     <state id="lisa_loud_angry.swf" name="Angry" enable="Y"/>
     <state id="lisa_loud_angry_t.swf" name="Angry Talk" enable="Y"/>
     <state id="lisa_loud_b.swf" name="Bored" enable="Y"/>
     <state id="lisa_loud_b_t.swf" name="Bored Talk" enable="Y"/>
     <state id="lisa_loud_cartoon_pose_nlac.swf" name="Pic Pose" enable="Y"/>
+    <state id="lisa_loud_cartoon_pose_lac.swf" name="Pic Pose lac" enable="Y"/>
     <state id="lisa_loud_excited.swf" name="Excited" enable="Y"/>
     <state id="lisa_loud_laugh.swf" name="Laugh" enable="Y"/>
     <state id="lisa_loud_look_up.swf" name="Look Up" enable="Y"/>
