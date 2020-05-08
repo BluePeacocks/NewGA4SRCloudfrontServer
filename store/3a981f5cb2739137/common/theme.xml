@@ -204,7 +204,7 @@
   <background id="16_9.swf" name="16-9" enable="Y" default="N" is_premium="N" aid="12437" money="0" sharing="0"/>
   <background id="74761033.swf" name="Hotel Room (Real Life)" enable="Y" default="N" is_premium="N" aid="12437" money="0" sharing="0"/>
   <compositebg id="hotel" name="Hotel Room (Great Wolf Lodge)" enable="Y" default="N" thumb="74761033.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3163">
-  <bg id="74761033.swf" index="0">
+  <bg id="74761033BG3" index="0">
     <file>74761033.swf</file>
   </bg>
 </compositebg>
