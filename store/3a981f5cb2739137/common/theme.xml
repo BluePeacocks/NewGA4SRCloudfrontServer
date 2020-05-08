@@ -202,6 +202,7 @@
   <background id="ncc_pirateship01_bg.swf" name="Ship's side" enable="Y" default="N" is_premium="N" aid="12432" money="0" sharing="0"/>
   <background id="ncc_pirateship01_deck.swf" name="Ship's deck" enable="Y" default="N" is_premium="N" aid="12433" money="0" sharing="0"/>
   <background id="16_9.swf" name="16-9" enable="Y" default="N" is_premium="N" aid="12437" money="0" sharing="0"/>
+  <background id="74761033.swf" name="Hotel Room (Real Life)" enable="Y" default="N" is_premium="N" aid="12437" money="0" sharing="0"/>
   <compositebg id="court" name="Court" enable="Y" default="N" thumb="court.jpg" display_order="0" is_premium="N" money="0" sharing="0" aid="3163">
   <bg id="COURTBG10" index="0">
     <file>common.court_bg_v1.swf</file>
