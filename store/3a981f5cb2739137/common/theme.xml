@@ -16406,6 +16406,7 @@
     <state id="Tube.swf" name="Tube" enable="Y"/>
     <state id="WaterSlide.swf" name="Waterslide 1" enable="Y"/>
     <state id="Water_Slide.swf" name="Waterslide 2" enable="Y"/>
+    <state id="Waterslide_2.swf" name="Waterslide 3" enable="Y"/>
     <state id="Scene.swf" name="Water Playground" enable="Y"/>
     <state id="MagiQuest.swf" name="MagiQuest" enable="Y"/>
     <state id="Hotel_Room.swf" name="Hotel Room" enable="Y"/>
