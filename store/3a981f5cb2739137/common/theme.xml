@@ -15488,6 +15488,7 @@
   <prop id="court_audience.swf" name="Auditorium" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3209" money="0" sharing="0"/>
   <prop id="court_audience02.swf" name="Audience" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3210" money="0" sharing="0"/>
   <prop id="cemetery_gravestone.swf" name="Cemetery gravestone" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3211" money="0" sharing="0"/>
+  <prop id="green_inflatable_boat.swf" name="Inflatable Boat" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3211" money="0" sharing="0"/>
   <prop id="stainblueskirt.swf" name="Blue skirt" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3212" money="0" sharing="0"/>
   <prop id="guitar.swf" name="Guitar" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3213" money="0" sharing="0"/>
   <prop id="saxophone.swf" name="Saxophone" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3214" money="0" sharing="0" handstyle="flat"/>
