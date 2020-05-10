@@ -16523,6 +16523,7 @@
     <state id="lisa_loud_talk_lu.swf" name="Talk lu" enable="Y"/>
     <state id="lisa_loud_walk.swf" name="Walk" enable="Y"/>
     <state id="lisa_loud_wink.swf" name="Wink" enable="Y"/>
+    <state id="lisa_loud_run_shocked.swf" name="Run Shocked" enable="Y"/>
   </prop>
   <prop id="ncc_hpsalt.swf" name="Drip stand" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11290" money="0" sharing="0"/>
   <prop id="ncc_hpshelf_front.swf" name="Counter top" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11291" money="0" sharing="0"/>
