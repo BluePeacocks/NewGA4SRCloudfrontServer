@@ -19282,6 +19282,7 @@
   <sound id="clap_tap.mp3" name="Clap tap" downloadtype="progressive" subtype="bgmusic" duration="101094" enable="Y" is_premium="N" aid="26262" money="0" sharing="0"/>
   <sound id="writing_the_future.mp3" name="Writing the future" downloadtype="progressive" subtype="bgmusic" duration="136594" enable="Y" is_premium="N" aid="26263" money="0" sharing="0"/>
   <sound id="human_evolution.mp3" name="Human evolution" downloadtype="progressive" subtype="bgmusic" duration="177816" enable="Y" is_premium="N" aid="26264" money="0" sharing="0"/>
+  <sound id="tennis_training.mp3" name="Wii Sports - Tennis Training" downloadtype="progressive" subtype="bgmusic" duration="177816" enable="Y" is_premium="N" aid="26264" money="0" sharing="0"/>
   <sound id="airport_ambience01_60_loop.mp3" name="Ambience - In the airport" downloadtype="progressive" subtype="soundeffect" duration="60552" enable="Y" is_premium="N" aid="27626" money="0" sharing="0"/>
   <sound id="Ambiance SFX - City (Day).mp3" name="Ambience - City (Day)" downloadtype="progressive" subtype="soundeffect" duration="60552" enable="Y" is_premium="N" aid="27626" money="0" sharing="0"/>
   <sound id="Ambiance SFX - Outside (Day) (1).mp3" name="Ambience - Outside (Day)" downloadtype="progressive" subtype="soundeffect" duration="60552" enable="Y" is_premium="N" aid="27626" money="0" sharing="0"/>
