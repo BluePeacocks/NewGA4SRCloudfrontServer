@@ -15700,7 +15700,9 @@
   <prop id="space_saturn.swf" name="saturn" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4751" money="0" sharing="0"/>
   <prop id="sagp_logo.swf" name="SAGP logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4751" money="0" sharing="0"/>
   <prop id="space_cheese_planet.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4752" money="0" sharing="0"/>
+  <prop id="green_space.swf" name="Green Space" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4752" money="0" sharing="0"/>
   <prop id="volcanic_planet_pit2.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4753" money="0" sharing="0"/>
+  <prop id="red_sky.swf" name="Red Sky" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4753" money="0" sharing="0"/>
   <prop id="volcanic_planet_pit.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4754" money="0" sharing="0"/>
   <prop id="volcanic_planet_rock.swf" name="" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4755" money="0" sharing="0"/>
   <prop id="teddy_bear.swf" name="Teddy Bear" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="4769" money="0" sharing="0" handstyle="flat"/>
@@ -16525,6 +16527,7 @@
     <state id="lisa_loud_walk.swf" name="Walk" enable="Y"/>
     <state id="lisa_loud_wink.swf" name="Wink" enable="Y"/>
     <state id="lisa_loud_run_shocked.swf" name="Run Shocked" enable="Y"/>
+    <state id="lisa_loud_in_wallpaper.swf" name="Video Intro" enable="Y"/>
   </prop>
   <prop id="ncc_hpsalt.swf" name="Drip stand" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11290" money="0" sharing="0"/>
   <prop id="ncc_hpshelf_front.swf" name="Counter top" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11291" money="0" sharing="0"/>
