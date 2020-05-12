@@ -16592,9 +16592,9 @@
     <state id="msp_bskstand_ncc_bskbstand_side.swf" name="side" enable="Y" default="Y"/>
     <state id="msp_bskstand_ncc_bskbstand_front.swf" name="front" enable="Y"/>
   </prop>
-  <prop id="msp_gan_logos" name="GAN Logos" holdable="0" placeable="1" wearable="0" facing="left" thumb="GoAnimate_Network.swf" enable="Y" is_premium="Y" aid="11350" money="0" sharing="0">
-    <state id="GoAnimate_Network.swf" name="v1" enable="Y" default="Y"/>
-    <state id="GoAnimate_Network_v2.swf" name="v2" enable="Y"/>
+  <prop id="msp_gan_logos" name="GAN Logos" holdable="0" placeable="1" wearable="0" facing="left" thumb="Go!Animate Network logo.swf" enable="Y" is_premium="Y" aid="11350" money="0" sharing="0">
+    <state id="Go!Animate Network logo.swf" name="v1" enable="Y" default="Y"/>
+    <state id="GoAnimate_Network.swf" name="v2" enable="Y"/>
   </prop>
   <prop id="msp_gas_logo" name="GAS Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="GoAnimate_Network.swf" enable="Y" is_premium="Y" aid="11350" money="0" sharing="0">
     <state id="Goanimate_studios.swf" name="v1" enable="Y" default="Y"/>
@@ -16981,12 +16981,6 @@
     <state id="msp_gbblanket01_ncc_gbblanket01empty_side.swf" name="side - empty" enable="Y"/>
     <state id="msp_gbblanket01_ncc_gbblanket01full_front.swf" name="front - occupied" enable="Y"/>
     <state id="msp_gbblanket01_ncc_gbblanket01full_side.swf" name="side - occupied" enable="Y"/>
-  </prop>
-  <prop id="msp_goanimate_logo" name="GoAnimate Logos Pack" holdable="0" placeable="1" wearable="0" facing="left" thumb="GoAnimate_Network.swf" enable="Y" is_premium="Y" aid="11731" money="0" sharing="0">
-    <state id="GoAnimate_Network.swf" name="Network" enable="Y" default="Y"/>
-    <state id="GoAnimate_Network_logo.swf" name="Network ALT" enable="Y"/>
-    <state id="Goanimate_studios.swf" name="Studios" enable="Y"/>
-    <state id="goanimate_logo.swf" name="Original" enable="Y"/>
   </prop>
   <prop id="ncc_gbboard.swf" name="Board" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11736" money="0" sharing="0"/>
   <prop id="msp_gbchair" name="Chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_gbchair_ncc_gbchair_front.swf" enable="Y" is_premium="N" aid="11737" money="0" sharing="0">
