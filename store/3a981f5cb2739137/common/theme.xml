@@ -16528,7 +16528,7 @@
     <state id="lisa_loud_wink.swf" name="Wink" enable="Y"/>
     <state id="lisa_loud_run_shocked.swf" name="Run Shocked" enable="Y"/>
     <state id="lisa_loud_in_wallpaper.swf" name="Video Intro" enable="Y"/>
-    <state id="lisa_loud_look_cool_winky_face.swf" name="Winky Face lac" enable="Y"/>
+    <state id="lisa_loud_look_cool_winky_face.swf" name="Winky Face" enable="Y"/>
   </prop>
   <prop id="ncc_hpsalt.swf" name="Drip stand" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11290" money="0" sharing="0"/>
   <prop id="ncc_hpshelf_front.swf" name="Counter top" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11291" money="0" sharing="0"/>
@@ -16591,6 +16591,13 @@
   <prop id="msp_bskstand" name="Basketball stand" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_bskstand_ncc_bskbstand_side.swf" enable="Y" is_premium="Y" aid="11350" money="0" sharing="0">
     <state id="msp_bskstand_ncc_bskbstand_side.swf" name="side" enable="Y" default="Y"/>
     <state id="msp_bskstand_ncc_bskbstand_front.swf" name="front" enable="Y"/>
+  </prop>
+  <prop id="msp_gan_logos" name="GAN Logos" holdable="0" placeable="1" wearable="0" facing="left" thumb="GoAnimate_Network.swf" enable="Y" is_premium="Y" aid="11350" money="0" sharing="0">
+    <state id="GoAnimate_Network.swf" name="v1" enable="Y" default="Y"/>
+    <state id="GoAnimate_Network_v2.swf" name="v2" enable="Y"/>
+  </prop>
+  <prop id="msp_gas_logo" name="GAS Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="GoAnimate_Network.swf" enable="Y" is_premium="Y" aid="11350" money="0" sharing="0">
+    <state id="Goanimate_studios.swf" name="v1" enable="Y" default="Y"/>
   </prop>
   <prop id="ncc_bskbuilding01.swf" name="Building" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="11353" money="0" sharing="0"/>
   <prop id="ncc_bskbuilding02.swf" name="Building" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="Y" aid="11354" money="0" sharing="0"/>
