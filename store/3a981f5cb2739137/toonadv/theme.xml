@@ -208,6 +208,11 @@
     <facial id="head_happy.swf" name="Happy" enable="Y" aid="10397"/>
     <facial id="head_neutral.swf" name="Neutral" enable="Y" aid="10398"/>
   </char>
+  <char id="lisa" name="Lisa Loud" thumb="lisa_loud_standing.swf" facing="left" default="lisa_loud_standing.swf" motion="walk.swf" enable="Y" is_premium="N" aid="10367" money="200" sharing="100">
+    <category name="Basic">
+      <action id="lisa_loud_standing.swf" name="Stand" loop="Y" totalframe="99" enable="Y" aid="10368"/>
+      <facial id="head_neutral.swf" name="Neutral" enable="Y" aid="10398"/>
+  </char>    
   <background id="indo_bg.swf" name="Taj Mahal" enable="N" default="N" is_premium="N" aid="10399" money="0" sharing="0"/>
   <background id="street_day_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10442" money="0" sharing="0"/>
   <background id="lliving_rm_bg.swf" name="" enable="N" default="N" is_premium="N" aid="10441" money="0" sharing="0"/>
