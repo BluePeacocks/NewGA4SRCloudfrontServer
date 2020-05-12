@@ -16528,6 +16528,7 @@
     <state id="lisa_loud_wink.swf" name="Wink" enable="Y"/>
     <state id="lisa_loud_run_shocked.swf" name="Run Shocked" enable="Y"/>
     <state id="lisa_loud_in_wallpaper.swf" name="Video Intro" enable="Y"/>
+    <state id="lisa_loud_look_cool_winky_face.swf" name="Winky Face lac" enable="Y"/>
   </prop>
   <prop id="ncc_hpsalt.swf" name="Drip stand" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11290" money="0" sharing="0"/>
   <prop id="ncc_hpshelf_front.swf" name="Counter top" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11291" money="0" sharing="0"/>
@@ -16973,6 +16974,12 @@
     <state id="msp_gbblanket01_ncc_gbblanket01empty_side.swf" name="side - empty" enable="Y"/>
     <state id="msp_gbblanket01_ncc_gbblanket01full_front.swf" name="front - occupied" enable="Y"/>
     <state id="msp_gbblanket01_ncc_gbblanket01full_side.swf" name="side - occupied" enable="Y"/>
+  </prop>
+  <prop id="msp_goanimate_logo" name="GoAnimate Logos Pack" holdable="0" placeable="1" wearable="0" facing="left" thumb="GoAnimate_Network.swf" enable="Y" is_premium="Y" aid="11731" money="0" sharing="0">
+    <state id="GoAnimate_Network.swf" name="Network" enable="Y" default="Y"/>
+    <state id="GoAnimate_Network_logo.swf" name="Network ALT" enable="Y"/>
+    <state id="Goanimate_studios.swf" name="Studios" enable="Y"/>
+    <state id="goanimate_logo.swf" name="Original" enable="Y"/>
   </prop>
   <prop id="ncc_gbboard.swf" name="Board" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11736" money="0" sharing="0"/>
   <prop id="msp_gbchair" name="Chair" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_gbchair_ncc_gbchair_front.swf" enable="Y" is_premium="N" aid="11737" money="0" sharing="0">
