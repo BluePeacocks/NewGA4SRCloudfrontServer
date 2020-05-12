@@ -16594,7 +16594,7 @@
   </prop>
   <prop id="msp_gan_logos" name="GAN Logos" holdable="0" placeable="1" wearable="0" facing="left" thumb="GoAnimate_Network.swf" enable="Y" is_premium="Y" aid="11350" money="0" sharing="0">
     <state id="GoAnimate_Network.swf" name="v1" enable="Y" default="Y"/>
-    <state id="GoAnimate_Network_v2.swf" name="v2" enable="Y"/>
+    <state id="GoAnimate_Network_logo_v2.swf" name="v2" enable="Y"/>
   </prop>
   <prop id="msp_gas_logo" name="GAS Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="Goanimate_studios.swf" enable="Y" is_premium="Y" aid="11350" money="0" sharing="0">
     <state id="Goanimate_studios.swf" name="v1" enable="Y" default="Y"/>
