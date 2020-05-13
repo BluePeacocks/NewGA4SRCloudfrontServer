@@ -18409,17 +18409,17 @@
     <tag>musical</tag>
     <tag>Scary</tag>
   </sound>
-  <sound id="BND.mp3" name="BND" downloadtype="embed" subtype="soundeffect" duration="4000" enable="Y" is_premium="N" aid="6730" money="0" sharing="0">
+  <sound id="BND.mp3" name="BND" downloadtype="progressive" subtype="soundeffect" duration="4000" enable="Y" is_premium="N" aid="6730" money="0" sharing="0">
     <tag>instruments</tag>
     <tag>musical</tag>
     <tag>Scary</tag>
   </sound>
-  <sound id="Foreboding.mp3" name="Foreboding" downloadtype="embed" subtype="soundeffect" duration="5000" enable="Y" is_premium="N" aid="6730" money="0" sharing="0">
+  <sound id="Foreboding.mp3" name="Foreboding" downloadtype="progressive" subtype="soundeffect" duration="5000" enable="Y" is_premium="N" aid="6730" money="0" sharing="0">
     <tag>instruments</tag>
     <tag>musical</tag>
     <tag>Scary</tag>
   </sound>
-  <sound id="Horror Screech.mp3" name="Horror Screech" downloadtype="embed" subtype="soundeffect" duration="5000" enable="Y" is_premium="N" aid="6730" money="0" sharing="0">
+  <sound id="Horror Screech.mp3" name="Horror Screech" downloadtype="progressive" subtype="soundeffect" duration="5000" enable="Y" is_premium="N" aid="6730" money="0" sharing="0">
     <tag>instruments</tag>
     <tag>musical</tag>
     <tag>Scary</tag>
@@ -18434,8 +18434,8 @@
     <tag>instruments</tag>
     <tag>musical</tag>
   </sound>
-  <sound id="GoAnimate Studios Logo V2.wav" name="GoAnimate Studios Theme" downloadtype="progressive" subtype="soundeffect" duration="11000" enable="Y" is_premium="N" aid="6731" money="0" sharing="0">
-    <tag>starting</tag>
+  <sound id="GoAnimate_Studios_Logo_Theme.mp3" name="GoAnimate Studios Theme" downloadtype="progressive" subtype="soundeffect" duration="11758" enable="Y" is_premium="N" aid="6731" money="0" sharing="0">
+    <tag>ending</tag>
     <tag>instruments</tag>
     <tag>musical</tag>
   </sound>
@@ -19390,6 +19390,7 @@
   <sound id="pool_ball_06.mp3" name="FX - Pool ball" downloadtype="progressive" subtype="soundeffect" duration="836" enable="Y" is_premium="N" aid="27713" money="0" sharing="0"/>
   <sound id="rain_alley_medium_03_60_loop.mp3" name="Ambience - Rain" downloadtype="progressive" subtype="soundeffect" duration="60630" enable="Y" is_premium="N" aid="27714" money="0" sharing="0"/>
   <sound id="record_needle_static_loop_06.mp3" name="Ambience - Record needle" downloadtype="progressive" subtype="soundeffect" duration="3657" enable="Y" is_premium="N" aid="27715" money="0" sharing="0"/>
+  <sound id="lisaloud_laugh.mp3" name="Laugh (Lisa Loud)" downloadtype="progressive" subtype="soundeffect" duration="3657" enable="Y" is_premium="N" aid="27715" money="0" sharing="0"/>
   <sound id="restaurant_ambience_04_60_loop.mp3" name="Ambience - Restaurant" downloadtype="progressive" subtype="soundeffect" duration="59690" enable="Y" is_premium="N" aid="27716" money="0" sharing="0"/>
   <sound id="reverb_hi_imaging_element_05.mp3" name="FX - Logo - reverb high tech imaging" downloadtype="progressive" subtype="soundeffect" duration="2586" enable="Y" is_premium="N" aid="27717" money="0" sharing="0"/>
   <sound id="rooster_crow_01.mp3" name="FX - Rooster crow" downloadtype="progressive" subtype="soundeffect" duration="2220" enable="Y" is_premium="N" aid="27718" money="0" sharing="0"/>
@@ -19979,6 +19980,7 @@
   <sound id="horn_lose_05.mp3" name="FX - Horn lose" downloadtype="progressive" subtype="soundeffect" duration="1280" enable="Y" is_premium="N" aid="31415" money="0" sharing="0"/>
   <sound id="magic_crystal_interface_42.mp3" name="FX - Crystal" downloadtype="progressive" subtype="soundeffect" duration="758" enable="Y" is_premium="N" aid="31416" money="0" sharing="0"/>
   <sound id="medium_audience_laughter_01.mp3" name="FX - Audience laughter" downloadtype="progressive" subtype="soundeffect" duration="11624" enable="Y" is_premium="N" aid="31417" money="0" sharing="0"/>
+  <sound id="Crazy_Laughter.mp3" name="Crazy Laughter" downloadtype="progressive" subtype="soundeffect" duration="11624" enable="Y" is_premium="N" aid="31417" money="0" sharing="0"/>
   <sound id="notifier_03.mp3" name="FX - Soft beep" downloadtype="progressive" subtype="soundeffect" duration="575" enable="Y" is_premium="N" aid="31418" money="0" sharing="0"/>
   <sound id="notifier_07.mp3" name="FX - Alert beep" downloadtype="progressive" subtype="soundeffect" duration="784" enable="Y" is_premium="N" aid="31419" money="0" sharing="0"/>
   <sound id="orchestral_ta_da_stinger_01.mp3" name="FX - Transition - good ending" downloadtype="progressive" subtype="soundeffect" duration="5721" enable="Y" is_premium="N" aid="31420" money="0" sharing="0"/>
