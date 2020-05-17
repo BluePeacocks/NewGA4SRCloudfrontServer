@@ -1433,6 +1433,7 @@
   <background id="bar.swf" name="Bar" enable="Y" default="Y" is_premium="N" aid="1015" money="0" sharing="0"/>
   <background id="battlefield.swf" name="BattleField" enable="Y" is_premium="N" aid="1016" money="0" sharing="0"/>
   <background id="hawaii beach.swf" name="Hawaii Beach" enable="Y" is_premium="N" aid="1028" money="0" sharing="0"/>
+  <background id="waleed_bedroom_bg.swf" name="Waleeds Bedroom" enable="Y" is_premium="N" aid="1028" money="0" sharing="0"/>
   <background id="eiffel tower.swf" name="Eiffel Tower" enable="Y" is_premium="N" aid="1029" money="0" sharing="0"/>
   <background id="garage.swf" name="Garage" enable="Y" is_premium="N" aid="4872" money="0" sharing="0"/>
   <background id="flashing.swf" name="Flashing" enable="Y" is_premium="N" aid="4873" money="0" sharing="0">
