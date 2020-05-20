@@ -153,6 +153,26 @@
 	    <choice>0x360202</choice>
 	    <choice>0x000000</choice>
 	</color>
+    <color r="ccBackMajor" component_type="GoBehindBody" enable="Y">
+        <choice>0xAE0057</choice>
+        <choice>0x53A8DF</choice>
+        <choice>0xEC9EC5</choice>
+        <choice>0x360202</choice>
+        <choice>0xC1BFB8</choice>
+        <choice>0x5F4929</choice>
+        <choice>0x4A6028</choice>
+        <choice>0x000000</choice>
+    </color>
+    <color r="ccBackMinor" component_type="GoBehindBody" enable="Y">
+        <choice>0xFFFFFF</choice>
+        <choice>0x555555</choice>
+        <choice>0xBC6A70</choice>
+        <choice>0x360202</choice>
+        <choice>0xC1BFB8</choice>
+        <choice>0xFFCC00</choice>
+        <choice>0x640F0F</choice>
+        <choice>0x000000</choice>
+    </color>
     <facial id="head_talk_a" name="Talk neutral A" enable="Y">
         <selection type="beard" state_id="default"/>
         <selection type="ear" state_id="default"/>
@@ -1230,6 +1250,8 @@
   <color r="ccMustache">0x000000</color>
   <color r="ccBeard">0xFFFFFF</color>
   <color r="ccEyebrow">0x996633</color>
+  <color r="ccBackMajor">0x000000</color>
+  <color r="ccBackMinor">0x000000</color>
   <color r="ccHairMajor">0x996633</color>
   <color r="ccHairMinor">0x640F0F</color>
   <color r="ccUpperMain" oc="0x336699">0x993333</color>
@@ -3599,6 +3621,8 @@
   <color r="ccMustache">0x8B6F18</color>
   <color r="ccBeard">0xC29B22</color>
   <color r="ccEyebrow">0x000000</color>
+  <color r="ccBackMajor">0x000000</color>
+  <color r="ccBackMinor">0x000000</color>
   <color r="ccHairMajor">0xB97B3E</color>
   <color r="ccHairMinor">0x8B6F18</color>
   <color r="ccUpperMain" oc="0x336699">0xFF6666</color>
@@ -5825,6 +5849,8 @@
   <color r="ccMustache">0x360202</color>
   <color r="ccBeard">0x360202</color>
   <color r="ccEyebrow">0x640F0F</color>
+  <color r="ccBackMajor">0x000000</color>
+  <color r="ccBackMinor">0x000000</color>
   <color r="ccUpperMain" oc="0x336699">0x0B3573</color>
   <color r="ccUpperMinor" oc="0xE5E5E5">0x333333</color>
   <color r="ccLowerMain" oc="0xCCBC9A">0xCC9966</color>
@@ -8008,6 +8034,8 @@
   <color r="ccMustache">0x000000</color>
   <color r="ccBeard">0xFFFFFF</color>
   <color r="ccEyebrow">0x663300</color>
+  <color r="ccBackMajor">0x000000</color>
+  <color r="ccBackMinor">0x000000</color>
   <color r="ccUpperMain" oc="0x336699">0xFFFFFF</color>
   <color r="ccUpperMinor" oc="0xE5E5E5">0x006666</color>
   <color r="ccLowerMain" oc="0xCCBC9A">0x336699</color>
@@ -10079,6 +10107,36 @@
             <state id="taunt" filename="taunt.swf"/>
             <state id="walk" filename="walk.swf"/>
         </component>
+	<component type="GoBehindBody" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_userrole_admin</tag>
+		</component>
+
+		<component type="GoBehindBody" id="022" path="022" name="022" thumb="022_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</component>
+		<component type="GoBehindBody" id="023" path="023" name="023" thumb="023_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
+			<tag>_scifi</tag>
+		</component>		
+
+        <component type="GoBehindBody" id="020" path="020" name="020" thumb="020_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="021" path="021" name="021" thumb="021_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="019" path="019" name="019" thumb="019_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="018" path="018" name="018" thumb="018_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="016" path="016" name="016" thumb="016_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="017" path="017" name="017" thumb="017_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="009" path="009" name="009" thumb="009_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="010" path="010" name="010" thumb="010_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="011" path="011" name="011" thumb="011_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="012" path="012" name="012" thumb="012_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="013" path="013" name="013" thumb="013_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="014" path="014" name="014" thumb="014_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="003" path="003" name="003" thumb="003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="004" path="004" name="004" thumb="004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="005" path="005" name="005" thumb="005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="006" path="006" name="006" thumb="006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="007" path="007" name="007" thumb="007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <component type="GoBehindBody" id="008" path="008" name="008" thumb="008_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+		<component type="GoBehindBody" id="015" path="015" name="015" thumb="015_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>    
     </bodyshape>
     <component type="ear" id="000" path="000" name="000" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" random_able="N">
         <state id="default" filename="default.swf"/>
