@@ -1,3 +1,3 @@
-# Welcome To GoAnimate4SchoolsRemasteredAssets!
+# Welcome To GoAnimate For Schools Remastered Cloudfront server!
 
-Feel free to edit!
+See stuff happening!
