@@ -15710,6 +15710,7 @@
   <prop id="egg_small.swf" name="Egg" holdable="1" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="5011" money="0" sharing="0" handstyle="flat"/>
   <prop id="egg_break.swf" name="Egg Breaking" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="5012" money="0" sharing="0"/>
   <prop id="Chuck_E_Cheese.swf" name="Chuck E Cheese" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="5012" money="0" sharing="0"/>
+  <prop id="Shock.swf" name="FNAF SL Controlled Shock" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="3300" money="0" sharing="0"/>
   <prop id="explosion.swf" name="Explosion" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="5012" money="0" sharing="0"/>
   <prop id="msp_flat_tv" name="Flat screen TV" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_flat_tv_flat_tv_front.swf" enable="Y" is_premium="N" aid="10463" money="0" sharing="0">
     <state id="msp_flat_tv_flat_tv_front.swf" name="front" enable="Y" default="Y"/>
