@@ -386,17 +386,6 @@
         <selection type="mouth" state_id="default"/>
         <selection type="nose" state_id="default"/>
     </facial>
-	<facial id="head_sleep2" name="Dreamy" enable="Y">
-        <selection type="ear" state_id="default"/>
-        <selection type="eye" state_id="closed_eye"/>
-        <selection type="eyebrow" state_id="happyt"/>
-        <selection type="facedecoration" state_id="default"/>
-        <selection type="faceshape" state_id="default"/>
-        <selection type="glasses" state_id="default"/>
-        <selection type="hair" state_id="default"/>
-        <selection type="mouth" state_id="happy"/>
-        <selection type="nose" state_id="default"/>
-    </facial>
     <facial id="head_ko" name="Knocked out" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="desperate"/>
@@ -496,7 +485,7 @@
         <selection type="mouth" state_id="desperate"/>
         <selection type="nose" state_id="default"/>
     </facial>
-   <facial id="head_desperate" name="Crying while being scared" enable="Y">
+   <facial id="head_desperate2" name="Crying while being scared" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="cry"/>
         <selection type="eyebrow" state_id="sad"/>
