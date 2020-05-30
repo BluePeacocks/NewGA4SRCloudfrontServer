@@ -496,6 +496,17 @@
         <selection type="mouth" state_id="desperate"/>
         <selection type="nose" state_id="default"/>
     </facial>
+<facial id="head_desperate" name="Crying while being scared" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="cry"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="desperate"/>
+        <selection type="nose" state_id="default"/>
+    </facial>	
     <facial id="head_pickupphone" name="Look back up" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="pick_up_phone"/>
