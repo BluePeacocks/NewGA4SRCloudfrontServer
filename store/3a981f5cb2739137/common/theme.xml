@@ -15440,6 +15440,9 @@
     <state id="msp_ship_ncc_ship_move.swf" name="moving" enable="Y" default="Y"/>
     <state id="msp_ship_ncc_ship_still.swf" name="still" enable="Y"/>
   </prop>
+  <prop id="logo.swf" name="GoAnimate Wrapper Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11337" money="0" sharing="0"/>
+  <prop id="logo4s.swf" name="GA4SR Logo" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_cake01_ncc_cake01_full.swf" enable="Y" is_premium="N" aid="11355" money="0" sharing="0">
+  </prop>
   <prop id="ncc_stone.swf" name="Plymouth rock" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11383" money="0" sharing="0"/>
   <prop id="ncc_tomoto.swf" name="Tomato" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11384" money="0" sharing="0"/>
   <prop id="ncc_turkey01.swf" name="Turkey" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="11385" money="0" sharing="0"/>
