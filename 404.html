@@ -1,4 +1,65 @@
-﻿<html lang="en"><head>
+<html lang="en"><script type="text/javascript" async="" src="https://koi-3Q6B8SG59E.marketingautomation.services/client/ss.js?ver=1.1.1"></script><script type="text/javascript" class="__REQUESTLY__SCRIPT">(function(namespace) {
+  window[namespace] = window[namespace] || {};
+  window[namespace].responseRules = {};
+
+  let open = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method) {
+    this.addEventListener('readystatechange', function() {
+      if (this.readyState === 4 && window[namespace].responseRules.hasOwnProperty(this.responseURL)) {
+        const responseRule = window[namespace].responseRules[this.responseURL];
+        const {response, id} = responseRule;
+        const responseType = this.responseType;
+        let customResponse;
+
+        customResponse = response.type === 'code' ? responseRule.evaluator({
+            method,
+            url: this.responseURL,
+            requestHeaders: this.requestHeaders,
+            requestData: this.requestData,
+            responseType: this.responseType,
+            response: this.response
+          }) : response.value;
+
+        Object.defineProperty(this, 'response', {
+          get: function () {
+            if (response.type === 'static' && responseType === 'json') {
+              return JSON.parse(customResponse);
+            }
+            return customResponse;
+          }
+        });
+
+        if (responseType === '' || responseType === 'text') {
+          Object.defineProperty(this, 'responseText', {
+            get: function () {
+              return customResponse;
+            }
+          });
+        }
+
+        window.postMessage({
+          from: 'requestly',
+          type: 'response_rule_applied',
+          id
+        }, window.location.href);
+      }
+    }, false);
+    open.apply(this, arguments);
+  };
+
+  let send = XMLHttpRequest.prototype.send;
+  XMLHttpRequest.prototype.send = function(data) {
+    this.requestData = data;
+    send.apply(this, arguments);
+  };
+
+  let setRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
+  XMLHttpRequest.prototype.setRequestHeader = function(header, value) {
+    this.requestHeaders = this.requestHeaders || {};
+    this.requestHeaders[header] = value;
+    setRequestHeader.apply(this, arguments);
+  }
+})('__REQUESTLY__')</script><head>
 
 
 
@@ -21,7 +82,7 @@
 <link rel="stylesheet" href="/fonts/Comfortaa-Regular.ttf">
 <link rel="stylesheet" href="/css/common_combined.css">
 
-<link rel="stylesheet" href="bluepeacocks.github.io/css/error404.css">
+<link rel="stylesheet" href="/css/error404.css">
 
 
 
@@ -72,7 +133,7 @@ if (self !== top) {
                 <span class="icon-bar"></span>
               </button>
             <a class="navbar-brand" href="/index.html" title="GoAnimate for Schools Remastered Asset server">
-                <img alt="GoAnimate for Schools Remastered Asset server" src="bluepeacocks.github.io/img/site/logo4s.png">
+                <img alt="GoAnimate for Schools Remastered Asset server" src="/img/site/logo4s.png">
             </a>
         </div>
 
@@ -260,6 +321,7 @@ _ss.push(['_trackPageView']);
 })();
 </script>
 <!-- SharpSpring end -->
+
 
 
 
