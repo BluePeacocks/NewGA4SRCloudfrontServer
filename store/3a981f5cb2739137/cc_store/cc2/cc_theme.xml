@@ -189,7 +189,7 @@
         <choice>0xBE5A30</choice>
         <choice>0xE797B6</choice>
     </color>
-    <!--<color r="ccHandMinor" component_type="GoHands" enable="Y">
+    <color r="ccHandMinor" component_type="GoHands" enable="Y">
         <choice>0xAE0057</choice>
         <choice>0x53A8DF</choice>
         <choice>0xEC9EC5</choice>
@@ -198,7 +198,7 @@
         <choice>0x5F4929</choice>
         <choice>0x4A6028</choice>
         <choice>0x000000</choice>
-    </color>-->
+    </color>
     <facial id="head_talkneutral" name="Talk" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="default"/>
@@ -275,6 +275,17 @@
         <selection type="hair" state_id="default"/>
         <selection type="mouth" state_id="angry"/>
         <selection type="nose" state_id="default"/>
+    </facial>  
+    <facial id="head_angry2" name="Scheming" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="nose" state_id="default"/>
     </facial>
     <facial id="head_sad" name="Sad" enable="Y">
         <selection type="ear" state_id="default"/>
@@ -298,6 +309,17 @@
         <selection type="mouth" state_id="cry"/>
         <selection type="nose" state_id="default"/>
     </facial>
+	<facial id="head_cry2" name="Tears of joy" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="cry"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="nose" state_id="default"/>
+    </facial>>
     <facial id="head_think" name="Thinking" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="confused"/>
@@ -342,6 +364,17 @@
         <selection type="mouth" state_id="default"/>
         <selection type="nose" state_id="default"/>
     </facial>
+	<facial id="head_sleep2" name="Dreamy" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="closed_eye"/>
+        <selection type="eyebrow" state_id="happyt"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="happy"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
     <facial id="head_ko" name="Knocked out" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="desperate"/>
@@ -364,6 +397,28 @@
         <selection type="mouth" state_id="sick"/>
         <selection type="nose" state_id="default"/>
     </facial>
+    <facial id="head_sick2" name="Tired" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="sick"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="confused"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+	<facial id="head_sick3" name="Bored" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="confused"/>
+        <selection type="eyebrow" state_id="sad"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="sick"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
     <facial id="head_laugh" name="Laugh" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="laugh"/>
@@ -375,9 +430,31 @@
         <selection type="mouth" state_id="laugh"/>
         <selection type="nose" state_id="default"/>
     </facial>
+	<facial id="head_laugh2" name="Evil laugh" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="angry"/>
+        <selection type="eyebrow" state_id="angry"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="laugh"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
     <facial id="head_confused" name="Confused" enable="Y">
         <selection type="ear" state_id="default"/>
         <selection type="eye" state_id="confused"/>
+        <selection type="eyebrow" state_id="confused"/>
+        <selection type="facedecoration" state_id="default"/>
+        <selection type="faceshape" state_id="default"/>
+        <selection type="glasses" state_id="default"/>
+        <selection type="hair" state_id="default"/>
+        <selection type="mouth" state_id="confused"/>
+        <selection type="nose" state_id="default"/>
+    </facial>
+    <facial id="head_confused2" name="Suspicious" enable="Y">
+        <selection type="ear" state_id="default"/>
+        <selection type="eye" state_id="broken01"/>
         <selection type="eyebrow" state_id="confused"/>
         <selection type="facedecoration" state_id="default"/>
         <selection type="faceshape" state_id="default"/>
@@ -4111,6 +4188,7 @@
     <component type="facedecoration" id="003" path="003" name="003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
+<!-- DISABLED -->
     <component type="facedecoration" id="023" path="023" name="023" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
         <state id="default" filename="default.swf"/>
     </component>
