@@ -1,4 +1,65 @@
-<html lang="en"><head><script type="text/javascript" async="" src="http://koi-3Q6B8SG59E.marketingautomation.services/client/ss.js?ver=1.1.1"></script><script async="" src="//web.archive.org/web/20170622210617/https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="http://koi-3Q6B8SG59E.marketingautomation.services/client/ss.js?ver=1.1.1"></script><script id="hs-analytics" src="//web.archive.org/web/20170622210617/https://js.hs-analytics.net/analytics/1589304900000/491659.js"></script><script async="" src="//web.archive.org/web/20170622210617/https://www.google-analytics.com/analytics.js"></script><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
+<html lang="en"><script type="text/javascript" async="" src="https://koi-3Q6B8SG59E.marketingautomation.services/client/ss.js?ver=1.1.1"></script><script async="" src="//web.archive.org/web/20170622210617/https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" class="__REQUESTLY__SCRIPT">(function(namespace) {
+  window[namespace] = window[namespace] || {};
+  window[namespace].responseRules = {};
+
+  let open = XMLHttpRequest.prototype.open;
+  XMLHttpRequest.prototype.open = function(method) {
+    this.addEventListener('readystatechange', function() {
+      if (this.readyState === 4 && window[namespace].responseRules.hasOwnProperty(this.responseURL)) {
+        const responseRule = window[namespace].responseRules[this.responseURL];
+        const {response, id} = responseRule;
+        const responseType = this.responseType;
+        let customResponse;
+
+        customResponse = response.type === 'code' ? responseRule.evaluator({
+            method,
+            url: this.responseURL,
+            requestHeaders: this.requestHeaders,
+            requestData: this.requestData,
+            responseType: this.responseType,
+            response: this.response
+          }) : response.value;
+
+        Object.defineProperty(this, 'response', {
+          get: function () {
+            if (response.type === 'static' && responseType === 'json') {
+              return JSON.parse(customResponse);
+            }
+            return customResponse;
+          }
+        });
+
+        if (responseType === '' || responseType === 'text') {
+          Object.defineProperty(this, 'responseText', {
+            get: function () {
+              return customResponse;
+            }
+          });
+        }
+
+        window.postMessage({
+          from: 'requestly',
+          type: 'response_rule_applied',
+          id
+        }, window.location.href);
+      }
+    }, false);
+    open.apply(this, arguments);
+  };
+
+  let send = XMLHttpRequest.prototype.send;
+  XMLHttpRequest.prototype.send = function(data) {
+    this.requestData = data;
+    send.apply(this, arguments);
+  };
+
+  let setRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
+  XMLHttpRequest.prototype.setRequestHeader = function(header, value) {
+    this.requestHeaders = this.requestHeaders || {};
+    this.requestHeaders[header] = value;
+    setRequestHeader.apply(this, arguments);
+  }
+})('__REQUESTLY__')</script><head><script type="text/javascript" async="" src="http://koi-3Q6B8SG59E.marketingautomation.services/client/ss.js?ver=1.1.1"></script><script async="" src="//web.archive.org/web/20170622210617/https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="http://koi-3Q6B8SG59E.marketingautomation.services/client/ss.js?ver=1.1.1"></script><script id="hs-analytics" src="//web.archive.org/web/20170622210617/https://js.hs-analytics.net/analytics/1589304900000/491659.js"></script><script async="" src="//web.archive.org/web/20170622210617/https://www.google-analytics.com/analytics.js"></script><script src="//archive.org/includes/analytics.js?v=cf34f82" type="text/javascript"></script>
 <script type="text/javascript">window.addEventListener('DOMContentLoaded',function(){var v=archive_analytics.values;v.service='wb';v.server_name='wwwb-app100.us.archive.org';v.server_ms=1858;archive_analytics.send_pageview({});});</script><script type="text/javascript" src="/_static/js/ait-client-rewrite.js?v=R-6NEOHA" charset="utf-8"></script>
 <script type="text/javascript">
 WB_wombat_Init("http://web.archive.org/web/", "20170622210617", "goanimate4schools.com");
@@ -221,11 +282,7 @@ if (self !== top) {
                 <h4>BluePeacocks (AKA Me)</h4>
                 
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 usage-wrapper">
-                <img class="img-responsive center-block" src="https://bluepeacocks.github.io/img/devspfs/2006fcef9c0e812dfd0d9cfbfe0a3200.png" alt="">
-                <h4>CherryBlossomAnimate</h4>
-                
-            </div>
+            
             <div class="col-sm-6 col-md-6 col-lg-4 usage-wrapper">
                 <img class="img-responsive center-block" src="https://bluepeacocks.github.io/img/devspfs/27ba53e3a6a4a92035b6a9635ce484b0.png" alt="">
                 <h4>JoshGunner</h4>
@@ -236,11 +293,7 @@ if (self !== top) {
                 <h4>Kenny Animate</h4>
                 
             </div>
-            <div class="col-sm-6 col-md-6 col-lg-4 usage-wrapper">
-                <img class="img-responsive center-block" src="https://bluepeacocks.github.io/img/devspfs/995d1cd5824d9b808100ca5a368e830b.png" alt="">
-                <h4>Match</h4>
-                
-            </div>
+            
             <div class="col-sm-6 col-md-6 col-lg-4 usage-wrapper">
                 <img class="img-responsive center-block" src="https://bluepeacocks.github.io/img/devspfs/48d2932a8a18caf8f62a100df198bced.png" alt="">
                 <h4>MJ The Spirit</h4>
@@ -266,7 +319,7 @@ if (self !== top) {
     <div class="modal-dialog modal-lg">
         <div class="modal-content">
             <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">?</span><span class="sr-only">Close</span></button>
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">�</span><span class="sr-only">Close</span></button>
                 <h4 class="modal-title">GoAnimate for Schools</h4>
             </div>
             <div class="modal-body">
@@ -354,7 +407,7 @@ $('#demo-video').on('show.bs.modal', function(e) {
                 <div class="pull-right">
                     <img src="http://web.archive.org/web/20170622210617im_/https://d2qrjeyl4jwu9j.cloudfront.net/static/769b5ad3628a2b0e/school/img/site/logo_amazon.png" alt="AWS Partner Network">
                     &nbsp;&nbsp;&nbsp;
-                    GoAnimate ? 2020
+                    GoAnimate � 2020
                 </div>
             </div>
         </div>
@@ -405,6 +458,7 @@ _ss.push(['_trackPageView']);
      FILE ARCHIVED ON 21:06:17 Jun 22, 2017 AND RETRIEVED FROM THE
      INTERNET ARCHIVE ON 17:24:20 May 12, 2020.
      JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
      ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
      SECTION 108(a)(3)).
 -->
@@ -420,4 +474,5 @@ playback timings (ms):
   RedisCDXSource: 72.427
   PetaboxLoader3.resolve: 193.033 (2)
   load_resource: 1489.408
---></body></html>
+-->
+</body></html>
