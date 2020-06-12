@@ -41,7 +41,7 @@
 		<choice>0x669900</choice>
 		<choice>0xEA7B9D</choice>
 	</color>
-	<color r="ccGlassesFrame" component_type="glasses" enable="Y">
+	<color r="ccGlassesFrame" component_type="glasses" enable="N">
 		<choice>0x343434</choice>
 		<choice>0xC43232</choice>
 		<choice>0x8A684C</choice>
@@ -51,7 +51,7 @@
 		<choice>0x4A6028</choice>
 		<choice>0x000000</choice>
 	</color>
-	<color r="ccGlassesLens" component_type="glasses" enable="Y">
+	<color r="ccGlassesLens" component_type="glasses" enable="N">
 		<choice>0xF5BE6C</choice>
 		<choice>0x365D43</choice>
 		<choice>0x5A4364</choice>
@@ -61,7 +61,7 @@
 		<choice>0x640F0F</choice>
 		<choice>0x000000</choice>
 	</color>
-	<color r="ccMouthLip" component_type="mouth" enable="Y">
+	<color r="ccMouthLip" component_type="mouth" enable="N">
 		<choice>0xEABBA8</choice>
 		<choice>0xF68973</choice>
 		<choice>0xDD859D</choice>
@@ -563,12 +563,13 @@
 		<selection type="nose" state_id="side_default"/>
 		<selection type="facedecoration" state_id="side_default"/>
 	</facial>
+
 	<bodyshape id="heavy" name="Heavy" default_action="stand01" default_motion="walk" action_thumb="stand01" facial_thumb="head_neutral_front" thumb_path="thumbnail.swf" enable="Y">
 		<default_char xscale="0.7" yscale="0.7" hxscale="1.4" hyscale="1.4" headdx="0" headdy="0">
 			<tag>_sticky_filter_heavygirl</tag>
 			<color r="ccSkinColor">0xE2C294</color>
 			<color r="ccEyeLib">0xBD8764</color>
-			<color r="ccMouthLip">0xA63636</color>
+			<color r="ccMouthLip">0xB7796A</color>
 			<color r="ccBackMajor">0x996600</color>
 			<component type="bodyshape" component_id="heavy" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="freeaction" component_id="heavy" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
@@ -583,7 +584,7 @@
 			<library type="GoBehindBody" component_id="1001" theme_id="business" gobucks="0" gopoints="0"/>
 			<library type="GoUpper" component_id="3007" theme_id="business" gobucks="80" gopoints="0"/>
 			<library type="GoLower" component_id="3007" theme_id="business" gobucks="60" gopoints="0"/>
-			<library type="GoFeet" component_id="3015" theme_id="business" gobucks="10" gopoints="0"/>
+			<library type="GoFeet" component_id="1005" theme_id="business" gobucks="10" gopoints="0"/>
 		</default_char>
 		<default_char xscale="0.7" yscale="0.7" hxscale="1.4" hyscale="1.4" headdx="0" headdy="0">
 			<tag>_sticky_filter_heavyguy</tag>
@@ -632,7 +633,7 @@
 			<action id="mana_jump" name="Excited" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_happy_front"/>
 			</action>
-			<action id="get_noticed" name="Help" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
+			<action id="get_noticed" name="Get attention" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_cry_front"/>
 			</action>
 			<action id="hello" name="Greet" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -677,7 +678,7 @@
 			<action id="sit" name="Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="sit_crossarm" name="Sitting - Crossed arms" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="sit_crossarm" name="Sitting - crossed arm" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="sit_hand_front" name="Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -695,7 +696,7 @@
 			<action id="sleep" name="Sitting - Tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
-			<action id="stand01" name="Regular stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="stand01" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_front"/>
 			</action>
 			<action id="talk" name="Talk" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -860,7 +861,7 @@
 			<action id="default_threaten" name="Angry" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="default_sitidea" name="Get an idea" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="default_sitidea" name="Get an idea - sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_front"/>
 			</action>
 			<action id="default_shakehand01" name="Shake hand" loop="Y" totalframe="60" enable="N" is_motion="N" category="Daily life">
@@ -1021,7 +1022,7 @@
 			<action id="md_walk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Mobile Devices">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="md_run" name="Running - Phone call" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Mobile Devices">
+			<action id="md_run" name="Run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Mobile Devices">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="daily_cloud" name="Smartphone - Sync with cloud" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Mobile Devices">
@@ -1377,7 +1378,7 @@
 			<action id="daily_magazine01" name="Magazine" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="daily_newspaper01" name="Sitting - Newspaper" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="daily_newspaper01" name="Newspaper - Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="daily_newspaper02" name="Newspaper" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -1401,7 +1402,7 @@
 			<action id="daily_read02" name="Book - Laugh" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="daily_read03" name="Reading - Sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="daily_read03" name="Book - Sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
 			<action id="daily_read04" name="Book - Shocked" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -1425,7 +1426,7 @@
 			<action id="daily_pclaugh" name="Computer - Laugh" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="daily_pcsad" name="Working - Sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="daily_pcsad" name="Computer - Sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
 			<action id="daily_pcshock" name="Computer - Shocked" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -1458,10 +1459,10 @@
 			<action id="daily_umbrellastand02" name="Umbrella broken - stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_sad_front"/>
 			</action>
-			<action id="daily_rainrun" name="Running - In rain" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="daily_rainrun" name="No Umbrella - run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
 				<selection type="facial" facial_id="head_cry_side"/>
 			</action>
-			<action id="daily_rainstand" name="Standing - In rain" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="daily_rainstand" name="No Umbrella - stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_cry_side"/>
 			</action>
 			<action id="daily_shakehand01" name="Shake hand" loop="Y" totalframe="60" enable="N" is_motion="N" category="Daily life">
@@ -2208,7 +2209,7 @@
 			<action id="mana_slap_02" name="At desk - Pat on the back" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="mana_box_01" name="Standing with box" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
+			<action id="mana_box_01" name="Stand with box" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
 			<action id="mana_box_02" name="Walk with box" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
@@ -2304,7 +2305,7 @@
 			<action id="s30_pointwithsword02" name="Pointing with sword" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="s32_carrotchaser" name="Running - Chasing carrot" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
+			<action id="s32_carrotchaser" name="Chasing carrot" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="s32_carrotholder" name="Holding carrot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
@@ -2313,10 +2314,10 @@
 			<action id="s32_carrotholderwalk" name="Holding carrot" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s32_runchaseclub" name="Running - Chasing with club" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
+			<action id="s32_runchaseclub" name="Chasing with club" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="s32_runchasedoc" name="Running - Chasing documents" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
+			<action id="s32_runchasedoc" name="Chasing - Documents" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_talk_angry_side"/>
 			</action>
 			<action id="s32_stickerholder" name="Holding club" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
@@ -2325,7 +2326,7 @@
 			<action id="s32_stickholder" name="Holding club" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="s34_moneybagchaser" name="Running - Chasing money" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
+			<action id="s34_moneybagchaser" name="Chasing bag of money" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_scheme_side"/>
 			</action>
 			<action id="s34_moneybagholder" name="Holding bag of money" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
@@ -2334,7 +2335,7 @@
 			<action id="s34_moneybagholderwalk" name="Holding bag of money - Walking" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="s34_moneycashchaser" name="Running - Chasing cash" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
+			<action id="s34_moneycashchaser" name="Chasing cash" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_scheme_side"/>
 			</action>
 			<action id="s34_moneycashholder" name="Holding cash" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
@@ -2408,10 +2409,10 @@
 			<action id="med_d_stretcher_02" name="Stretcher - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Doctor">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="med_d_stretcher_03" name="Stretcher" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
+			<action id="med_d_stretcher_03" name="Stretcher - push" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="med_d_stretcher_04" name="Stretcher" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
+			<action id="med_d_stretcher_04" name="Stretcher - push" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="med_d_wheel_01" name="Wheelchair - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Doctor">
@@ -2420,10 +2421,10 @@
 			<action id="med_d_wheel_02" name="Wheelchair - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Doctor">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="med_d_wheel_03" name="Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
+			<action id="med_d_wheel_03" name="Wheelchair - push" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="med_d_wheel_04" name="Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
+			<action id="med_d_wheel_04" name="Wheelchair - push" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="med_d_cpr" name="CPR" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Doctor">
@@ -2554,13 +2555,13 @@
 			<action id="med_p_stretcher_01" name="Stretcher - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
-			<action id="med_p_stretcher_02" name="Stretcher" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
+			<action id="med_p_stretcher_02" name="Stretcher - pushed" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
 			<action id="med_p_wheel_01" name="Wheelchair - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="med_p_wheel_02" name="Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
+			<action id="med_p_wheel_02" name="Wheelchair - pushed" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="med_p_mri_01" name="MRI" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
@@ -2631,7 +2632,7 @@
 			<action id="occ_sawing" name="Handyman - saw" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="occ_stand_toolsbox" name="Standing - Toolbox" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
+			<action id="occ_stand_toolsbox" name="Handyman - standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="occ_walk_toolsbox" name="Handyman - walking" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Handyman">
@@ -2925,7 +2926,7 @@
 			<action id="occ_police_jotnote" name="Police - taking notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Public safety">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="occ_police_control" name="Hand signal" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Public safety">
+			<action id="occ_police_control" name="Police - control traffic" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Public safety">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="occ_police_stop" name="Police - stop" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Public safety">
@@ -2985,7 +2986,7 @@
 			<action id="occ_fireman_accident" name="Fireman - rescue - car accident" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Public safety">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="airplane_food_trolley" name="Airplane - Food trolley" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Travel">
+			<action id="airplane_food_trolley" name="Airplane - push food trolley" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Travel">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="airplane_exit_instruction" name="Airplane - exit instructions" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
@@ -3000,7 +3001,7 @@
 			<action id="airplane_impact" name="Airplane - brace for impact" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
-			<action id="airplane_luggage_trolley" name="Airplane - Luggage trolley" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Travel">
+			<action id="airplane_luggage_trolley" name="Airplane - push luggage trolley" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Travel">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="airplane_manufacture_hull" name="Airplane - hull manufacture" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
@@ -3009,7 +3010,7 @@
 			<action id="airplane_mask_instruction" name="Airplane - mask instructions" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
 				<selection type="facial" facial_id="head_talk_front"/>
 			</action>
-			<action id="airplane_runway_worker" name="Traffic controller" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
+			<action id="airplane_runway_worker" name="Airplane - runway worker" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="airplane_security01" name="Airplane - metal detector screening" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
@@ -3111,7 +3112,7 @@
 			<action id="bluecollar_fixing" name="Blue Collar Fixing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="bluecollar_fixing_top" name="Fixing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
+			<action id="bluecollar_fixing_top" name="Blue Collar Fixing Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="bluecollar_jackhammering" name="Blue Collar Jackhammer" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
@@ -3171,7 +3172,7 @@
 			<action id="teddy_throw" name="Throw stuffed bear over shoulder" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="waving" name="Hand signal" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
+			<action id="waving" name="Hand signal - this way" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="decontamination_spray" name="Spray - Decontaminate" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
@@ -3293,7 +3294,7 @@
 			<action id="sport_soccer_betackle" name="Soccer - Tackled" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_cry_side"/>
 			</action>
-			<action id="sport_soccer_cheering" name="Excited - Celebrate" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
+			<action id="sport_soccer_cheering" name="Celebrate goal" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="sport_soccer_hurt" name="Injured" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -3398,7 +3399,7 @@
 			<action id="sport_nfl_snap" name="American Football - Snap" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="sport_nfl_run" name="American Football - Loaf" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
+			<action id="sport_nfl_run" name="American Football - Run - Loaf" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="sport_nfl_throwball" name="American Football - Throw ball" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -3410,7 +3411,7 @@
 			<action id="health_running_normal" name="Running" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="health_running_hard" name="Run - Tired" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
+			<action id="health_running_hard" name="Running - tired" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
 			<action id="health_run_treadmill_hard" name="Running on treadmill - tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -3425,7 +3426,7 @@
 			<action id="health_sprint_treadmill" name="Running on treadmill - fast - sprinting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="health_sprinting" name="Run - Sprint" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
+			<action id="health_sprinting" name="Running - fast - sprinting" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="health_lift_weight_normal" name="Lifting weight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -3449,10 +3450,10 @@
 			<action id="health_jumpjacks_hard" name="Doing jumping jacks - tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_sad_front"/>
 			</action>
-			<action id="health_push_up_normal" name="Push ups - Easy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
+			<action id="health_push_up_normal" name="Doing push ups - easy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="health_push_up_hard" name="Push ups - Tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
+			<action id="health_push_up_hard" name="Doing push ups - tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
 			<action id="health_pull_up_normal" name="Doing pull-ups" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -3461,10 +3462,10 @@
 			<action id="health_pull_up_hard" name="Doing pull-ups - tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_sad_front"/>
 			</action>
-			<action id="health_sit_up_normal" name="Sit-ups" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
+			<action id="health_sit_up_normal" name="Doing sit-ups" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="health_sit_up_hard" name="Sit-ups - Tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
+			<action id="health_sit_up_hard" name="Doing sit-ups - tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
 			<action id="health_ridebike_normal" name="Cycling - exercise bike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -3581,7 +3582,7 @@
 			<action id="fit_power_walk" name="Power walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="fit_situp_01" name="Sit-ups" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
+			<action id="fit_situp_01" name="Sit ups" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="fit_step_ups" name="Step up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -3668,7 +3669,7 @@
 			<action id="s45_catcher_crouching" name="Playing baseball - Catcher" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s45_horseriding_run" name="Horse riding - Galloping" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
+			<action id="s45_horseriding_run" name="Horse riding - Running" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="s45_horseriding_walk" name="Horse riding - Walking" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
@@ -3813,7 +3814,7 @@
 			<action id="default_threaten_animated" name="Angry - animated" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="depressed_sit" name="Sitting - Depressed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
+			<action id="depressed_sit" name="Sit - Depressed " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_cry02_side"/>
 			</action>
 			<action id="excited_animated" name="Excited - animated" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
@@ -3969,48 +3970,6 @@
 			<action id="s37_doublehighfivelower" name="High five" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="s66_amputees_angry" name="Angry - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_angry_side"/>
-			</action>
-			<action id="s66_amputees_confused" name="Confused - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_confused_side"/>
-			</action>
-			<action id="s66_amputees_laugh" name="Laughing - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_blind_angry" name="Angry - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_angry_side"/>
-			</action>
-			<action id="s66_blind_confused" name="Confused - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_confused_side"/>
-			</action>
-			<action id="s66_blind_laugh" name="Laughing - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_cane_angry" name="Angry - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_angry_side"/>
-			</action>
-			<action id="s66_cane_confused" name="Confused - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_confused_side"/>
-			</action>
-			<action id="s66_cane_laugh" name="Laughing - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_wheelchair_angry" name="Angry - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_angry_side"/>
-			</action>
-			<action id="s66_wheelchair_confused" name="Confused - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_confused_side"/>
-			</action>
-			<action id="s66_wheelchair_laugh" name="Laughing - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s68_depressed" name="Depressed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_sad_side"/>
-			</action>
-			<action id="s68_sigh_sit" name="Depressed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_sad_side"/>
-			</action>
 		</actionpack>
 		<actionpack id="public_safety" name="Public safety" money="0" sharing="0" enable="Y">
 			<action id="occ_thief_holdmoney_euro" name="Thief - holding money bags" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Public safety">
@@ -4153,7 +4112,7 @@
 			<action id="insu_injuries_leg" name="Leg injury" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
-			<action id="insu_on_wheel" name="Sitting - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="insu_on_wheel" name="Wheel chair - sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="insu_physical_therapy" name="Physical therapy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
@@ -4168,16 +4127,16 @@
 			<action id="insu_surgery_success" name="Surgery - successful" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
-			<action id="insu_wheelchair_cheering" name="Happy - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
+			<action id="insu_wheelchair_cheering" name="Wheel chair - happy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_happy_front"/>
 			</action>
 			<action id="insu_wheelchair_move" name="Wheel chair - move" loop="Y" totalframe="60" enable="N" is_motion="Y" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="insu_wheelchair_sad" name="Sad - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
+			<action id="insu_wheelchair_sad" name="Wheel chair - sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
-			<action id="insu_wheelchair_talk" name="Talking - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="insu_wheelchair_talk" name="Wheel chair - talk" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_talk_side"/>
 			</action>
 			<action id="dental_painful_tooth" name="Toothache" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
@@ -4216,37 +4175,34 @@
 			<action id="s42_legplasticwalk" name="Walking with plaster cast leg" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s42_powerwheelchair_eat" name="Eating - Power wheelchair " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s42_powerwheelchair_eat" name="Power wheelchair - Eating " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="s42_powerwheelchair_eattalking" name="Eating and talking - Power wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s42_powerwheelchair_eattalking" name="Power wheelchair - Eating and talking" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_talk_side"/>
 			</action>
-			<action id="s42_powerwheelchair_moving" name="Moving - Power wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="s42_powerwheelchair_moving" name="Power wheelchair - Moving" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s42_powerwheelchair_sit" name="Sitting - Power wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s42_powerwheelchair_sit" name="Power wheelchair - Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s42_powerwheelchair_talking" name="Talking - Power wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s42_powerwheelchair_talking" name="Power wheelchair - Talking" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_talk_side"/>
 			</action>
-			<action id="s42_powerwheelchair_type" name="Typing - Power wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Working">
+			<action id="s42_powerwheelchair_type" name="Power wheelchair - Typing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s42_wheelchair_eat" name="Eating - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s42_wheelchair_eat" name="Wheelchair - Eating" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="s42_wheelchair_eattalking" name="Eating and talking - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s42_wheelchair_eattalking" name="Wheelchair - Eating and talking" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_talk_side"/>
 			</action>
-			<action id="s42_wheelchair_move" name="Moving - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="s42_wheelchair_move" name="Wheelchair - Moving" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s42_wheelchair_type" name="Typing - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Working">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s71_legplastersit" name="Sitting with plaster cast leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
+			<action id="s42_wheelchair_type" name="Wheelchair - Typing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 		</actionpack>
@@ -4317,7 +4273,7 @@
 			<action id="laydown_reading" name="Reading" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="n_cam_sit_01" name="Sitting - Recording" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_cam_sit_01" name="Sit - Recording " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="n_dart_01" name="Playing Dart" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -4326,7 +4282,7 @@
 			<action id="n_drunk_sit_01" name="Drunk " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
-			<action id="n_drunk_stand_01" name="Waving drunk" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_drunk_stand_01" name="Drunk " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
 			<action id="n_holding_flashlight" name="Hold Flashlight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -4350,13 +4306,13 @@
 			<action id="n_med_p_lie_02" name="lie down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="n_music_sit_01" name="Sitting - Listen to music" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_music_sit_01" name="Sit - Listen to Music " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="n_playing_violin" name="Playing Violin " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="n_standup" name="Getting up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_standup" name="Stand up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="n_stick_shot_01" name="Playing Billard " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -4368,7 +4324,7 @@
 			<action id="n_think_sit_01" name="Thinking " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="n_wearing_headphone_typing" name="Sitting - Typing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_wearing_headphone_typing" name="Sit - Typing " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="sit_reading" name="Reading" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -4464,7 +4420,7 @@
 			<action id="fireworks_squat" name="Playing fireworks - Knee down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="fireworks_stand" name="Standing - Playing with fireworks" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="fireworks_stand" name="Playing fireworks - Standing " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="hold_candle" name="Holding oil lamp" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -4479,7 +4435,7 @@
 			<action id="nonpro_hold_box" name="Carry donation box" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="nonpro_waving_hands" name="Greet" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="nonpro_waving_hands" name="Wave hand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="xmas_carol" name="Singing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -4536,10 +4492,10 @@
 			<action id="ot_punch_01" name="Throw" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="ot_run_02" name="Running - Excited" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="ot_run_02" name="Run - excited" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="ot_run_cry" name="Running - Sad" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="ot_run_cry" name="Run - sad" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
 				<selection type="facial" facial_id="head_cry_side"/>
 			</action>
 			<action id="ot_sing_01" name="Sing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -4668,7 +4624,7 @@
 			<action id="s32_givehand" name="Offer a hand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s32_runchase" name="Running - Chasing" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="s32_runchase" name="Run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="s32_jumpget" name="Jump - Reaching up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -4692,16 +4648,16 @@
 			<action id="s37_daily_sitholdbaby" name="Baby - Hold" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s37_pushbaby" name="Baby - Pram" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="s37_pushbaby" name="Baby - Pushing cart" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s37_rolling_chair" name="Sitting - Rocking chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s37_rolling_chair" name="Armchair - Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s37_rolling_chair_baby" name="Sitting - Holding baby" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s37_rolling_chair_baby" name="Baby - Armchair - Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s37_sit_feedbaby" name="Sitting - Feed baby" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s37_sit_feedbaby" name="Baby - Feed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="s42_givehand" name="Kneeling - Grab" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -4809,81 +4765,6 @@
 			<action id="s57_holdvr_front" name="Virtual Reality - Holding headset" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_front"/>
 			</action>
-			<action id="s66_amputees_hello" name="Greeting - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_amputees_hifive" name="Hi five - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_amputees_run" name="Running - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_amputees_shakehand1" name="Shaking Hand - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_amputees_shakehand2" name="Shaking Hand - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_amputees_talk" name="Talking - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_talk_side"/>
-			</action>
-			<action id="s66_blind_hello" name="Greeting - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_blind_shakehand1" name="Shaking hand - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_shakehand2" name="Shaking hand - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_standtouch" name="Hand touching - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_talk" name="Talking - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_talk_side"/>
-			</action>
-			<action id="s66_blind_walk" name="Walking - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_walkdog" name="Walking - Guide dog" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_cane_hello" name="Greeting - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_cane_hifive" name="Hi five - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_cane_shakehand1" name="Shaking hand - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_cane_shakehand2" name="Shaking hand - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_cane_talk" name="Talking - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_talk_side"/>
-			</action>
-			<action id="s66_wheelchair_hello" name="Greeting - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_wheelchair_shakehand1" name="Shaking hand - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_wheelchair_shakehand2" name="Shaking hand - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_wheelchair_thumbup" name="Thumb Up - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s68_get_shoved" name="Shoved" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_cry_side"/>
-			</action>
-			<action id="s68_push_move" name="Push" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s68_shove" name="Shove" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_angry_side"/>
-			</action>
 		</actionpack>
 		<actionpack id="travel" name="Travel" money="0" sharing="0" enable="Y">
 			<action id="insu_delay" name="Delayed flight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
@@ -4960,10 +4841,10 @@
 			<action id="n_grocery_basket_walk" name="Shopping basket - Empty - Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Shopping">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="n_shopping_bagging_bad" name="Grocery - Sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Shopping">
+			<action id="n_shopping_bagging_bad" name="Bagging groceries - Sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Shopping">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
-			<action id="n_shopping_bagging_good" name="Grocery - Happy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Shopping">
+			<action id="n_shopping_bagging_good" name="Bagging groceries - Happy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Shopping">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="n_styd_cart_stand01" name="Pushing cart stack - Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Shopping">
@@ -5092,10 +4973,10 @@
 			<action id="dental_onchair_relax" name="Sitting - longchair - relaxed " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="bluecollar_man_stand" name="Wide stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="bluecollar_man_stand" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_front"/>
 			</action>
-			<action id="n_stand_side" name="Regular stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="n_stand_side" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="n_home_stretch" name="Stretch" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -5125,7 +5006,7 @@
 			<action id="sit_bench" name="Sitting - relaxed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="sit_bench_02" name="sitting - Cross legs" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="sit_bench_02" name="Sitting - relaxed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="sit_wait" name="Sitting - in distress" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -5164,7 +5045,7 @@
 			<action id="n_justices_nailbiting" name="Justices - nail biting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_front"/>
 			</action>
-			<action id="n_justices_sit" name="Sitting - Face forward" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="n_justices_sit" name="Justices - sit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_front"/>
 			</action>
 			<action id="n_justices_talkangry" name="Justices - talk angry" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -5185,7 +5066,7 @@
 			<action id="both_hand_up_front" name="Crossing arms" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_front"/>
 			</action>
-			<action id="hand_behind_back" name="Sitting - Easy life" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="hand_behind_back" name="Sitting - relaxed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_happy_front"/>
 			</action>
 			<action id="hand_in_pocket" name="Put hands in pockets" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -5263,7 +5144,7 @@
 			<action id="ot_thumb_down" name="Thumb down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="sit_stand" name="Getting up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="sit_stand" name="Stand up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="stand_sit" name="Sit down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -5284,7 +5165,7 @@
 			<action id="s34_look" name="Look" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_surprised_side"/>
 			</action>
-			<action id="hero_holdcar" name="Push" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="hero_holdcar" name="Lifting weight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="hero_holdcar_hover_01" name="Lifting weight - Hovering " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -5311,10 +5192,10 @@
 			<action id="hero_laser_off" name="Stand - Ready to fight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="hero_protection" name="Push" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="hero_protection" name="Block" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="hero_speed_run" name="Running - High speed" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Poses">
+			<action id="hero_speed_run" name="Run - High speed" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="hero_stand_cape" name="Hero pose - With cape" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -5326,16 +5207,16 @@
 			<action id="hero_upside_down" name="Hanging upside down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_front"/>
 			</action>
-			<action id="s36_liftweighthardfront" name="Push" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="s36_liftweighthardfront" name="Lifting weight - Hard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_front"/>
 			</action>
-			<action id="s36_liftweighthardside" name="Push" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="s36_liftweighthardside" name="Lifting weight - Hard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="s36_lookaround" name="Look around" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s36_pushweighthardside" name="Push" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="s36_pushweighthardside" name="Lifting weight - Hard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="s36_sitonfloorfront" name="Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -5364,39 +5245,6 @@
 			</action>
 			<action id="s53_bending2" name="Bow" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_lookdown_side"/>
-			</action>
-			<action id="s66_amputees_hold" name="Holding - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_amputees_stand" name="Standing - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_amputees_thumbup" name="Thumb Up - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_hold" name="Holding - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_stand" name="Standing - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_standdog" name="Standing - Guide dog" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_thumbup" name="Thumb up - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_cane_hold" name="Holding - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_cane_stand" name="Standing - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_cane_thumbup" name="Thumb Up - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_wheelchair_hold" name="Holding - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 		</actionpack>
 		<actionpack id="working" name="Working" money="0" sharing="0" enable="Y">
@@ -5439,10 +5287,10 @@
 			<action id="n_ob_daydream_02" name="Sitting - day dreaming" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="n_ob_drink_coffee_01" name="Sitting - Having coffee" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_ob_drink_coffee_01" name="Sitting - drink coffee" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="n_ob_drink_coffee_02" name="Sitting - Having coffee" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_ob_drink_coffee_02" name="Sitting - drink coffee" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="n_ob_drink_coffee_03" name="Sitting - drink coffee from carafe" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -5712,7 +5560,7 @@
 			<action id="n_shopping_check_bill" name="Checking for fake bill" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Cashier">
 				<selection type="facial" facial_id="head_confused_side"/>
 			</action>
-			<action id="bank_countmoney_sit" name="Sitting - Money" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Cashier">
+			<action id="bank_countmoney_sit" name="Counting money - Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Cashier">
 				<selection type="facial" facial_id="head_lookdown_side"/>
 			</action>
 			<action id="bank_countmoney_stand" name="Counting money" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Cashier">
@@ -6595,12 +6443,6 @@
 			<tag>_sticky_filter_heavyguy</tag>
 			<tag>_sticky_filter_heavygirl</tag>
 		</library>
-		<library type="GoUpper" id="3265" path="3265" name="3265" thumb="3265_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoUpper" id="3266" path="3266" name="3266" thumb="3266_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-		</library>
 		<library type="GoLower" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
 		<library type="GoLower" id="025" path="025" name="025" thumb="025_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
 		<library type="GoLower" id="011" path="011" name="011" thumb="011_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
@@ -7035,23 +6877,10 @@
 			<tag>_sticky_filter_heavygirl</tag>
 			<tag>_sticky_filter_heavyguy</tag>
 		</library>
-		<library type="GoHands" id="3008" path="3008" name="3008" thumb="3008_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
+		<library type="GoHands" id="3008" path="3008" name="3008" thumb="3008_thumbnail.swf" enable="Y" sharing="0" money="0">
 			<tag>_sticky_filter_heavygirl</tag>
 			<tag>_sticky_filter_heavyguy</tag>
 		</library>
-		<library type="GoHands" id="3009" path="3009" name="3009" thumb="3009_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoHands" id="3010" path="3010" name="3010" thumb="3010_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoHands" id="3011" path="3011" name="3011" thumb="3011_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-
 		<library type="GoFeet" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
 		<library type="GoFeet" id="002" path="002" name="002" thumb="002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
 		<library type="GoFeet" id="003" path="003" name="003" thumb="003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
@@ -7060,25 +6889,24 @@
 			<tag>_sticky_filter_heavyguy</tag>
 			<tag>_userrole_admin</tag>
 		</library>
-		<library type="GoFeet" id="1003" path="1003" name="1003" thumb="1003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N">
+		<library type="GoFeet" id="1003" path="1003" name="1003" thumb="1003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_guy</tag>
 			<tag>_sticky_filter_girl</tag>
 			<tag>_sticky_filter_heavyguy</tag>
 			<tag>_sticky_filter_heavygirl</tag>
 		</library>
-		<library type="GoFeet" id="1005" path="1005" name="1005" thumb="1005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N">
+		<library type="GoFeet" id="1005" path="1005" name="1005" thumb="1005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_guy</tag>
 			<tag>_sticky_filter_girl</tag>
 			<tag>_sticky_filter_heavyguy</tag>
 			<tag>_sticky_filter_heavygirl</tag>
 		</library>
-		<library type="GoFeet" id="1006" path="1006" name="1006" thumb="1006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N">
+		<library type="GoFeet" id="1006" path="1006" name="1006" thumb="1006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_guy</tag>
 			<tag>_sticky_filter_girl</tag>
 			<tag>_sticky_filter_heavyguy</tag>
 			<tag>_sticky_filter_heavygirl</tag>
 		</library>
-
 		<library type="GoFeet" id="3001" path="3001" name="3001" thumb="3001_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
 			<tag>_sticky_filter_heavyguy</tag>
 			<tag>_sticky_filter_heavygirl</tag>
@@ -7107,11 +6935,11 @@
 			<tag>_sticky_filter_heavyguy</tag>
 			<tag>_sticky_filter_heavygirl</tag>
 		</library>
-		<library type="GoFeet" id="1015" path="1015" name="1015" thumb="1015_thumbnail.swf" display_order="10" enable="N" sharing="0" money="0">
+		<library type="GoFeet" id="1015" path="1015" name="1015" thumb="1015_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
 			<tag>_sticky_filter_heavyguy</tag>
 			<tag>_sticky_filter_heavygirl</tag>
 		</library>
-		<library type="GoFeet" id="1018" path="1018" name="1018" thumb="1018_thumbnail.swf" display_order="10" enable="N" sharing="0" money="0">
+		<library type="GoFeet" id="1018" path="1018" name="1018" thumb="1018_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
 			<tag>_sticky_filter_heavyguy</tag>
 			<tag>_sticky_filter_heavygirl</tag>
 		</library>
@@ -7120,7 +6948,7 @@
 			<tag>_sticky_filter_heavyguy</tag>
 			<tag>_sticky_filter_heavygirl</tag>
 		</library>
-		<library type="GoFeet" id="1022" path="1022" name="1022" thumb="1022_thumbnail.swf" display_order="10" enable="N" sharing="0" money="0">
+		<library type="GoFeet" id="1022" path="1022" name="1022" thumb="1022_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
 			<tag>_sticky_filter_heavygirl</tag>
 		</library>
 		<library type="GoFeet" id="1026" path="1026" name="1026" thumb="1026_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
@@ -7132,85 +6960,17 @@
 			<tag>_sticky_filter_heavyguy</tag>
 			<tag>_sticky_filter_heavygirl</tag>
 		</library>
-		<library type="GoFeet" id="1028" path="1028" name="1028" thumb="1028_thumbnail.swf" display_order="10" enable="N" sharing="0" money="0">
+		<library type="GoFeet" id="1028" path="1028" name="1028" thumb="1028_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
 			<tag>_sticky_filter_heavyguy</tag>
 			<tag>_sticky_filter_heavygirl</tag>
 		</library>
-		<library type="GoFeet" id="1029" path="1029" name="1029" thumb="1029_thumbnail.swf" display_order="10" enable="N" sharing="0" money="0">
+		<library type="GoFeet" id="1029" path="1029" name="1029" thumb="1029_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
 			<tag>_sticky_filter_heavygirl</tag>
 			<tag>_sticky_filter_heavyguy</tag>
 		</library>
-		<library type="GoFeet" id="1030" path="1030" name="1030" thumb="1030_thumbnail.swf" display_order="10" enable="N" sharing="0" money="0">
+		<library type="GoFeet" id="1030" path="1030" name="1030" thumb="1030_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
 			<tag>_sticky_filter_heavygirl</tag>
 			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3014" path="3014" name="3014" thumb="3014_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3015" path="3015" name="3015" thumb="3015_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3016" path="3016" name="3016" thumb="3016_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3017" path="3017" name="3017" thumb="3017_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3018" path="3018" name="3018" thumb="3018_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3019" path="3019" name="3019" thumb="3019_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3020" path="3020" name="3020" thumb="3020_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3021" path="3021" name="3021" thumb="3021_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3022" path="3022" name="3022" thumb="3022_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3023" path="3023" name="3023" thumb="3023_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3024" path="3024" name="3024" thumb="3024_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3025" path="3025" name="3025" thumb="3025_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3026" path="3026" name="3026" thumb="3026_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3027" path="3027" name="3027" thumb="3027_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3028" path="3028" name="3028" thumb="3028_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-			<tag>_sticky_filter_heavyguy</tag>
-		</library>
-		<library type="GoFeet" id="3029" path="3029" name="3029" thumb="3029_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-		</library>
-		<library type="GoFeet" id="3030" path="3030" name="3030" thumb="3030_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
-		</library>
-		<library type="GoFeet" id="3031" path="3031" name="3031" thumb="3031_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_heavygirl</tag>
 		</library>
 		<library type="GoBehindBody" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
 		<library type="GoBehindBody" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -7222,7 +6982,7 @@
 			<tag>_sticky_filter_girl</tag>
 			<color r="ccSkinColor">0xE2C294</color>
 			<color r="ccEyeLib">0xBD8764</color>
-			<color r="ccMouthLip">0xA63636</color>
+			<color r="ccMouthLip">0xB7796A</color>
 			<color r="ccBackMajor">0x996600</color>
 			<component type="bodyshape" component_id="default" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="freeaction" component_id="default" theme_id="business" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
@@ -7287,7 +7047,7 @@
 			<action id="mana_jump" name="Excited" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_happy_front"/>
 			</action>
-			<action id="get_noticed" name="Help" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
+			<action id="get_noticed" name="Get attention" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_cry_front"/>
 			</action>
 			<action id="hello" name="Greet" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -7332,7 +7092,7 @@
 			<action id="sit" name="Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="sit_crossarm" name="Sitting - Crossed arms" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="sit_crossarm" name="Sitting - crossed arm" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="sit_hand_front" name="Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -7350,7 +7110,7 @@
 			<action id="sleep" name="Sitting - Tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
-			<action id="stand01" name="Regular stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="stand01" name="Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_front"/>
 			</action>
 			<action id="talk" name="Talk" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -7521,7 +7281,7 @@
 			<action id="default_threaten" name="Angry" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="default_sitidea" name="Get an idea" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="default_sitidea" name="Get an idea - sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_front"/>
 			</action>
 			<action id="default_shakehand01" name="Shake hand" loop="Y" totalframe="60" enable="N" is_motion="N" category="Daily life">
@@ -7686,7 +7446,7 @@
 			<action id="md_walk" name="Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Mobile Devices">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="md_run" name="Running - Phone call" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Mobile Devices">
+			<action id="md_run" name="Run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Mobile Devices">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="daily_cloud" name="Smartphone - Sync with cloud" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Mobile Devices">
@@ -8047,7 +7807,7 @@
 			<action id="daily_magazine01" name="Magazine" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="daily_newspaper01" name="Sitting - Newspaper" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="daily_newspaper01" name="Newspaper - Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="daily_newspaper02" name="Newspaper" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -8071,7 +7831,7 @@
 			<action id="daily_read02" name="Book - Laugh" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="daily_read03" name="Reading - Sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="daily_read03" name="Book - Sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
 			<action id="daily_read04" name="Book - Shocked" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -8095,7 +7855,7 @@
 			<action id="daily_pclaugh" name="Computer - Laugh" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="daily_pcsad" name="Working - Sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="daily_pcsad" name="Computer - Sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
 			<action id="daily_pcshock" name="Computer - Shocked" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -8128,10 +7888,10 @@
 			<action id="daily_umbrellastand02" name="Umbrella broken - stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_sad_front"/>
 			</action>
-			<action id="daily_rainrun" name="Running - In rain" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="daily_rainrun" name="No Umbrella - run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
 				<selection type="facial" facial_id="head_cry_side"/>
 			</action>
-			<action id="daily_rainstand" name="Standing - In rain" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="daily_rainstand" name="No Umbrella - stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_cry_side"/>
 			</action>
 			<action id="daily_shakehand01" name="Shake hand" loop="Y" totalframe="60" enable="N" is_motion="N" category="Daily life">
@@ -8885,7 +8645,7 @@
 			<action id="mana_slap_02" name="At desk - Pat on the back" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="mana_box_01" name="Standing with box" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
+			<action id="mana_box_01" name="Stand with box" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
 			<action id="mana_box_02" name="Walk with box" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
@@ -8983,7 +8743,7 @@
 			<action id="s30_pointwithsword02" name="Pointing with sword" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="s32_carrotchaser" name="Running - Chasing carrot" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
+			<action id="s32_carrotchaser" name="Chasing carrot" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="s32_carrotholder" name="Holding carrot" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
@@ -8992,10 +8752,10 @@
 			<action id="s32_carrotholderwalk" name="Holding carrot" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s32_runchaseclub" name="Running - Chasing with club" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
+			<action id="s32_runchaseclub" name="Chasing with club" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="s32_runchasedoc" name="Running - Chasing documents" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
+			<action id="s32_runchasedoc" name="Chasing - Documents" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_talk_angry_side"/>
 			</action>
 			<action id="s32_stickholder" name="Holding club" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
@@ -9004,7 +8764,7 @@
 			<action id="s32_stickerholder" name="Holding club" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="s34_moneybagchaser" name="Running - Chasing money" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
+			<action id="s34_moneybagchaser" name="Chasing bag of money" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_scheme_side"/>
 			</action>
 			<action id="s34_moneybagholder" name="Holding bag of money" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Management">
@@ -9013,7 +8773,7 @@
 			<action id="s34_moneybagholderwalk" name="Holding bag of money - Walking" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="s34_moneycashchaser" name="Running - Chasing cash" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
+			<action id="s34_moneycashchaser" name="Chasing cash" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
 				<selection type="facial" facial_id="head_scheme_side"/>
 			</action>
 			<action id="s34_moneycashholder" name="Holding cash" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Management">
@@ -9088,10 +8848,10 @@
 			<action id="med_d_stretcher_02" name="Stretcher - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Doctor">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="med_d_stretcher_03" name="Stretcher" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
+			<action id="med_d_stretcher_03" name="Stretcher - push" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="med_d_stretcher_04" name="Stretcher" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
+			<action id="med_d_stretcher_04" name="Stretcher - push" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="med_d_wheel_01" name="Wheelchair - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Doctor">
@@ -9100,10 +8860,10 @@
 			<action id="med_d_wheel_02" name="Wheelchair - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Doctor">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="med_d_wheel_03" name="Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
+			<action id="med_d_wheel_03" name="Wheelchair - push" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="med_d_wheel_04" name="Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
+			<action id="med_d_wheel_04" name="Wheelchair - push" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Doctor">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="med_d_cpr" name="CPR" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Doctor">
@@ -9235,13 +8995,13 @@
 			<action id="med_p_stretcher_01" name="Stretcher - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
-			<action id="med_p_stretcher_02" name="Stretcher" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
+			<action id="med_p_stretcher_02" name="Stretcher - pushed" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
 			<action id="med_p_wheel_01" name="Wheelchair - still" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="med_p_wheel_02" name="Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
+			<action id="med_p_wheel_02" name="Wheelchair - pushed" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="med_p_mri_01" name="MRI" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
@@ -9313,7 +9073,7 @@
 			<action id="occ_sawing" name="Handyman - saw" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="occ_stand_toolsbox" name="Standing - Toolbox" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
+			<action id="occ_stand_toolsbox" name="Handyman - standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="occ_walk_toolsbox" name="Handyman - walking" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Handyman">
@@ -9609,7 +9369,7 @@
 			<action id="occ_police_jotnote" name="Police - taking notes" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Public safety">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="occ_police_control" name="Hand signal" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Public safety">
+			<action id="occ_police_control" name="Police - control traffic" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Public safety">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="occ_police_stop" name="Police - stop" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Public safety">
@@ -9669,7 +9429,8 @@
 			<action id="occ_fireman_accident" name="Fireman - rescue - car accident" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Public safety">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="airplane_food_trolley" name="Airplane - Food trolley" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Travel">
+
+			<action id="airplane_food_trolley" name="Airplane - push food trolley" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Travel">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="airplane_exit_instruction" name="Airplane - exit instructions" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
@@ -9684,7 +9445,7 @@
 			<action id="airplane_impact" name="Airplane - brace for impact" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
-			<action id="airplane_luggage_trolley" name="Airplane - Luggage trolley" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Travel">
+			<action id="airplane_luggage_trolley" name="Airplane - push luggage trolley" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Travel">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="airplane_manufacture_hull" name="Airplane - hull manufacture" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
@@ -9693,7 +9454,7 @@
 			<action id="airplane_mask_instruction" name="Airplane - mask instructions" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
 				<selection type="facial" facial_id="head_talk_front"/>
 			</action>
-			<action id="airplane_runway_worker" name="Traffic controller" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
+			<action id="airplane_runway_worker" name="Airplane - runway worker" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="airplane_security01" name="Airplane - metal detector screening" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
@@ -9795,7 +9556,7 @@
 			<action id="bluecollar_fixing" name="Blue Collar Fixing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="bluecollar_fixing_top" name="Fixing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
+			<action id="bluecollar_fixing_top" name="Blue Collar Fixing Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="bluecollar_jackhammering" name="Blue Collar Jackhammer" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
@@ -9855,7 +9616,7 @@
 			<action id="teddy_throw" name="Throw stuffed bear over shoulder" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="waving" name="Hand signal" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
+			<action id="waving" name="Hand signal - this way" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="decontamination_spray" name="Spray - Decontaminate" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Handyman">
@@ -9977,7 +9738,7 @@
 			<action id="sport_soccer_betackle" name="Soccer - Tackled" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_cry_side"/>
 			</action>
-			<action id="sport_soccer_cheering" name="Excited - Celebrate" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
+			<action id="sport_soccer_cheering" name="Celebrate goal" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="sport_soccer_hurt" name="Injured" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -10084,7 +9845,7 @@
 			<action id="sport_nfl_snap" name="American Football - Snap" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="sport_nfl_run" name="American Football - Loaf" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
+			<action id="sport_nfl_run" name="American Football - Run - Loaf" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="sport_nfl_throwball" name="American Football - Throw ball" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -10097,7 +9858,7 @@
 			<action id="health_running_normal" name="Running" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="health_running_hard" name="Run - Tired" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
+			<action id="health_running_hard" name="Running - tired" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
 			<action id="health_run_treadmill_hard" name="Running on treadmill - tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -10112,7 +9873,7 @@
 			<action id="health_sprint_treadmill" name="Running on treadmill - fast - sprinting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="health_sprinting" name="Run - Sprint" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
+			<action id="health_sprinting" name="Running - fast - sprinting" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="health_lift_weight_normal" name="Lifting weight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -10136,10 +9897,10 @@
 			<action id="health_jumpjacks_hard" name="Doing jumping jacks - tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_sad_front"/>
 			</action>
-			<action id="health_push_up_normal" name="Push ups - Easy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
+			<action id="health_push_up_normal" name="Doing push ups - easy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="health_push_up_hard" name="Push ups - Tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
+			<action id="health_push_up_hard" name="Doing push ups - tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
 			<action id="health_pull_up_normal" name="Doing pull-ups" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -10148,10 +9909,10 @@
 			<action id="health_pull_up_hard" name="Doing pull-ups - tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_sad_front"/>
 			</action>
-			<action id="health_sit_up_normal" name="Sit-ups" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
+			<action id="health_sit_up_normal" name="Doing sit-ups" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="health_sit_up_hard" name="Sit-ups - Tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
+			<action id="health_sit_up_hard" name="Doing sit-ups - tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
 			<action id="health_ridebike_normal" name="Cycling - exercise bike" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -10268,7 +10029,7 @@
 			<action id="fit_power_walk" name="Power walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="fit_situp_01" name="Sit-ups" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
+			<action id="fit_situp_01" name="Sit ups" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="fit_step_ups" name="Step up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
@@ -10355,7 +10116,7 @@
 			<action id="s45_catcher_crouching" name="Playing baseball - Catcher" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s45_horseriding_run" name="Horse riding - Galloping" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
+			<action id="s45_horseriding_run" name="Horse riding - Running" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="s45_horseriding_walk" name="Horse riding - Walking" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
@@ -10500,7 +10261,7 @@
 			<action id="default_threaten_animated" name="Angry - animated" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="depressed_sit" name="Sitting - Depressed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
+			<action id="depressed_sit" name="Sit - Depressed " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_cry02_side"/>
 			</action>
 			<action id="excited_animated" name="Excited - animated" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
@@ -10653,48 +10414,6 @@
 			<action id="s37_doublehighfivelower" name="High five" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s66_amputees_angry" name="Angry - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_angry_side"/>
-			</action>
-			<action id="s66_amputees_confused" name="Confused - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_confused_side"/>
-			</action>
-			<action id="s66_amputees_laugh" name="Laughing - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_blind_angry" name="Angry - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_angry_side"/>
-			</action>
-			<action id="s66_blind_confused" name="Confused - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_confused_side"/>
-			</action>
-			<action id="s66_blind_laugh" name="Laughing - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_cane_angry" name="Angry - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_angry_side"/>
-			</action>
-			<action id="s66_cane_confused" name="Confused - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_confused_side"/>
-			</action>
-			<action id="s66_cane_laugh" name="Laughing - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_wheelchair_angry" name="Angry - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_angry_side"/>
-			</action>
-			<action id="s66_wheelchair_confused" name="Confused - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_confused_side"/>
-			</action>
-			<action id="s66_wheelchair_laugh" name="Laughing - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s68_depressed" name="Depressed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_sad_side"/>
-			</action>
-			<action id="s68_sigh_sit" name="Depressed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
-				<selection type="facial" facial_id="head_sad_side"/>
-			</action>
 		</actionpack>
 		<actionpack id="public_safety" name="Public safety" money="0" sharing="0" enable="Y">
 			<action id="occ_thief_holdmoney_euro" name="Thief - holding money bags" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Public safety">
@@ -10837,7 +10556,7 @@
 			<action id="insu_injuries_leg" name="Leg injury" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
-			<action id="insu_on_wheel" name="Sitting - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="insu_on_wheel" name="Wheel chair - sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="insu_physical_therapy" name="Physical therapy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
@@ -10852,16 +10571,16 @@
 			<action id="insu_surgery_success" name="Surgery - successful" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
-			<action id="insu_wheelchair_cheering" name="Happy - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
+			<action id="insu_wheelchair_cheering" name="Wheel chair - happy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_happy_front"/>
 			</action>
 			<action id="insu_wheelchair_move" name="Wheel chair - move" loop="Y" totalframe="60" enable="N" is_motion="Y" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="insu_wheelchair_sad" name="Sad - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
+			<action id="insu_wheelchair_sad" name="Wheel chair - sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
-			<action id="insu_wheelchair_talk" name="Talking - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="insu_wheelchair_talk" name="Wheel chair - talk" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_talk_side"/>
 			</action>
 			<action id="dental_painful_tooth" name="Toothache" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
@@ -10900,37 +10619,34 @@
 			<action id="s42_legplasticwalk" name="Walking with plaster cast leg" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s42_powerwheelchair_eat" name="Eating - Power wheelchair " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s42_powerwheelchair_eat" name="Power wheelchair - Eating " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="s42_powerwheelchair_eattalking" name="Eating and talking - Power wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s42_powerwheelchair_eattalking" name="Power wheelchair - Eating and talking" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_talk_side"/>
 			</action>
-			<action id="s42_powerwheelchair_moving" name="Moving - Power wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="s42_powerwheelchair_moving" name="Power wheelchair - Moving" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s42_powerwheelchair_sit" name="Sitting - Power wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s42_powerwheelchair_sit" name="Power wheelchair - Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s42_powerwheelchair_talking" name="Talking - Power wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s42_powerwheelchair_talking" name="Power wheelchair - Talking" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_talk_side"/>
 			</action>
-			<action id="s42_powerwheelchair_type" name="Typing - Power wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Working">
+			<action id="s42_powerwheelchair_type" name="Power wheelchair - Typing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s42_wheelchair_eat" name="Eating - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s42_wheelchair_eat" name="Wheelchair - Eating" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="s42_wheelchair_eattalking" name="Eating and talking - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s42_wheelchair_eattalking" name="Wheelchair - Eating and talking" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_talk_side"/>
 			</action>
-			<action id="s42_wheelchair_move" name="Moving - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="s42_wheelchair_move" name="Wheelchair - Moving" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s42_wheelchair_type" name="Typing - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Working">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s71_legplastersit" name="Sitting with plaster cast leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
+			<action id="s42_wheelchair_type" name="Wheelchair - Typing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Medical - Patient">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 		</actionpack>
@@ -11001,7 +10717,7 @@
 			<action id="laydown_reading" name="Reading" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="n_cam_sit_01" name="Sitting - Recording" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_cam_sit_01" name="Sit - Recording " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="n_dart_01" name="Playing Dart" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -11010,7 +10726,7 @@
 			<action id="n_drunk_sit_01" name="Drunk " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
-			<action id="n_drunk_stand_01" name="Waving drunk" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_drunk_stand_01" name="Drunk " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
 			<action id="n_holding_flashlight" name="Hold Flashlight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -11034,13 +10750,13 @@
 			<action id="n_med_p_lie_02" name="lie down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="n_music_sit_01" name="Sitting - Listen to music" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_music_sit_01" name="Sit - Listen to Music " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="n_playing_violin" name="Playing Violin " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="n_standup" name="Getting up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_standup" name="Stand up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="n_stick_shot_01" name="Playing Billard " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -11052,7 +10768,7 @@
 			<action id="n_think_sit_01" name="Thinking " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="n_wearing_headphone_typing" name="Sitting - Typing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_wearing_headphone_typing" name="Sit - Typing " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="sit_reading" name="Reading" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -11148,7 +10864,7 @@
 			<action id="fireworks_squat" name="Playing fireworks - Knee down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="fireworks_stand" name="Standing - Playing with fireworks" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="fireworks_stand" name="Playing fireworks - Standing " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="hold_candle" name="Holding oil lamp" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -11163,7 +10879,7 @@
 			<action id="nonpro_hold_box" name="Carry donation box" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="nonpro_waving_hands" name="Greet" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="nonpro_waving_hands" name="Wave hand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="xmas_carol" name="Singing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -11220,10 +10936,10 @@
 			<action id="ot_punch_01" name="Throw" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="ot_run_02" name="Running - Excited" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="ot_run_02" name="Run - excited" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="ot_run_cry" name="Running - Sad" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="ot_run_cry" name="Run - sad" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
 				<selection type="facial" facial_id="head_cry_side"/>
 			</action>
 			<action id="ot_sing_01" name="Sing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -11352,7 +11068,7 @@
 			<action id="s32_givehand" name="Offer a hand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s32_runchase" name="Running - Chasing" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="s32_runchase" name="Run" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="s32_jumpget" name="Jump - Reaching up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -11376,16 +11092,16 @@
 			<action id="s37_daily_sitholdbaby" name="Baby - Hold" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s37_pushbaby" name="Baby - Pram" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
+			<action id="s37_pushbaby" name="Baby - Pushing cart" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s37_rolling_chair" name="Sitting - Rocking chair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s37_rolling_chair" name="Armchair - Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s37_rolling_chair_baby" name="Sitting - Holding baby" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s37_rolling_chair_baby" name="Baby - Armchair - Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s37_sit_feedbaby" name="Sitting - Feed baby" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="s37_sit_feedbaby" name="Baby - Feed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="s42_givehand" name="Kneeling - Grab" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -11493,75 +11209,6 @@
 			<action id="s57_holdvr_front" name="Virtual Reality - Holding headset" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_front"/>
 			</action>
-			<action id="s66_amputees_hello" name="Greeting - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_amputees_hifive" name="Hi five - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_amputees_run" name="Running - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_amputees_shakehand1" name="Shaking hand - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_amputees_shakehand2" name="Shaking hand - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_amputees_talk" name="Talking - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_talk_side"/>
-			</action>
-			<action id="s66_blind_hello" name="Greeting - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_blind_shakehand1" name="Shaking hand - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_shakehand2" name="Shaking hand - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_standtouch" name="Hand touching - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_talk" name="Talking - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_talk_side"/>
-			</action>
-			<action id="s66_blind_walk" name="Walking - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_walkdog" name="Walking - Guide dog" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_cane_hello" name="Greeting - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_cane_shakehand1" name="Shaking hand - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_cane_shakehand2" name="Shaking hand - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_cane_talk" name="Talking - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_talk_side"/>
-			</action>
-			<action id="s66_wheelchair_hello" name="Greeting - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-			<action id="s66_wheelchair_shakehand1" name="Shaking hand - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_wheelchair_shakehand2" name="Shaking hand - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s68_get_shoved" name="Shoved" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_cry_side"/>
-			</action>
-			<action id="s68_push_move" name="Push" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Daily life">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s68_shove" name="Shove" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_angry_side"/>
-			</action>
 		</actionpack>
 		<actionpack id="travel" name="Travel" money="0" sharing="0" enable="Y">
 			<action id="insu_delay" name="Delayed flight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Travel">
@@ -11638,10 +11285,10 @@
 			<action id="n_grocery_basket_walk" name="Shopping basket - Empty - Walk" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Shopping">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="n_shopping_bagging_bad" name="Grocery - Sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Shopping">
+			<action id="n_shopping_bagging_bad" name="Bagging groceries - Sad" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Shopping">
 				<selection type="facial" facial_id="head_sad_side"/>
 			</action>
-			<action id="n_shopping_bagging_good" name="Grocery - Happy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Shopping">
+			<action id="n_shopping_bagging_good" name="Bagging groceries - Happy" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Shopping">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="n_styd_cart_stand01" name="Pushing cart stack - Standing" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Shopping">
@@ -11773,10 +11420,10 @@
 			<action id="dental_onchair_relax" name="Sitting - longchair - relaxed " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="bluecollar_man_stand" name="Wide stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="bluecollar_man_stand" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_front"/>
 			</action>
-			<action id="n_stand_side" name="Regular stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="n_stand_side" name="Stand" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="n_home_stretch" name="Stretch" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -11806,7 +11453,7 @@
 			<action id="sit_bench" name="Sitting - relaxed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="sit_bench_02" name="sitting - Cross legs" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="sit_bench_02" name="Sitting - relaxed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
 			<action id="sit_wait" name="Sitting - in distress" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -11845,7 +11492,7 @@
 			<action id="n_justices_nailbiting" name="Justices - nail biting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_front"/>
 			</action>
-			<action id="n_justices_sit" name="Sitting - Face forward" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="n_justices_sit" name="Justices - sit" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_front"/>
 			</action>
 			<action id="n_justices_talkangry" name="Justices - talk angry" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -11866,7 +11513,7 @@
 			<action id="both_hand_up_front" name="Crossing arms" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_front"/>
 			</action>
-			<action id="hand_behind_back" name="Sitting - Easy life" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="hand_behind_back" name="Sitting - relaxed" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_happy_front"/>
 			</action>
 			<action id="hand_in_pocket" name="Put hands in pockets" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -11944,7 +11591,7 @@
 			<action id="ot_thumb_down" name="Thumb down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="sit_stand" name="Getting up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="sit_stand" name="Stand up" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="stand_sit" name="Sit down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -11965,7 +11612,7 @@
 			<action id="s34_look" name="Look" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_surprised_side"/>
 			</action>
-			<action id="hero_holdcar" name="Push" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="hero_holdcar" name="Lifting weight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="hero_holdcar_hover_01" name="Lifting weight - Hovering" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -11992,13 +11639,13 @@
 			<action id="hero_laser_off" name="Stand - Ready to fight" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
-			<action id="hero_protection" name="Push" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="hero_protection" name="Block" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="hero_scared" name="Scared " loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_cry_side"/>
 			</action>
-			<action id="hero_speed_run" name="Running - High speed" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Poses">
+			<action id="hero_speed_run" name="Run - High speed" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="hero_stand_cape" name="Hero pose - With cape" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -12010,16 +11657,16 @@
 			<action id="hero_upside_down" name="Hanging upside down" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_front"/>
 			</action>
-			<action id="s36_liftweighthardfront" name="Push" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="s36_liftweighthardfront" name="Lifting weight - Hard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_front"/>
 			</action>
-			<action id="s36_liftweighthardside" name="Push" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="s36_liftweighthardside" name="Lifting weight - Hard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="s36_lookaround" name="Look around" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="s36_pushweighthardside" name="Push" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
+			<action id="s36_pushweighthardside" name="Lifting weight - Hard" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_angry_side"/>
 			</action>
 			<action id="s36_sitonfloorfront" name="Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -12048,42 +11695,6 @@
 			</action>
 			<action id="s53_bending2" name="Bow" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_lookdown_side"/>
-			</action>
-			<action id="s66_amputees_hold" name="Holding - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_amputees_stand" name="Standing - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_amputees_thumbup" name="Thumb Up - Artificial leg" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_hold" name="Holding - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_stand" name="Standing - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_standdog" name="Standing - Guide dog" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_blind_thumbup" name="Thumb up - Blind cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_cane_hold" name="Holding - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_cane_stand" name="Standing - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_cane_thumbup" name="Thumb Up - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_wheelchair_hold" name="Holding - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
-			</action>
-			<action id="s66_wheelchair_thumbup" name="Thumb Up - Wheelchair" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
-				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 		</actionpack>
 		<actionpack id="working" name="Working" money="0" sharing="0" enable="Y">
@@ -12126,10 +11737,10 @@
 			<action id="n_ob_daydream_02" name="Sitting - day dreaming" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
-			<action id="n_ob_drink_coffee_01" name="Sitting - Having coffee" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_ob_drink_coffee_01" name="Sitting - drink coffee" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_happy_side"/>
 			</action>
-			<action id="n_ob_drink_coffee_02" name="Sitting - Having coffee" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
+			<action id="n_ob_drink_coffee_02" name="Sitting - drink coffee" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
 				<selection type="facial" facial_id="head_neutral_side"/>
 			</action>
 			<action id="n_ob_drink_coffee_03" name="Sitting - drink coffee from carafe" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
@@ -12396,7 +12007,7 @@
 			<action id="n_shopping_check_bill" name="Checking for fake bill" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Cashier">
 				<selection type="facial" facial_id="head_confused_side"/>
 			</action>
-			<action id="bank_countmoney_sit" name="Sitting - Money" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Cashier">
+			<action id="bank_countmoney_sit" name="Counting money - Sitting" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Cashier">
 				<selection type="facial" facial_id="head_lookdown_side"/>
 			</action>
 			<action id="bank_countmoney_stand" name="Counting money" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Cashier">
@@ -12406,11 +12017,8 @@
 				<selection type="facial" facial_id="head_lookdown_front"/>
 			</action>
 		</actionpack>
-		<actionpack id="unassigned" name="Unassigned" money="0" sharing="0" enable="Y">
-			<action id="s66_cane_hifive" name="Hi five - Cane" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Daily life">
-				<selection type="facial" facial_id="head_happy_side"/>
-			</action>
-		</actionpack>
+
+
 		<library type="GoUpper" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
 		<library type="GoUpper" id="024" path="024" name="024" thumb="024_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
 		<library type="GoUpper" id="004" path="004" name="004" thumb="004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
@@ -13351,15 +12959,6 @@
 			<tag>_sticky_filter_girl</tag>
 			<tag>_sticky_filter_guy</tag>
 		</library>
-		<library type="GoUpper" id="1293" path="1293" name="1293" thumb="1293_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_guy</tag>
-		</library>
-		<library type="GoUpper" id="1294" path="1294" name="1294" thumb="1294_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_guy</tag>
-		</library>
-		<library type="GoUpper" id="1295" path="1295" name="1295" thumb="1295_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_girl</tag>
-		</library>
 		<library type="GoLower" id="001" path="001" name="001" thumb="001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
 		<library type="GoLower" id="025" path="025" name="025" thumb="025_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
 		<library type="GoLower" id="011" path="011" name="011" thumb="011_thumbnail.swf" display_order="10" money="0" sharing="0" enable="N"/>
@@ -13838,7 +13437,7 @@
 			<tag>_sticky_filter_guy</tag>
 			<tag>_sticky_filter_girl</tag>
 		</library>
-		<library type="GoHands" id="3005" path="3005" name="3005" thumb="3005_thumbnail.swf" display_order="10" enable="N" sharing="0" money="0">
+		<library type="GoHands" id="3005" path="3005" name="3005" thumb="3005_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
 			<tag>_sticky_filter_girl</tag>
 			<tag>_sticky_filter_guy</tag>
 		</library>
@@ -13865,10 +13464,6 @@
 			<tag>_sticky_filter_girl</tag>
 		</library>
 		<library type="GoHands" id="1011" path="1011" name="1011" thumb="1011_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_guy</tag>
-			<tag>_sticky_filter_girl</tag>
-		</library>
-		<library type="GoHands" id="1012" path="1012" name="1012" thumb="1012_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
 			<tag>_sticky_filter_guy</tag>
 			<tag>_sticky_filter_girl</tag>
 		</library>
@@ -14132,7 +13727,7 @@
 			<action id="sleep" name="Sitting - tired" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
-			<action id="get_noticed" name="Help" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
+			<action id="get_noticed" name="Get attention" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Emotions">
 				<selection type="facial" facial_id="head_cry_front"/>
 			</action>
 			<action id="mana_cool_01" name="Crossed arms" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Poses">
@@ -14562,7 +14157,7 @@
 			<action id="s47_kid_golflook" name="Playing golf - Look" loop="Y" totalframe="60" enable="Y" is_motion="N" category="Sports">
 				<selection type="facial" facial_id="head_surprised_side"/>
 			</action>
-			<action id="s47_kid_health_running_hard" name="Run - Tired" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
+			<action id="s47_kid_health_running_hard" name="Running - Tired" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
 				<selection type="facial" facial_id="head_sick_side"/>
 			</action>
 			<action id="s47_kid_health_sprinting" name="Running - Fast - Sprinting" loop="Y" totalframe="60" enable="Y" is_motion="Y" category="Sports">
@@ -15073,10 +14668,6 @@
 			<tag>_sticky_filter_littleboy</tag>
 			<tag>_sticky_filter_littlegirl</tag>
 		</library>
-		<library type="GoUpper" id="1293" path="1293" name="1293" thumb="1293_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_littleboy</tag>
-			<tag>_sticky_filter_littlegirl</tag>
-		</library>
 		<library type="GoLower" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_littleboy</tag>
 			<tag>_sticky_filter_littlegirl</tag>
@@ -15355,10 +14946,6 @@
 			<tag>_sticky_filter_littlegirl</tag>
 		</library>
 		<library type="GoHands" id="1011" path="1011" name="1011" thumb="1011_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
-			<tag>_sticky_filter_littleboy</tag>
-			<tag>_sticky_filter_littlegirl</tag>
-		</library>
-		<library type="GoHands" id="1012" path="1012" name="1012" thumb="1012_thumbnail.swf" display_order="10" enable="Y" sharing="0" money="0">
 			<tag>_sticky_filter_littleboy</tag>
 			<tag>_sticky_filter_littlegirl</tag>
 		</library>
@@ -17645,8 +17232,6 @@
 		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
-		<tag>_sticky_filter_heavyguy</tag>
-		<tag>_sticky_filter_heavygirl</tag>
 	</component>
 	<component type="faceshape" id="1017" path="1017" name="1017" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
 		<state id="front_surprised" filename="front_surprised.swf"/>
@@ -19924,7 +19509,7 @@
 		<tag>_sticky_filter_heavyguy</tag>
 		<tag>_sticky_filter_heavygirl</tag>
 	</component>
-	<component type="mouth" id="1024" path="1024" name="1024" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
+	<component type="mouth" id="1024" path="1024" name="1024" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="front_surprised" filename="front_surprised.swf"/>
 		<state id="side_surprised" filename="side_surprised.swf"/>
 		<state id="front_shocked" filename="front_shocked.swf"/>
@@ -19950,7 +19535,7 @@
 		<tag>_sticky_filter_girl</tag>
 		<tag>_sticky_filter_heavygirl</tag>
 	</component>
-	<component type="mouth" id="1025" path="1025" name="1025" thumb="thumbnail.swf" money="0" sharing="0" enable="N">
+	<component type="mouth" id="1025" path="1025" name="1025" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="front_surprised" filename="front_surprised.swf"/>
 		<state id="side_surprised" filename="side_surprised.swf"/>
 		<state id="front_shocked" filename="front_shocked.swf"/>
@@ -20214,7 +19799,7 @@
 		<tag>_sticky_filter_girl</tag>
 		<tag>_userrole_admin</tag>
 	</component>
-	<component type="mouth" id="1033" path="1033" name="1033" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" split="N">
+	<component type="mouth" id="1033" path="1033" name="1033" thumb="thumbnail.swf" money="0" sharing="0" enable="N" split="N">
 		<state id="side_sick" filename="side_sick.swf"/>
 		<state id="front_sad" filename="front_sad.swf"/>
 		<state id="side_surprised" filename="side_surprised.swf"/>
@@ -20244,7 +19829,7 @@
 		<tag>_sticky_filter_heavygirl</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
-	<component type="mouth" id="1034" path="1034" name="1034" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" split="N">
+	<component type="mouth" id="1034" path="1034" name="1034" thumb="thumbnail.swf" money="0" sharing="0" enable="N" split="N">
 		<state id="side_sick" filename="side_sick.swf"/>
 		<state id="front_sad" filename="front_sad.swf"/>
 		<state id="side_surprised" filename="side_surprised.swf"/>
@@ -20923,7 +20508,6 @@
 		<state id="front_default" filename="front_default.swf"/>
 		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_girl</tag>
-		<tag>_sticky_filter_heavygirl</tag>
 	</component>
 	<component type="facedecoration" id="1042" path="1042" name="1042" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" split="N">
 		<state id="front_default" filename="front_default.swf"/>
@@ -21244,12 +20828,14 @@
 		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_littleboy</tag>
 		<tag>_sticky_filter_littlegirl</tag>
+
 	</component>
 	<component type="glasses" id="1023" path="1023" name="1023" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" split="N">
 		<state id="front_default" filename="front_default.swf"/>
 		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_littleboy</tag>
 		<tag>_sticky_filter_littlegirl</tag>
+
 	</component>
 	<component type="glasses" id="1024" path="1024" name="1024" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" split="N">
 		<state id="front_default" filename="front_default.swf"/>
@@ -21334,12 +20920,15 @@
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_heavyguy</tag>
 		<tag>_sticky_filter_heavygirl</tag>
+		
 	</component>
 	<component type="glasses" id="1037" path="1037" name="1037" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" split="N">
 		<state id="side_default" filename="side_default.swf"/>
 		<state id="front_default" filename="front_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
+		<tag>_sticky_filter_littleboy</tag>
+		<tag>_sticky_filter_littlegirl</tag>
 		<tag>_sticky_filter_heavyguy</tag>
 		<tag>_sticky_filter_heavygirl</tag>
 	</component>
@@ -21349,6 +20938,8 @@
 		<tag>_sticky_filter_heavygirl</tag>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
+		<tag>_sticky_filter_littleboy</tag>
+		<tag>_sticky_filter_littlegirl</tag>
 		<tag>_sticky_filter_heavyguy</tag>
 	</component>
 	<component type="glasses" id="1039" path="1039" name="1039" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" split="N">
@@ -21357,24 +20948,8 @@
 		<tag>_sticky_filter_heavygirl</tag>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
+		<tag>_sticky_filter_littleboy</tag>
+		<tag>_sticky_filter_littlegirl</tag>
 		<tag>_sticky_filter_heavyguy</tag>
-	</component>
-	<component type="glasses" id="1040" path="1040" name="1040" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" split="N">
-		<state id="front_default" filename="front_default.swf"/>
-		<state id="side_default" filename="side_default.swf"/>
-		<tag>_sticky_filter_littleboy</tag>
-		<tag>_sticky_filter_littlegirl</tag>
-	</component>
-	<component type="glasses" id="1041" path="1041" name="1041" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" split="N">
-		<state id="front_default" filename="front_default.swf"/>
-		<state id="side_default" filename="side_default.swf"/>
-		<tag>_sticky_filter_littleboy</tag>
-		<tag>_sticky_filter_littlegirl</tag>
-	</component>
-	<component type="glasses" id="1042" path="1042" name="1042" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" split="N">
-		<state id="front_default" filename="front_default.swf"/>
-		<state id="side_default" filename="side_default.swf"/>
-		<tag>_sticky_filter_littleboy</tag>
-		<tag>_sticky_filter_littlegirl</tag>
 	</component>
 </cc_theme>
