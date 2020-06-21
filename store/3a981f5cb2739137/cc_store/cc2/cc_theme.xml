@@ -625,6 +625,33 @@
 		<library type="GoUpper" component_id="221" theme_id="cc2" gobucks="40" gopoints="0"/>
         </default_char>
 
+<bodyshape id="botdf" name="botdf" default_action="stand" default_motion="walk" action_thumb="stand" facial_thumb="head_neutral" thumb_path="thumbnail.swf" enable="Y">
+        <default_char>
+		<color r="ccSkinColor">0xE2C294</color>
+		<color r="ccEyeLib">0xBD8764</color>
+		<color r="ccEyeIris">0x003333</color>
+		<color r="ccGlassesFrame">0xBE10B0</color>
+		<color r="ccGlassesLens">0x737373</color>
+		<color r="ccMouthLip">0xB7796A</color>
+		<color r="ccEyebrow">0x421D0B</color>
+		<color r="ccBackMajor">0x000000</color>
+		<color r="ccBackMinor">0x000000</color>
+		<color r="ccLowerMain">0x2D2928</color>
+		<color r="ccHairMajor">0x7E4D1B</color>
+		<component type="bodyshape" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="freeaction" component_id="default" theme_id="cc2" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="eyebrow" component_id="002" theme_id="cc2" x="-1" y="1" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="ear" component_id="003" theme_id="cc2" x="-3" y="-7" xscale="1" yscale="1" offset="0" rotation="6" gobucks="0" gopoints="0"/>
+		<component type="hair" component_id="058" theme_id="cc2" x="1" y="7" xscale="0.97" yscale="1.08" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="nose" component_id="007" theme_id="cc2" x="0" y="-4" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="mouth" component_id="008" theme_id="cc2" x="-2" y="-3" xscale="0.83" yscale="0.79" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="eye" component_id="003" theme_id="cc2" x="0" y="-1" xscale="0.92" yscale="0.76" offset="-3" rotation="0" gobucks="0" gopoints="0"/>
+		<component type="faceshape" component_id="007" theme_id="cc2" x="-1" y="0" xscale="0.92" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
+		<library type="GoHands" component_id="001" theme_id="cc2" gobucks="0" gopoints="0"/>
+		<library type="GoLower" component_id="001" theme_id="cc2" gobucks="10" gopoints="0"/>
+		<library type="GoUpper" component_id="221" theme_id="cc2" gobucks="40" gopoints="0"/>
+        </default_char>
+
         <actionpack id="gun" name="Hand Gun Pack" money="0" sharing="0" enable="Y">
             <action id="gun_down01_fire" name="Lying down - keep shooting" loop="Y" totalframe="1" enable="Y" is_motion="N" category="Hand Gun">
                 <selection type="facial" facial_id="head_neutral"/>
@@ -2675,6 +2702,13 @@
         <library type="GoUpper" id="245" path="245" name="245" thumb="245_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="246" path="246" name="246" thumb="246_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
         <library type="GoUpper" id="247" path="247" name="247" thumb="247_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="3001" path="3001" name="3001" thumb="3001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="3002" path="3002" name="3002" thumb="3002_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="3003" path="3003" name="3003" thumb="3003_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="3004" path="3004" name="3004" thumb="3004_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="3005" path="3005" name="3005" thumb="3005_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="3006" path="3006" name="3006" thumb="3006_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
+        <library type="GoUpper" id="3007" path="3007" name="3007" thumb="3007_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
 		
 <!-- FEET START HERE -->
         <library type="GoLower" id="000" path="000" name="000" thumb="000_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y"/>
@@ -4931,6 +4965,18 @@
         <state id="default" filename="default.swf"/>
     </component>
     <component type="hair" id="125" path="125" name="125" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="default" filename="default.swf"/>
+    </component>
+<component type="hair" id="3001" path="3001" name="3001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="default" filename="default.swf"/>
+    </component>
+    <component type="hair" id="3002" path="3002" name="3002" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="default" filename="default.swf"/>
+    </component>
+    <component type="hair" id="3003" path="3003" name="3003" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
+        <state id="default" filename="default.swf"/>
+    </component>
+    <component type="hair" id="3004" path="3004" name="3004" money="0" thumb="thumbnail.swf" sharing="0" enable="Y">
         <state id="default" filename="default.swf"/>
     </component>
 
