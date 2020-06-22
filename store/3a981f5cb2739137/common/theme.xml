@@ -15788,7 +15788,7 @@
   <prop id="glasses_juice.swf" name="Glass with juice" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10539" money="0" sharing="0"/>
   <prop id="window_display.swf" name="Window" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10540" money="0" sharing="0"/>
   <prop id="double_door.swf" name="Doors" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10541" money="0" sharing="0"/>
-  <prop id="youare.swf" name="You Are An Idiot!" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" money="0" sharing="0"
+  <prop id="youare.swf" name="You are an idiot" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" money="0" sharing="0"
   <prop id="shop.swf" name="Wall" holdable="0" placeable="1" wearable="0" facing="left" thumb="" enable="Y" is_premium="N" aid="10542" money="0" sharing="0"/>
   <prop id="msp_laptop" name="Laptop computer" holdable="0" placeable="1" wearable="0" facing="left" thumb="msp_laptop_laptop_front.swf" enable="Y" is_premium="N" aid="10543" money="0" sharing="0">
     <state id="msp_laptop_laptop_front.swf" name="front" enable="Y" default="Y"/>
