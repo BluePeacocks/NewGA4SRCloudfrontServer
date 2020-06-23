@@ -1626,7 +1626,7 @@
 	<sound id="Romance.swf" name="Romance" enable="Y" downloadtype="embed" subtype="bgmusic" />
 	<sound id="BroadcastNews.swf" name="Broadcast News" enable="Y" downloadtype="embed" subtype="bgmusic" />
 	<sound id="FunkyBeat.swf" name="Funky Beat" enable="Y" downloadtype="embed" subtype="bgmusic" />
-                <sound id="You_Are_An_Idiot.mp3" name="You Are An Idiot" enable="Y" downloadtype="embed" subtype="soundeffect" />
+        <sound id="You_Are_An_Idiot.swf" name="You Are An Idiot" enable="Y" downloadtype="embed" subtype="soundeffect" />
 
 	<bubble id="ellipse" x="0" y="0" w="180" h="90" rotate="0" type="ELLIPSE" enable="Y">
 		<body rgb="0xFFFFFF" linergb="0" tailx="180" taily="110"/>
