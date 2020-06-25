@@ -514,10 +514,10 @@
 			<color r="ccBackMajor">0x996600</color>
 			<component type="bodyshape" component_id="default" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="freeaction" component_id="default" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-			<component type="faceshape" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
+			<component type="faceshape" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="Y" gobucks="0" gopoints="0"/>
 			<component type="mouth" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-			<component type="eye" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
-			<component type="eyebrow" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
+			<component type="eye" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="Y" gobucks="0" gopoints="0"/>
+			<component type="eyebrow" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="Y" gobucks="0" gopoints="0"/>
 			<component type="nose" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="hair" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<library type="GoHands" component_id="1001" theme_id="infographics" gobucks="0" gopoints="0"/>
@@ -535,11 +535,11 @@
 			<color r="ccBackMajor">0x996600</color>
 			<component type="bodyshape" component_id="default" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="freeaction" component_id="default" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-			<component type="faceshape" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
-			<component type="eye" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
+			<component type="faceshape" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="Y" gobucks="0" gopoints="0"/>
+			<component type="eye" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="Y" gobucks="0" gopoints="0"/>
 			<component type="nose" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<component type="mouth" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
-			<component type="eyebrow" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="N" gobucks="0" gopoints="0"/>
+			<component type="eyebrow" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" split="Y" gobucks="0" gopoints="0"/>
 			<component type="hair" component_id="1001" theme_id="infographics" x="0" y="0" xscale="1" yscale="1" offset="0" rotation="0" gobucks="0" gopoints="0"/>
 			<library type="GoHands" component_id="1001" theme_id="infographics" gobucks="0" gopoints="0"/>
 			<library type="GoUpper" component_id="1001" theme_id="infographics" gobucks="0" gopoints="0"/>
@@ -649,7 +649,7 @@
 		<component type="freeaction" id="default" path="default" name="default" thumb="" money="0" sharing="0" enable="Y"/>
 	</bodyshape>
 
-	<component type="eye" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
+	<component type="eye" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" split="Y" enable="Y">
 		<state id="front_cry" filename="front_cry.swf"/>
 		<state id="front_default" filename="front_default.swf"/>
 		<state id="front_sick" filename="front_sick.swf"/>
@@ -668,7 +668,7 @@
 		<tag>_sticky_filter_girl</tag>
 	</component>
 
-	<component type="eyebrow" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
+	<component type="eyebrow" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" split="Y" enable="Y">
 		<state id="front_angry" filename="front_angry.swf"/>
 		<state id="front_confused" filename="front_confused.swf"/>
 		<state id="front_default" filename="front_default.swf"/>
@@ -687,13 +687,13 @@
 		<tag>_sticky_filter_girl</tag>
 	</component>
 
-	<component type="faceshape" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
+	<component type="faceshape" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" split="Y" enable="Y">
 		<state id="front_default" filename="front_default.swf"/>
 		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
-	<component type="faceshape" id="1002" path="1002" name="1002" thumb="thumbnail.swf" money="0" sharing="0" split="N" enable="Y">
+	<component type="faceshape" id="1002" path="1002" name="1002" thumb="thumbnail.swf" money="0" sharing="0" split="Y" enable="Y">
 		<state id="front_default" filename="front_default.swf"/>
 		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
@@ -737,11 +737,9 @@
 		<tag>_sticky_filter_girl</tag>
 	</component>
 
-	<component type="glasses" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" split="N">
+	<component type="glasses" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" split="Y">
 		<state id="front_default" filename="front_default.swf"/>
 		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
-
-</cc_theme>
