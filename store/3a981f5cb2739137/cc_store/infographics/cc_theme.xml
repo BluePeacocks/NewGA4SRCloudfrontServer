@@ -22,7 +22,7 @@
         <choice>0xBA4545</choice>
         <choice>0x6C5E91</choice>
     </color>
-    <color r="ccEyeLib" component_type="eye" parent_color_r="ccSkinColor" parent_component_type="bodyshape" enable="N">
+    <color r="ccEyeLib" component_type="eye" parent_color_r="ccSkinColor" parent_component_type="bodyshape" enable="Y">
         <choice>0x5F3F29</choice>
         <choice>0xBD8764</choice>
         <choice>0x80DCE6</choice>
@@ -32,7 +32,7 @@
         <choice>0xE47070</choice>
         <choice>0x4B0156</choice>
     </color>
-    <color r="ccEyeIris" component_type="eye" enable="N">
+    <color r="ccEyeIris" component_type="eye" enable="Y">
         <choice>0x988986</choice>
         <choice>0x229188</choice>
         <choice>0x7D551C</choice>
@@ -42,7 +42,7 @@
         <choice>0x669900</choice>
         <choice>0xEA7B9D</choice>
     </color>
-    <color r="ccGlassesFrame" component_type="glasses" enable="N">
+    <color r="ccGlassesFrame" component_type="glasses" enable="Y">
         <choice>0xAE0057</choice>
         <choice>0x53A8DF</choice>
         <choice>0xEC9EC5</choice>
@@ -52,7 +52,7 @@
         <choice>0x4A6028</choice>
         <choice>0x000000</choice>
     </color>
-    <color r="ccGlassesLens" component_type="glasses" enable="N">
+    <color r="ccGlassesLens" component_type="glasses" enable="Y">
         <choice>0xFFFFFF</choice>
         <choice>0x555555</choice>
         <choice>0xBC6A70</choice>
@@ -62,7 +62,7 @@
         <choice>0x640F0F</choice>
         <choice>0x000000</choice>
     </color>
-    <color r="ccMouthLip" component_type="mouth" enable="N">
+    <color r="ccMouthLip" component_type="mouth" enable="Y">
         <choice>0xB7796A</choice>
         <choice>0x9A6C46</choice>
         <choice>0xCA3030</choice>
@@ -72,7 +72,7 @@
         <choice>0x7D5134</choice>
         <choice>0xEB8369</choice>
     </color>
-    <color r="ccEyebrow" component_type="eyebrow" enable="N">
+    <color r="ccEyebrow" component_type="eyebrow" enable="Y">
         <choice>0x7E4D1B</choice>
         <choice>0x483315</choice>
         <choice>0x421D0B</choice>
@@ -132,7 +132,7 @@
         <choice>0x420B21</choice>
         <choice>0x3F3B38</choice>
     </color>
-    <color r="ccLowerMain" component_type="GoLower" enable="N">
+    <color r="ccLowerMain" component_type="GoLower" enable="Y">
         <choice>0xFFFEFF</choice>
         <choice>0x4F5157</choice>
         <choice>0xA4A4A4</choice>
@@ -142,7 +142,7 @@
         <choice>0x65503B</choice>
         <choice>0x3C3C3C</choice>
     </color>
-    <color r="ccLowerMinor" component_type="GoLower" enable="N">
+    <color r="ccLowerMinor" component_type="GoLower" enable="Y">
         <choice>0xFFF3FF</choice>
         <choice>0x4F5157</choice>
         <choice>0xA4A4A4</choice>
@@ -153,7 +153,7 @@
         <choice>0x3C3C3C</choice>
     </color>
 <!--
-    <color r="ccDecMajor" component_type="facedecoration" enable="N">
+    <color r="ccDecMajor" component_type="facedecoration" enable="Y">
         <choice>0xAE0057</choice>
         <choice>0x53A8DF</choice>
         <choice>0xEC9EC5</choice>
@@ -163,7 +163,7 @@
         <choice>0x4A6028</choice>
         <choice>0x000000</choice>
     </color>
-    <color r="ccDecMinor" component_type="facedecoration" enable="N">
+    <color r="ccDecMinor" component_type="facedecoration" enable="Y">
         <choice>0xFFFFFF</choice>
         <choice>0x555555</choice>
         <choice>0xBC6A70</choice>
@@ -215,7 +215,7 @@
         <choice>0x8A451B</choice>
     </color>
 
-	<facial id="head_angry_front" name="Face Camera - Angry" enable="N">
+	<facial id="head_angry_front" name="Face Camera - Angry" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_default"/>
         <selection type="eyebrow" state_id="front_angry"/>
@@ -226,7 +226,7 @@
         <selection type="nose" state_id="front_default"/>
         <selection type="facedecoration" state_id="front_default"/>
     </facial>
-	<facial id="head_confused_front" name="Face Camera - Confused" enable="N">
+	<facial id="head_confused_front" name="Face Camera - Confused" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_default"/>
         <selection type="eyebrow" state_id="front_confused"/>
@@ -237,7 +237,7 @@
         <selection type="nose" state_id="front_default"/>
         <selection type="facedecoration" state_id="front_default"/>
     </facial>
-	<facial id="head_cry_front" name="Face Camera - Desperate" enable="N">
+	<facial id="head_cry_front" name="Face Camera - Desperate" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_cry"/>
         <selection type="eyebrow" state_id="front_sad"/>
@@ -248,7 +248,7 @@
         <selection type="nose" state_id="front_default"/>
         <selection type="facedecoration" state_id="front_default"/>
     </facial>
-	<facial id="head_happy_front" name="Face Camera - Happy" enable="N">
+	<facial id="head_happy_front" name="Face Camera - Happy" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_default"/>
         <selection type="eyebrow" state_id="front_default"/>
@@ -259,7 +259,7 @@
         <selection type="nose" state_id="front_default"/>
         <selection type="facedecoration" state_id="front_default"/>
     </facial>
-	<facial id="head_neutral_front" name="Face Camera - Neutral" enable="N">
+	<facial id="head_neutral_front" name="Face Camera - Neutral" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_default"/>
         <selection type="eyebrow" state_id="front_default"/>
@@ -270,7 +270,7 @@
         <selection type="nose" state_id="front_default"/>
         <selection type="facedecoration" state_id="front_default"/>
     </facial>
-	<facial id="head_sad_front" name="Face Camera - Sad" enable="N">
+	<facial id="head_sad_front" name="Face Camera - Sad" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_default"/>
         <selection type="eyebrow" state_id="front_sad"/>
@@ -281,7 +281,7 @@
         <selection type="nose" state_id="front_default"/>
         <selection type="facedecoration" state_id="front_default"/>
     </facial>
-	<facial id="head_sick_front" name="Face Camera - Sick" enable="N">
+	<facial id="head_sick_front" name="Face Camera - Sick" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_sick"/>
         <selection type="eyebrow" state_id="front_sick"/>
@@ -292,7 +292,7 @@
         <selection type="nose" state_id="front_default"/>
         <selection type="facedecoration" state_id="front_default"/>
     </facial>
-	<facial id="head_talk_front" name="Face Camera - Talk" enable="N">
+	<facial id="head_talk_front" name="Face Camera - Talk" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_talk"/>
         <selection type="eyebrow" state_id="front_talk"/>
@@ -303,7 +303,7 @@
         <selection type="nose" state_id="front_default"/>
         <selection type="facedecoration" state_id="front_default"/>
     </facial>
-	<facial id="head_talk_sad_front" name="Face Camera - Talk Sad" enable="N">
+	<facial id="head_talk_sad_front" name="Face Camera - Talk Sad" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_default"/>
         <selection type="eyebrow" state_id="front_sad"/>
@@ -314,7 +314,7 @@
         <selection type="nose" state_id="front_default"/>
         <selection type="facedecoration" state_id="front_default"/>
     </facial>
-	<facial id="head_talk_angry_front" name="Face Camera - Talk Angry" enable="N">
+	<facial id="head_talk_angry_front" name="Face Camera - Talk Angry" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_default"/>
         <selection type="eyebrow" state_id="front_angry"/>
@@ -325,7 +325,7 @@
         <selection type="nose" state_id="front_default"/>
         <selection type="facedecoration" state_id="front_default"/>
 	</facial>
-	<facial id="head_sleep_front" name="Face Camera - Sleep" enable="N">
+	<facial id="head_sleep_front" name="Face Camera - Sleep" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_sleep"/>
         <selection type="eyebrow" state_id="front_default"/>
@@ -336,7 +336,7 @@
         <selection type="nose" state_id="front_default"/>
         <selection type="facedecoration" state_id="front_default"/>
 	</facial>
-	<facial id="head_lookdown_front" name="Face Camera - Look Down" enable="N">
+	<facial id="head_lookdown_front" name="Face Camera - Look Down" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_look_down"/>
         <selection type="eyebrow" state_id="front_default"/>
@@ -347,7 +347,7 @@
         <selection type="nose" state_id="front_default"/>
         <selection type="facedecoration" state_id="front_default"/>
 	</facial>
-	<facial id="head_scheme_front" name="Face Camera - Scheming" enable="N">
+	<facial id="head_scheme_front" name="Face Camera - Scheming" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_scheme"/>
         <selection type="eyebrow" state_id="front_scheme"/>
@@ -359,7 +359,7 @@
         <selection type="facedecoration" state_id="front_default"/>
 	</facial>
 
-	<facial id="head_angry_side" name="3/4 Front View - Angry" enable="N">
+	<facial id="head_angry_side" name="3/4 Front View - Angry" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_default"/>
         <selection type="eyebrow" state_id="side_angry"/>
@@ -370,7 +370,7 @@
         <selection type="nose" state_id="side_default"/>
         <selection type="facedecoration" state_id="side_default"/>
     </facial>
-	<facial id="head_confused_side" name="3/4 Front View - Confused" enable="N">
+	<facial id="head_confused_side" name="3/4 Front View - Confused" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_default"/>
         <selection type="eyebrow" state_id="side_confused"/>
@@ -381,7 +381,7 @@
         <selection type="nose" state_id="side_default"/>
         <selection type="facedecoration" state_id="side_default"/>
     </facial>
-	<facial id="head_cry_side" name="3/4 Front View - Desperate" enable="N">
+	<facial id="head_cry_side" name="3/4 Front View - Desperate" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_cry"/>
         <selection type="eyebrow" state_id="side_sad"/>
@@ -392,7 +392,7 @@
         <selection type="nose" state_id="side_default"/>
         <selection type="facedecoration" state_id="side_default"/>
     </facial>
-	<facial id="head_happy_side" name="3/4 Front View - Happy" enable="N">
+	<facial id="head_happy_side" name="3/4 Front View - Happy" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_default"/>
         <selection type="eyebrow" state_id="side_default"/>
@@ -403,7 +403,7 @@
         <selection type="nose" state_id="side_default"/>
         <selection type="facedecoration" state_id="side_default"/>
     </facial>
-	<facial id="head_neutral_side" name="3/4 Front View - Neutral" enable="N">
+	<facial id="head_neutral_side" name="3/4 Front View - Neutral" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_default"/>
         <selection type="eyebrow" state_id="side_default"/>
@@ -414,7 +414,7 @@
         <selection type="nose" state_id="side_default"/>
         <selection type="facedecoration" state_id="side_default"/>
     </facial>
-	<facial id="head_sad_side" name="3/4 Front View - Sad" enable="N">
+	<facial id="head_sad_side" name="3/4 Front View - Sad" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_default"/>
         <selection type="eyebrow" state_id="side_sad"/>
@@ -425,7 +425,7 @@
         <selection type="nose" state_id="side_default"/>
         <selection type="facedecoration" state_id="side_default"/>
     </facial>
-	<facial id="head_sick_side" name="3/4 Front View - Sick" enable="N">
+	<facial id="head_sick_side" name="3/4 Front View - Sick" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_sick"/>
         <selection type="eyebrow" state_id="side_sick"/>
@@ -436,7 +436,7 @@
         <selection type="nose" state_id="side_default"/>
         <selection type="facedecoration" state_id="side_default"/>
     </facial>
-	<facial id="head_talk_side" name="3/4 Front View - Talk" enable="N">
+	<facial id="head_talk_side" name="3/4 Front View - Talk" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_talk"/>
         <selection type="eyebrow" state_id="side_talk"/>
@@ -447,7 +447,7 @@
         <selection type="nose" state_id="side_default"/>
         <selection type="facedecoration" state_id="side_default"/>
     </facial>
-	<facial id="head_talk_sad_side" name="3/4 Front View - Talk Sad" enable="N">
+	<facial id="head_talk_sad_side" name="3/4 Front View - Talk Sad" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_default"/>
         <selection type="eyebrow" state_id="side_sad"/>
@@ -458,7 +458,7 @@
         <selection type="nose" state_id="side_default"/>
         <selection type="facedecoration" state_id="side_default"/>
     </facial>
-	<facial id="head_talk_angry_side" name="3/4 Front View - Talk Angry" enable="N">
+	<facial id="head_talk_angry_side" name="3/4 Front View - Talk Angry" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_default"/>
         <selection type="eyebrow" state_id="side_angry"/>
@@ -469,7 +469,7 @@
         <selection type="nose" state_id="side_default"/>
         <selection type="facedecoration" state_id="side_default"/>
 	</facial>
-	<facial id="head_sleep_side" name="3/4 Front View - Sleep" enable="N">
+	<facial id="head_sleep_side" name="3/4 Front View - Sleep" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_sleep"/>
         <selection type="eyebrow" state_id="side_default"/>
@@ -480,7 +480,7 @@
         <selection type="nose" state_id="side_default"/>
         <selection type="facedecoration" state_id="side_default"/>
 	</facial>
-	<facial id="head_lookdown_side" name="3/4 Front View - Look Down" enable="N">
+	<facial id="head_lookdown_side" name="3/4 Front View - Look Down" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_look_down"/>
         <selection type="eyebrow" state_id="side_default"/>
@@ -491,7 +491,7 @@
         <selection type="nose" state_id="side_default"/>
         <selection type="facedecoration" state_id="side_default"/>
 	</facial>
-	<facial id="head_scheme_side" name="3/4 Front View - Scheming" enable="N">
+	<facial id="head_scheme_side" name="3/4 Front View - Scheming" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_scheme"/>
         <selection type="eyebrow" state_id="side_scheme"/>
