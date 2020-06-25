@@ -153,7 +153,7 @@
         <choice>0x3C3C3C</choice>
     </color>
 <!--
-    <color r="ccDecMajor" component_type="facedecoration" enable="Y">
+    <color r="ccDecMajor" component_type="facedecoration" enable="N">
         <choice>0xAE0057</choice>
         <choice>0x53A8DF</choice>
         <choice>0xEC9EC5</choice>
@@ -163,7 +163,7 @@
         <choice>0x4A6028</choice>
         <choice>0x000000</choice>
     </color>
-    <color r="ccDecMinor" component_type="facedecoration" enable="Y">
+    <color r="ccDecMinor" component_type="facedecoration" enable="N">
         <choice>0xFFFFFF</choice>
         <choice>0x555555</choice>
         <choice>0xBC6A70</choice>
@@ -173,7 +173,7 @@
         <choice>0x640F0F</choice>
         <choice>0x000000</choice>
     </color>
-    <color r="ccBackMajor" component_type="GoBehindBody" enable="Y">
+    <color r="ccBackMajor" component_type="GoBehindBody" enable="N">
         <choice>0xAE0057</choice>
         <choice>0x53A8DF</choice>
         <choice>0xEC9EC5</choice>
@@ -183,7 +183,7 @@
         <choice>0x4A6028</choice>
         <choice>0x000000</choice>
     </color>
-    <color r="ccBackMinor" component_type="GoBehindBody" enable="Y">
+    <color r="ccBackMinor" component_type="GoBehindBody" enable="N">
         <choice>0xFFFFFF</choice>
         <choice>0x555555</choice>
         <choice>0xBC6A70</choice>
