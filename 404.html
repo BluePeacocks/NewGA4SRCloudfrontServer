@@ -1,329 +1,98 @@
-<html lang="en"><script type="text/javascript" async="" src="https://koi-3Q6B8SG59E.marketingautomation.services/client/ss.js?ver=1.1.1"></script><script type="text/javascript" class="__REQUESTLY__SCRIPT">(function(namespace) {
-  window[namespace] = window[namespace] || {};
-  window[namespace].responseRules = {};
+<html lang="en"><head>
 
-  let open = XMLHttpRequest.prototype.open;
-  XMLHttpRequest.prototype.open = function(method) {
-    this.addEventListener('readystatechange', function() {
-      if (this.readyState === 4 && window[namespace].responseRules.hasOwnProperty(this.responseURL)) {
-        const responseRule = window[namespace].responseRules[this.responseURL];
-        const {response, id} = responseRule;
-        const responseType = this.responseType;
-        let customResponse;
 
-        customResponse = response.type === 'code' ? responseRule.evaluator({
-            method,
-            url: this.responseURL,
-            requestHeaders: this.requestHeaders,
-            requestData: this.requestData,
-            responseType: this.responseType,
-            response: this.response
-          }) : response.value;
 
-        Object.defineProperty(this, 'response', {
-          get: function () {
-            if (response.type === 'static' && responseType === 'json') {
-              return JSON.parse(customResponse);
-            }
-            return customResponse;
-          }
-        });
-
-        if (responseType === '' || responseType === 'text') {
-          Object.defineProperty(this, 'responseText', {
-            get: function () {
-              return customResponse;
-            }
-          });
-        }
-
-        window.postMessage({
-          from: 'requestly',
-          type: 'response_rule_applied',
-          id
-        }, window.location.href);
-      }
-    }, false);
-    open.apply(this, arguments);
-  };
-
-  let send = XMLHttpRequest.prototype.send;
-  XMLHttpRequest.prototype.send = function(data) {
-    this.requestData = data;
-    send.apply(this, arguments);
-  };
-
-  let setRequestHeader = XMLHttpRequest.prototype.setRequestHeader;
-  XMLHttpRequest.prototype.setRequestHeader = function(header, value) {
-    this.requestHeaders = this.requestHeaders || {};
-    this.requestHeaders[header] = value;
-    setRequestHeader.apply(this, arguments);
-  }
-})('__REQUESTLY__')</script><head>
+    <title>404 Page Not Found</title>
 
 
 
 
-
-
-
-
-<title>Error 404</title>
-
-
-
-
-
-
-
-
-
-
-<link rel="stylesheet" href="/fonts/Comfortaa-Regular.ttf">
-<link rel="stylesheet" href="/css/common_combined.css">
-
-<link rel="stylesheet" href="/css/error404.css">
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script type="text/javascript" async="" src="https://koi-3Q6B8SG59E.marketingautomation.services/client/ss.js?ver=1.1.1"></script><script src="http://web.archive.org/web/20170622210617/https://koi-3q6b8sg59e.marketingautomation.services/koi?rf=&amp;hn=bluepeacocks.github.io&amp;lg=pl-PL&amp;sr=1920x1080&amp;cd=24&amp;vr=2.4.0&amp;se=1589291786640&amp;tk=null&amp;ac=KOI-1OTR0IV8I&amp;ts=1589294067&amp;pt=800&amp;pl=0&amp;loc=https%3A%2F%2Fbluepeacocks.github.io%2F&amp;tp=page&amp;ti=GoAnimate%20for%20Schools%20Cloudfront"></script><script src="http://web.archive.org/web/20170622210617/https://koi-3q6b8sg59e.marketingautomation.services/koi?rf=&amp;hn=bluepeacocks.github.io&amp;lg=pl-PL&amp;sr=1920x1080&amp;cd=24&amp;vr=2.4.0&amp;se=1589291786640&amp;tk=null&amp;ac=KOI-1OTR0IV8I&amp;ts=1589300754&amp;pt=0&amp;pl=0&amp;loc=https%3A%2F%2Fbluepeacocks.github.io%2F&amp;tp=page&amp;ti=GoAnimate%20for%20Schools%20Remastered%20Asset%20Server"></script></head>
-<body class="page-action-public_index"><!-- BEGIN WAYBACK TOOLBAR INSERT -->
+<link rel="stylesheet" href="https://web.archive.org/web/20180729194302cs_/http://fonts.googleapis.com/css?family=Lato">
 <style type="text/css">
+
+
+::selection{ background-color: #E13300; color: white; }
+::moz-selection{ background-color: #E13300; color: white; }
+::webkit-selection{ background-color: #E13300; color: white; }
+
 body {
-  margin-top:0 !important;
-  padding-top:0 !important;
-  /*min-width:800px !important;*/
+    background-color: #eee;
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
 }
+
+a {
+    color: #09B5B0;
+    background-color: transparent;
+    font-weight: normal;
+}
+
+h1, h2 {
+    margin: 15px 0;
+}
+
+h2 {
+    font-weight: normal;
+}
+
+ul {
+    margin: 10px;
+}
+.topbar {
+    padding: 16px 0;
+    margin-bottom: 100px;
+    height: 28px;
+    border-bottom: 2px solid #ddd;
+}
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+
+.bottom .container {
+    height: 450px;
+    background-image: url('http://localhost:4343/error_404.png');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: 300px 0;
+}
+
+.h2_grey {
+    color: #8b8989;
+}
+
+.details {
+    margin: 25px 0;
+    font-size: 14px;
+}
+
+
+
 </style>
-<script type="text/javascript" async="" src="https://koi-3Q6B8SG59E.marketingautomation.services/client/ss.js?ver=1.1.1"></script><script id="hs-analytics" src="//web.archive.org/web/20170622210617/https://js.hs-analytics.net/analytics/1589294100000/491659.js"></script><script type="text/javascript">
-__wm.bt(625,27,25,2,"web","https://goanimate4schools.com/public_index","20170622210617",1996,"/_static/",["/_static/css/banner-styles.css?v=HyR5oymJ","/_static/css/iconochive.css?v=qtvMKcIJ"]);
-</script>
-<!-- END WAYBACK TOOLBAR INSERT -->
-<script type="text/javascript">
-if (self !== top) {
-            jQuery('body').hide();
-    }
-</script>
+</head>
+<body>
 
-<nav class="navbar site-nav" role="navigation">
-    <div class="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-            <a class="navbar-brand" href="/index.html" title="GoAnimate for Schools Remastered Asset server">
-                <img alt="GoAnimate for Schools Remastered Asset server" src="/img/site/logo4s.png">
-            </a>
-        </div>
 
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            
+    <div class="topbar">
+        <div class="container">
+        <img alt="GoAnimate for Schools" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAUAAAAAcCAYAAAAQq2aSAAAACXBIWXMAAA7EAAAOxAGVKw4bAAAAIGNIUk0AAHolAACAgwAA+f8AAIDpAAB1MAAA6mAAADqYAAAXb5JfxUYAACAHSURBVHja7H15eFvVnfZ7tVztsrzIli0v8ZLEWYwxjkNCHEJM2cPaNkDbMF2m9Cu0UKDzzVCWlq+dactQSguUlnY6UAItWztDgCEhTUnsEAIhzopj492WLduSLFnL1XbvnT/0u+TkIjlpSZ+PPtXvefRc6dxzz3bPec/7W+4VJ8sy8pKXvOTl71F0J/y6kztZ/o0ArgdwNoByJj0J4AiAZwHcf1paJgOj2mr8lP86TLIALcT83crL3/6C0+nAcRw2b96MsbExGI1GWCwWFBUVIRaLoaSkBGeffTb8fj96e3sxOjoKk8kEg8EAnuchSdIHZWk0GkxPT8NiscBisaCyshLDw8MQBAGSJCESiUAQBNTW1sLpdGJychLhcBjJZBKyLIPjOLhcLuj1ekSjUYTDYfA8j0AgAJvNhra2NgSDQdjtdkiShFgshp6eHiQSCdTV1SGRSJzQN61Wi0gkglQqhcLCQojiiWtWo9EgFotBp9NBq9UCAM455xyIoojJyUkMDAwgEAjAbrfDarWe0Fe9Xo9AIIBkMgmn0wlZlhGLxeB2u7FgwQIMDw8jGo3iyJEjEAThLwTA3FIP4D8ArMtxngdwFn3WArg8P9Xzkpe8fNxFcwp5FgPYNw/4qWUDgC/nhzYvecnL3zoA8gD+BMChSu8C8A0AdwGYzXLdP+aHNi95ycvH3iRxkvOP4URbHwD8EsCNzO9uAK+q8lQRuEp/5fYvASADOPZXKr8OQArA2N/ARiblp3Ne8nL6GOBCAF9UpfWrwA8A/kggwYr2FNilDUAJAONf0O7bAPQAeI+O+wGce5rH5jMAeglcz/8Y3rtzAHQCeIu+5yUveTmNDPBfTjGtDIBelSbSRy3XAbgUwJkEfgYAYQDDAF4H8HMA/pO0+TcANqnSWgDsAOAC4DtNY/N9Gh8dgLsJ6D9OcgWAdvruy0/lvOTl9DFAIzLhLqwEALyYJa8bQBRAEBl7YJTAiA0wvBjAIQC/JfBqItW6CEANMg6W71GeRfO098sM+L1EzOffGNZ5/Wkcm6eY789+DO/dMjr2/hVNAHnJy98lAzwfgEmV9nKOvEdIXRYJ9HgVi/sKMbtTkQoA/42MbS8bKP+Uvr8L4Er6vgfAzQAKAKw4jWNzN4BXqD87P4b3roWOr+encV7ycnoB8MIsabkWWoQ+2eSCHOC3Exl74iqGySjSCGA1gD08ktBAggwOAG7BcXvhP6iuGUAmBrFwnr7qkYlRbABgATBOQDrI5NEi48ARAQgErvNJE4A2ZOyZ7yLjHWflEuqPn84NnqS885EJO9KRWaCLmLcidvrUE/MGgGkyQ5iJfU+r+txOfbYC8CBjL+3PT/285CU3AK7PkvYnOnIqxqcGGY5UMh7Af2UpZxOAzQzgHACwXJWnDcCeAIqQAA8j4gDwTTrXCeCoKr8Sks7n6M9tAL6GjFeXlTSAR+g8kHHw/Iz6lqT2PQLgDtV1ZQB+wbBQVm2+AUArMrbKpcy5FDKhQz/L0r5rAdyryg8AMwDuA/Ao/d6GzFM4rNxLHx2180FKvx3ATQSWrIjU9pvz0z8veQD8sLiI2bDyHrEHIGNne5rAIxsA7ibWcRexEla+w4CfshifzwKANgCY4ZwQYEIhgpcBcNK572dps5apXy3PAfg081vph5v6/w0AIWrbxUx5iglAzZbMAPYiY7tUGJiIjE1zEzKOnUuJcaUBeAFUUtseBbAdQB9T3pcA/Ir5PUZllFKfH6FNYncW8FPfw64cfZ5AJkymkvp2EwPIecnL361kc4J0ZEnbznzfwCw8veoDAFvo+C1VGT5iM2rJ9gByEABCXAE0mfA2haF5AfzPPP1RPwT4IAMELxOA1JNKeCWjun8bGRvitwF8QsXS3lCV+RgDft8nVlmPjFMGyDwvbQXwewALqK57mOs/qQJ6Bfz6AKyksupV4PQYY1JYA+BNRvVfR4y9A8DbAL7L9HkvnaujdmwAMEfnbiUmm5f/D6K8hESj0SCVSiEYDCIUCiESiUCSJIiiCFmWodFowPM8YrEYZmdnMTc398EnGAwinU4jkUggEAggkUhAq9VCp9NBo9FAkiTIsgxRFBEOhxEMBiFJEjQazQd1C4KAQCCASCQCjuOg0WjAcZklyXEc4vE4YrEYYrEYkskkACAajSIYDJ7Qlrm5OYRCoQ/yhUKhD51TnkOORCIfnE+n0x/0VakzkUh8qPxgMAhBECCK4glp0WgU6XQa6XT6g3Z/VAaY7ZG3HQz7OZmn9VGy7anL/lWO/DUfnh0YEqHFMe1iWOVoJY7H4eUqQ2GicSZtGQOcW/Hh55NfAvDvDCifxaj5FzOgzXpYK0jFBTLOGhbkv4dMaArI1vdJ1bk7afyKVO3+NAH+dpW6/BMAzQC+QIzczeQpoeNOALuY6xqQcd4AmQD1Vao+v0Lq8kP0ux3ZPft/rhiIYaZOEz4YGLNGNjESu07n2NSlU0w3A4idQntM1J6/NNhcCyYsjOM4CIKAaDQKQRBQU1NTfsYZZ3REIpGUzWbT6PV6QaPRvJtIJMYTiQTm5uawdOnS1eXl5fWCICjjwhkMBr67u/vVwsJCbUNDw0UajWbq/ffff10BPoPBgEQiAVEU0dDQ8Gmn02ns7u5+LRwOz1itVkQiEdTW1p5ZU1OzfGxsbLinp6dLkqQPgDMSiaC4uLi5rKzsXFEUU16vd0s4HPZUVlae3dzcvDASiSSYtcfxPM9PT08PB4PBYw0NDReKoijKx183ZeB5ftzj8bxhsVgut1qtVkmSJIvFIgmCMJBIJPZLkoRkMonS0tLaurq6NQnmbQsmk8kwMjJy1Ov1HmxsbPw0ACQSCRQXF2tMJtM4gM5oNHpaALAji81oFzPxfkr2MQknOiZA7CLCAA8rv8vRhuYsaQf6tIswyNXBJXtvYljhPTnK0GdhtN9mwORTOa5j2V0x8/0yOr6rUvNZ8L8zy6JV5N+zLDSlHHbBRQC8wIBaicquOak2CyDjIVdChQ6o6rmbYcK5nt3ewgCgY5658SW6v3qqWya2/ksA/4+x534JGadVmGyUPwRwkBnHf6UynNSfbZQWzFLnWrrH5yLjBNoM4AlkHFZAJo70iwTcUdIG7iSA+W+qZwNdqzDmByjvJ5ixv4M2suVkEnmZ6lXHoN5EG1ALmTpepb6P0vl/oLKOEfNXz4f7qR6Zrn1MFMXdOp0Oq1evhtPpRDqdxsKFC68799xzH1TWuyiKKCoqis7Nzd158ODBh51OJ9rb25+ora1dRGAAWZZhNpuRSCSWms3mtRs2bPiF1+vF22+/XTc+Pj5UVFSEgoICxGIxNDU1PbR+/fpbo9EoQqHQmcPDwzM+nw9Go5E7//zzuxYuXGjp6+tLRCIRkyiK8tTUFNLpNNxu97ebmpq+o9PpIEkS4vH4Y8lk8sply5bdtXLlypV+vx+CIECn08FkMsFiseDw4cOv9/f3P7B+/fpnJEmC3W4Hx3GwWCzo7e3dlUwm161Zs+Ylm80GBWxTqRR4nv/dwMDA5wwGg9jW1nZTa2vrN5PJJOx2O2RZht1uxxtvvHF/T0/PeEdHx+80Gg0cDgfS6TSCwSDKy8v3bd269UvxePzQRwHABvqwshfHn/cNkOqkXHu7Kq8SKnOFKn2SWRSsFCETFM1KD4CJo9qlkMGBg/xl8gIPIuMcKczC/Eqz7NhXM46JyDxMQxFl+3Ai47lVADAbOx6jdkLFOBVRB00vQsbzDAAjTPq/IPPESdNJmC0YRtTKpHUz33kG6F8gQNJm2cyqmN/JeebGhQDOyJIeouOzqkVfTBvERtrUjtJ4sRuck8q8CJmQJbb+lSo2u5jU+T0EgL8isGXv8SZkvOIPMfNojslzNtOHGN3vTppHilQB+CoyHvtWmuN60hpYZ2A51X8V9clD55uyrCNdlno+C8ApSdJFPM+jqKgIer0ePM+joKCgNJlMIhaLjcqyvDmRSFxYXFy8orW19ader/c5h8MxZTKZ7KlUCgcPHtw1Pj7ebbfbDYIgSB6PZ7Cjo+Mbfr8fZrMZZ5555tV6vf5BjuMwNDSEysrK8tWrV98aiUTg8/niBoNhqLq6GuFwGG1tbV+orKy0eL1emEwmg9vtbpyYmOhxOBxoaGi4uLW19Ts+ny81MzPzE6PReIbL5brQbrdbfD7fw++88855Op2uuri4+IJYLAaPx/MMx3HiwMDAU2azuYbjOASDwVBXV9dvUqkUZ7VazR6P55mioqLFPM9jbm4OiUTiB6FQyFVSUvL5JUuWXDc0NPQnj8fzuM1mc8qyjImJibHt27f/QavV6oxGo7G/v/+J+vr6s7RaLYLBYKqzs/MxnU6nbWpquqGqqmrFxRdf/Obo6GgNTv4wRU4AbM+SpyvHtbdluf4/iVWoH2/bPc8i06iW/FaZ4zCgaYBdntsggythVNS3T9GmuY5p23xBzKyHVNnVz2Tskt052Gq2drQxavOA6lxrFnB8CSd/bRjHlOlRlZVAJnBckVUMyJ5LAG1QlZdUqeAj89RtpePTyHjgFZvvENk+N1IbriUmvZCcL7UAniSAU+p/jfJdTYyuic6/ydT3EDOvHqONYSmN19cZ8LuDHGcl5Gj7JQPqvTgxbMjJ1K+MeRttpp8jkF5L5S0gR9gtxDzX07hfB+AdGvcXCegfItOFJcf83kT1vEnlL6A+PKHVapFMJtHX1wefzwdJkrBo0aJys9mM0dHR1w4fPnxXIBC466KLLkpUVlby69evr+3s7JxKp9MlHMdhfHz8q2+88cZ7inpbV1cHg8GwXLEr1tTUXDU1NfVgKBSCLMtYt27dIxaLBaFQCPF4fDQcDs/5fD5otVq0tbV9b3p6OjY6OrqztbX1klgstsLr9fZUV1dj5cqVt1qtVrzyyiv/x+Px/NrtduPYsWNNk5OThx0OB0ZHRzcXFRV11NbWXtDf3z+5ZcuWz9bW1uLQoUNob2//eUFBAQYHB7fu2rXrFkEQIMsykskkLr/88s9ZLBbMzMxMHzly5E6fz4fly5eXVVRUXFJfX7+yr6/v8VgsVmowGBAIBH7d2dn5HVEUIQgCXC4X1q5dey29v7B727Ztt5pMJoyNjX1v1apVh1paWpzr1q37Zhbt7JQBcHmWPEdyXPv5HM6SK7KkH8xRxhezpG2e1JRjknPBLs+xqnQaucN2FPVMZMAApKbPB5rNDLNVPLMtzPn9zPdq+mQDRhYA92exFSkB2n4CnU0M+G0mdiMwjE2m378nB8Z7DFtSyjqahe3ktqtmlwPznFPK+D05n1jGpDwS+RlSPYHMK9NuB/AHAgsrjoclHaC2PkkAmI19NjHqe4I2U0VLUALg78XxMJ8xhvH+hI6HVWWyttKFtOHKpBoPMnbRB0gFXk33UWG2lxL4gezD9wJ4mFR7jgHA0RxEIkpzYVAxCxkMBoyNjUGSJCxZsgSCIMBut1fp9XoMDg72vfXWW3C73TCbzZpUKoX9+/f3GgwGs8Vi0fl8PvA8P3vJJZcgmUxCkiSUl5dDr9fXRCIRaDQasbS0dK3f7y8dGxubbmpqWrZixYprJicn43q93qjRaKbLy8sxMDAAt9vd0djYWL5169Z/CwQCW1avXn2Jy+Va1d/f/xTHcdDpdO5oNIqGhoZrEonE7nQ63RsKhQ4Hg0FotVoMDQ1h1apVK0wmE0RRHFFeyrp48WIUFRW54/E4BEEYbmlpgd1uh9frxezsLEwmUwW9GLXX6/UiGo1Cq9VqdTodQqHQIY7jYDAYquPxOCKRyNjKlSthtVoxMTEBSZKQTqddWq0WsVjMu2TJEhgMBvh8Pu/U1NTmZDJ5W3l5+YUfBQArs+SZzJLWjg/HrL2eZSEqMpFjgV2gSusF8G6nth1xGN2FmO0g9fcJsukZs6h0BnLSlDGq7lmMOh2cp/+tzAJNqdJGcWLg8oocwKgs0qU5zrFlKired+n4Jj78XDNUThcwTMnEqHrvqPIqMY6ztFBT82wYPN2TuXnmhYth0yLVvZNxEE0ROKrNJWBslYq5Yobu03eZsVWP0yiN4c+JLf6aNoe1DGD+MEd7lY2plhgiTxvmGqbsq5l7oA5IZ8f3G8ymrR7jt1X3oYB+e1T5jjI2yBFkYkK/DyCmeCrT6TRisRhkWYbRaCwPBoOorq62XHHFFc0Oh+Pe6upq3a5du7r27Nkze+mll56r0+mQSqXQ0NDwRkFBQToajU4cPnz4gv7+ftTV1bkDgcCxmZmZtzs6Om6oqKg4b3Bw8LmOjo6nUqkU3n///Ufb2truGB0dnezt7cXc3Bw2btz4A1mW0d3d/YjJZIqmUimUlJS0K57l6enplxsaGprq6uouczqdlwqCsLmrq+v2oaEhXzqdRm1tLYqKimrI+zpRWVmJyclJ5W3QZdFoFE6n84uFhYWXWK1W0969e2+fnJzcYrPZykVRhNFoTC1durQxkUhctGTJkgsnJyexY8eOJ6urq1FaWuqKRCKorq7+7oIFC27led6YSqU+OT4+fliW5QqNRoNIJDIRDodRWFiImpoa6HS6kWQyCVEU7R/FBmjMYadTy39kSVNYQUGWc84saU9l4XH/FNQ48JZmFYpl/03y8QiZ+7LsstlsZVFGjVVYyXwqXlMWW9/yHPa/FQyrVJfbwoyl+joLU8/rpKbXMCaDXPJD5n48T8dGRjVVt6Gc2bAe+YheWDdz32+hj7LxaeZhj1bmeyGzof6IHDSF1O4vZGHJ/0jqdi2pn+uJCdoZUMlls3QxG01rlvNxxtyR7ekeM2NCcc/D8g0MS3Uw9vJxVb6fU/s3EDjfDeAaAKtSqVS4oKAAVqtVCVsxcRxXEY/HsWjRovskSbovnU5j//79z+/evfvGwsJCyLLcKMsyeJ5HdXX1Iq1WC0EQjB6PB0ajsdpkMiGZTI54vd4fybJ8g8PhWFVTU3Owra2t5dlnn73H7/fvu+CCC+4AMDo+Po6KiorFLS0tbfv37z/o9XonFyxYAL/fLzqdzjPq6uoskUgkeuTIkXtsNluBy+X6UmFhocHpdG5qbm5uPnjwYGs8Hk+Logiz2VwOAIIgeAKBAHQ6HQBoOY5zJ5NJmM3mEoPBUMJxHNLptMTzPDiOqxQEAWVlZR0VFRU9HMdhbm7uSGdn51f0en3IaDS6U6lUkUajgdPpLNdqteXxeBwWiyWSTqcBoEIURUiS5LHb7R+E8FitVofJZAKyv5/0pDYzMJ5WtdxFk1IBlu348AsLnmF29GyM8WbGSbCI7HJrVXn+BBlbdmvXIMJZYUDiRoZRDc/ThwJmYoZw/HG2XGyMVX+NWcDEybAWVhRWeSzLOZYdqgHwTKaevaoxL59nQd/OmCCUfpRlsVmC8XazbEgthVRfySnMiwrG/riZAPVxaseCeSIIlDGapnmg3PMBhg0+nsOssoccHzcwquytpLqynv5sEQDKhvIgMi/IWMswPsXWacgx5xUHjNLO4Xn618qAo49xvqnfFxkjE8daHA/8XwrgE7IsQ6fTQZZlhMNh6HQ6l8ViKQCA3t7epwOBQJg8ptu9Xm+wsLAQPM+X2e12TExMHDh48GBZMBisTCaTzbW1tWhoaKgHAKvVmgwGg4f6+vpmly9ffsO11167dXx8HH19fd+rra1dHo/HEQwGx1KpFFavXn2PXq+HTqczXHXVVQ+uXbv2F/F4XGswGLBw4cLWsrIypNNp8a233rq5u7u7saen52c+nw9ut/uMG2+8cfGKFSswMzMDrVZbKUkSEomER6fTobS0FAsWLCg2mUzl6XQaw8PD187MzJRNT09XpFKpV6qqquBwONwAMDMz85Lf739Xr9djampqqqen583S0lKUlZVVGo1GLhaL4cCBA+f4/f7yQCBQ6vP5hmw2G2e1Wt20cXhcLhdmZmbQ19eHkpKST+h0OkSj0Xc+CgBme+XTGbT7HqEbr3433oDKHpjtmeEqMtgfprLUIQPTkHFNRGvFDt16lMi+DRI0ykL91Un6YMTxpzbmVB7V+WxcLTlAS/G2rqeFZSRQPfMUVNxRchLkqmeAVDMFrG5nQAMMy9vBLMCbTxinE72KFmZhH2JY2H1ZTBa9pPZ+/RQZoMKoN9E1XyHmM8eYOgw5tICHaRwcTHTBj+j7t3LUaadxeQrH3zmZZrzty5iNmAVEVl1/noC0CyfGVR5jWNoVWRi6Ut+PcTwW9LwsDillU3qEIQvhLBEBVsaBuInRTMBx3Ad/FmQ0GsHzfIXyZ0evv/7657q7u79lMBiwYsWKHxcUFOj8fj8MBkOVXq9HMBjcIwjCNM/znpKSkkgkEkEgEKg1Go3QaDThUCiEwcHB56uqqooXLVpUs2PHjgd8Ph+qq6vPk2UZo6Oju3mex7Jlyz7r9/tRUlLS2NjYeJvL5bpRp9Mpf1bU6vf7odfrXaIoIh6PD3d2dt5M7AuHDx8OC4KA5uZm2Gw2dzqdxszMzJjyp0YzMzMVZrOZi8fjCAQCz2m12mmz2Ty5ZMkSmM1mrSzLlTzPY//+/bds2bKlTRAENDY2nu9yudZPTk6C53m30WhELBbzCYKwR6fTeYuLi2cKCwvh8/ncRqOxNBqNQqPR7GxoaIDRaERTU1PHsmXL2v1+P/bt2/fLjwKAv0X2B/ZN+PBLCxQ7yRqcGAD7dg4Q1JB6qd5ZByHjHADBzfrPIg4jTBDuYNTNp0/BU6o4D7SMAySZQ41ROy0mVV7bP9BxIYHGN6j/ZafgAJnv3DgTQvIDOjoIfJ9G5rVez9AGobwN5/uq0JCDZHsDMaUhHA/NYU0K9yITb/cDsp/uYpjtq6cwL2py2LZAtjllke+g+jvI03omzYV/xfFQIiU4/Td0XIDjcZasiWOA7HdtDNDspTFR7vPLpFZeBeB98uqWMWyVjbFcz5hHosz4NBIrO5tY2j5ip8eoP9sYe/gWmt8XU1uqaPx/y9i6o8Q2P0X5LqY5tZ2cKl9mnCU7OI6DJEmwWq0oLi5GSUlJhcFgwNzcnG96ehozMzNb/H4/KisrzSUlJddYLBZUVVVVBYNBOJ3OioaGhvNEUbzYaDReBsBqMBiMOp0OwWBwQpZlTE9PvyBJEkZGRvDee+/dWVpaing8vkAURaRSqe729vaN1dXVGB8f3/faa6+dsX379jNeffXVZR6P5wWHw4FUKuU0mUzrN27cOLJy5cqHCwoKVra0tDxQXV2NycnJ/du2bRs9evQoJEkqMRgMLkEQoNFoPOXl5SgtLUVxcXGFLMuQJElyu92fNpvNnzCZTJfZ7fYWvV5v5nm+QhRFJBKJ0lAoJIdCoQmr1YrFixd/PZVKwWQyVQCARqMR6uvrzzcajRfq9foN5eXl9RUVFVaO4zTJZBLFxcXn22y2datXr/7mpk2b/uhwOLB79+6fHDp06MBHsQGmaUI/i/nfMjxDqsy3kf3Fp1dRGRvmKSNGi/NOAHN/1HfgHW0bqqSxNRI05zHhC3Mn6UMBwwaqadIpjpfwPP2+lnG8sHInsbZ2YjhTjIqUTcVtZtTC91TntBRGAVqwLEBVMcz5M6rrBMrzQBanzzW08IsJ1BQH0zCV9wRjgL9A5cy6UeWoyCVrmPrUMkVjp8yRN5hz48TuZWZ8JYahijQmvyKAUco/h1Rztr9DxMhS1O7HSY3cwuR5GSfG2nmzmCU4+vQi80TO3cSeP6ty3lzBjNMt5HneoJrDRxnV+jrGXME6g35Em8P5Km3pWgAhk8mEffv2oaurC6IoYs2aNSvOO+88TExMyPX19Uin0yM+n8/vdruL29rafrxjx44/iKLYqtfr4Xa7rwRwpSiK0Ol0SKfTi+x2e4XVaoUoikG9Xo+enp7X+/v7//nAgQMHJElKu91ug8PhWBaLxaDX61e0trY+q9frsXfv3vsPHTp0uLW1FT6fD6FQaJdOp/tURUXF9QaDQV9aWsoXFBR8LRKJfM1ms2Fqaiq6ffv2TTabDYsXL4bFYmm02WwaURRhs9mm4vE4fD4fysvLz7JardBqtZqysrLn4vE4bDYbjh079urIyMgN7e3t2lQqhcrKSiEajWJiYuL3DQ0NX2tubr66q6vL7vP5XM3NzXC5XFUajWZ7KpWC2WyGz+e7l+f5FwsLC0EB0o9LkoRVq1YhGo2iq6vroe7u7tv+XGN3NjvHOC2Ay+lYTQwoRraOd0lVDpwE3C5njNl1tAvGiVUcoIUzDhmY09jxmu4iFEkBcJAlGdx9pIqeymNa08jEqRlI5XASC33zJMz3nwk8t6nORcl2cyUtuBdI9bqXAHVvlvx302J+Lks9/zdHPV8gJnIlsRIdgcseZN6ik8vp8yax8Q200Fh72pNkZlBi6Ey0We0kJnWqBuJtdK9yvQX7OQKoz5P670PmqYzfMJvOfmSe/mHtqxupv1qaD8rmtgHHQ4OcpEH8iDn/S7LjXUfseJjmxgsEdM8Q+E2rzB+/pfFRnGT30PhtJG1kkBjxk6r+PUzXXY/jQc+vktNKAe2tNM/TtAFrSOv4J2L0XyVG3EOA30k2KoyPj8NsNivP6XaPjY09PzQ0tMfj8SCZTMLhcNxgMBiuNxgMYlFRkX1kZOTRaDRan0wmOQC8VquFLMvy7Oysx+FwvNfX1/dsNBrdXlZWhunpaXi93vtDoRBCoRD6+/v5JUuWPBMKhcZMJpNVo9H8z/bt23t7e3tfIG8qRFHE4ODgqwcOHDjLZDJBEIR7XnzxxZ2NjY2fN5lMtT6f7+2dO3c+MDAwMNDS0oKamhqk0+nZiYmJZ2KxmBAOh0dSqRRmZ2fh8/mOejyeZyKRSJLjOCMAbnZ2Vuf3+58AIHk8nmdisVhibm5u1Ov1Ytu2bffbbDZTUVFRscvlKgsEArvHxsaeDofDaQBGWZYRDAZ1U1NTW4LBoDAxMfG0IAgpjuNMoihqBEF4PxgM/t7j8bzL8zz0ev2fBYDc8Uf18pKXvOTl70s0+SHIS17y8vcq/zsAixhfD5gLA9cAAAAASUVORK5CYII=">
         </div>
     </div>
-</nav>
-
-<div class="homepage-top">
-    <div class="hero">
-    <div class="container main-container">
-        <h2 class="message-header">Error 404</h2>
-
-        <div class="row">
-            <div class="col-md-8 col-md-offset-2">
-                <div class="message-container">
-                    <p class="unavailable_message">The file doesn't exist or it was deleted.</p>
-                    <p>
-                        Not sure why you are receiving this message?                        Ask BluePeacocks (GA4SR Owner) or <span class="site-nav-btn hidden-xs"><a class="btn btn-green" href="/index.html">Go back to the main page</a></span>                    </p>
-                </div>
-            </div>
-
-        </div>
-
-    </div>
-</div>
-</div>
-
-
-
-
-
-
-<script>
-    $(function() {
-        $('.oc-picker').owlCarousel({
-            autoplay: true,
-            loop: true,
-            center: true,
-            items: 1,
-            autoplaySpeed: 3000,
-            smartSpeed: 2500,
-        })
-    });
-</script>
-
-
-
-
-
-<div class="modal" id="demo-video">
-    <div class="modal-dialog modal-lg">
-        <div class="modal-content">
-            <div class="modal-header">
-                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">×</span><span class="sr-only">Close</span></button>
-                <h4 class="modal-title">GoAnimate for Schools</h4>
-            </div>
-            <div class="modal-body">
-                <div class="embed-responsive embed-responsive-16by9"></div>
+    <div class="bottom">
+        <div class="container">
+            <h1><b>Fuck!</b></h1>
+            <h2>We can't seem to find the page or file you're looking for...</h2>
+            <h2><div class="h2_grey">Error code: 404</div></h2>
+            <div class="details">
+                <div class="title">Here are some helpful links:</div>
+                <ul>
+                    <li><a href="http://localhost:4343/">Homepage</a></li>
+                    <li><a href="https://discord.gg/vKSCtJ7">Help Center (Discord)</a></li>
+                    <li><a href="https://discord.gg/vKSCtJ7">Contact Us (Discord)</a></li>
+                </ul>
             </div>
         </div>
     </div>
-</div>
-
-<script>
-$('#demo-video').on('show.bs.modal', function(e) {
-    $(this).find('.embed-responsive').html('<iframe class="embed-responsive-item" allowfullscreen src="//web.archive.org/web/20170622210617/https://fast.wistia.net/embed/iframe/2a8f145536?autoPlay=1"></iframe>');
-}).on('hide.bs.modal', function(e) {
-    $(this).find('.embed-responsive').empty();
-});
-</script>
-
-<footer class="site-footer hidden-print">
-    <div class="container">
-        <div class="row site-footer-nav">
-            <div class="col-sm-3">
-                <div class="site-footer-nav-col">
-                    <h5>About GoAnimate</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="http://web.archive.org/web/20170622210617/http://goanimate.com/about">Who We Are</a></li>
-                        <li><a href="http://web.archive.org/web/20170622210617/http://goanimate.com/contactus">Contact Us</a></li>
-                        <li><a href="http://web.archive.org/web/20170622210617/http://goanimate.com/video-maker-tips">Blog</a></li>
-                        <li><a href="http://web.archive.org/web/20170622210617/http://press.goanimate.com/">Press</a></li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-sm-3">
-                <div class="site-footer-nav-col">
-                    <h5>GoAnimate Solutions</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="http://web.archive.org/web/20170622210617/http://goanimate4schools.com/" target="_blank">GoAnimate for Schools</a></li>
-                        <li class="hidden-xs">&nbsp;</li>
-                        <li class="hidden-xs">&nbsp;</li>
-                        <li class="hidden-xs">&nbsp;</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-sm-3">
-                <div class="site-footer-nav-col">
-                    <h5>Usage Guidelines</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="/web/20170622210617/https://goanimate4schools.com/termsofuse">Terms of Service</a></li>
-                        <li><a href="/web/20170622210617/https://goanimate4schools.com/privacy">Privacy Policy</a></li>
-                        <li class="hidden-xs">&nbsp;</li>
-                        <li class="hidden-xs">&nbsp;</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="col-sm-3">
-                <div class="site-footer-nav-col">
-                    <h5>Getting Help</h5>
-                    <ul class="list-unstyled">
-                        <li><a href="http://web.archive.org/web/20170622210617/http://blog.goanimate4schools.com/">Educator Experiences</a></li>
-                        <li><a href="http://web.archive.org/web/20170622210617/https://goanimate4schools.zendesk.com/hc/en-us">Help Center</a></li>
-                        <li class="hidden-xs">&nbsp;</li>
-                        <li class="hidden-xs">&nbsp;</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-        <hr>
-
-        <div class="row site-footer-copyright">
-            <div class="col-sm-6">
-                <div class="site-footer-socials-container">
-                    Follow us on:
-                    <ul class="site-footer-socials clearfix">
-                        
-                        <li><a class="twitter" href="http://web.archive.org/web/20170622210617/https://twitter.com/Go4Schools">Twitter</a></li>
-                        <li></li>
-                        
-                        <li><a class="youtube" href="http://web.archive.org/web/20170622210617/https://www.youtube.com/user/GoAnimate">YouTube</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-6">
-                <div class="pull-right">
-                    <img src="http://web.archive.org/web/20170622210617im_/https://d2qrjeyl4jwu9j.cloudfront.net/static/769b5ad3628a2b0e/school/img/site/logo_amazon.png" alt="AWS Partner Network">
-                    &nbsp;&nbsp;&nbsp;
-                    GoAnimate © 2020
-                </div>
-            </div>
-        </div>
-
-    </div>
-</footer>
-
-
-<div id="studio_container" style="display: none;">
-    <div id="studio_holder"><!-- Full Screen Studio -->
-        <div style="top: 50%; position: relative;">
-            This content requires the Adobe Flash Player 10.3. <a href="http://web.archive.org/web/20170622210617/http://get.adobe.com/flashplayer/">Get Flash</a>
-        </div>
-    </div>
-</div>
-
-<!-- Start of Async HubSpot Analytics Code -->
-  <script type="text/javascript">
-    (function(d,s,i,r) {
-      if (d.getElementById(i)){return;}
-      var n=d.createElement(s),e=d.getElementsByTagName(s)[0];
-      n.id=i;n.src='//web.archive.org/web/20170622210617/https://js.hs-analytics.net/analytics/'+(Math.ceil(new Date()/r)*r)+'/491659.js';
-      e.parentNode.insertBefore(n, e);
-    })(document,"script","hs-analytics",300000);
-  </script>
-<!-- End of Async HubSpot Analytics Code -->
-
-<!-- SharpSpring begin -->
-<script type="text/javascript">
-var _ss = _ss || [];
-_ss.push(['_setDomain', 'http://web.archive.org/web/20170622210617/https://koi-3q6b8sg59e.marketingautomation.services/net']);
-_ss.push(['_setAccount', 'KOI-1OTR0IV8I']);
-_ss.push(['_trackPageView']);
-(function() {
-    var ss = document.createElement('script');
-    ss.type = 'text/javascript'; ss.async = true;
-
-    ss.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'koi-3Q6B8SG59E.marketingautomation.services/client/ss.js?ver=1.1.1';
-    var scr = document.getElementsByTagName('script')[0];
-    scr.parentNode.insertBefore(ss, scr);
-})();
-</script>
-<!-- SharpSpring end -->
-
-
-
 
 
 
