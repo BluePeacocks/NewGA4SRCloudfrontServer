@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <cc_theme xmlns:xi="http://alvin.goanimate.org/store" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="infographics" studio_theme_id="infographics" name="Business as Visual" version="2.0" xsi:noNamespaceSchemaLocation="http://alvin.goanimate.org/schema/cc_library_theme.xsd">
 <!-- https://docs.google.com/a/goanimate.com/spreadsheet/ccc?key=0Aina-o_ZDKZAdFA0T0hVa2tDOFJGSjJKa1UyRGxnS2c&usp=drive_web#gid=6  -->
-
     <color r="ccSkinColor" component_type="bodyshape" enable="Y">
         <choice>0xFFF9EC</choice>
 		<choice>0xFEEDD3</choice>
@@ -152,7 +151,6 @@
         <choice>0x65503B</choice>
         <choice>0x3C3C3C</choice>
     </color>
-<!--
     <color r="ccDecMajor" component_type="facedecoration" enable="N">
         <choice>0xAE0057</choice>
         <choice>0x53A8DF</choice>
@@ -193,7 +191,6 @@
         <choice>0x640F0F</choice>
         <choice>0x000000</choice>
     </color>
--->
     <color r="ccHandMain" component_type="GoHands" enable="Y">
         <choice>0x2F2F2F</choice>
         <choice>0xB80303</choice>
@@ -214,7 +211,6 @@
         <choice>0x3E5121</choice>
         <choice>0x8A451B</choice>
     </color>
-
 	<facial id="head_angry_front" name="Face Camera - Angry" enable="Y">
         <selection type="ear" state_id="front_default"/>
         <selection type="eye" state_id="front_default"/>
@@ -358,7 +354,6 @@
         <selection type="nose" state_id="front_default"/>
         <selection type="facedecoration" state_id="front_default"/>
 	</facial>
-
 	<facial id="head_angry_side" name="3/4 Front View - Angry" enable="Y">
         <selection type="ear" state_id="side_default"/>
         <selection type="eye" state_id="side_default"/>
@@ -502,7 +497,6 @@
         <selection type="nose" state_id="side_default"/>
         <selection type="facedecoration" state_id="side_default"/>
 	</facial>
-
 	<bodyshape id="default" name="Default" default_action="stand01" default_motion="walk" action_thumb="stand01" facial_thumb="head_neutral_front" thumb_path="thumbnail.swf" enable="Y">
 		<default_char xscale="0.7" yscale="0.7" hxscale="1" hyscale="1" headdx="0" headdy="0">
 			<tag>_sticky_filter_girl</tag>
@@ -546,7 +540,6 @@
 			<library type="GoLower" component_id="1001" theme_id="infographics" gobucks="0" gopoints="0"/>
 			<library type="GoFeet" component_id="1001" theme_id="infographics" gobucks="0" gopoints="0"/>
 		</default_char>
-
 		<actionpack id="standard" name="Standard" money="0" sharing="0" enable="Y">
             <action id="cc_leaning02" name="Leaning - one hand up" loop="Y" totalframe="60" enable="Y" is_motion="N">
                 <selection type="facial" facial_id="head_neutral_front"/>
@@ -609,7 +602,6 @@
                 <selection type="facial" facial_id="head_neutral_side"/>
             </action>
 		</actionpack>
-
 		<library type="GoUpper" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_guy</tag>
 			<tag>_sticky_filter_girl</tag>
@@ -635,20 +627,16 @@
 			<tag>_sticky_filter_guy</tag>
 			<tag>_sticky_filter_girl</tag>
 		</library>
-
 		<library type="GoHands" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_guy</tag>
 			<tag>_sticky_filter_girl</tag>
 		</library>
-
 		<library type="GoFeet" id="1001" path="1001" name="1001" thumb="1001_thumbnail.swf" display_order="10" money="0" sharing="0" enable="Y">
 			<tag>_sticky_filter_guy</tag>
 			<tag>_sticky_filter_girl</tag>
 		</library>
-
 		<component type="freeaction" id="default" path="default" name="default" thumb="" money="0" sharing="0" enable="Y"/>
 	</bodyshape>
-
 	<component type="eye" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" split="Y" enable="Y">
 		<state id="front_cry" filename="front_cry.swf"/>
 		<state id="front_default" filename="front_default.swf"/>
@@ -686,7 +674,6 @@
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
-
 	<component type="faceshape" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" split="Y" enable="Y">
 		<state id="front_default" filename="front_default.swf"/>
 		<state id="side_default" filename="side_default.swf"/>
@@ -699,14 +686,12 @@
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
-
 	<component type="hair" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="front_default" filename="front_default.swf"/>
 		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
-
 	<component type="mouth" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="front_angry" filename="front_angry.swf"/>
 		<state id="front_cry" filename="front_cry.swf"/>
@@ -729,14 +714,12 @@
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
-
 	<component type="nose" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y">
 		<state id="front_default" filename="front_default.swf"/>
 		<state id="side_default" filename="side_default.swf"/>
 		<tag>_sticky_filter_guy</tag>
 		<tag>_sticky_filter_girl</tag>
 	</component>
-
 	<component type="glasses" id="1001" path="1001" name="1001" thumb="thumbnail.swf" money="0" sharing="0" enable="Y" split="Y">
 		<state id="front_default" filename="front_default.swf"/>
 		<state id="side_default" filename="side_default.swf"/>
